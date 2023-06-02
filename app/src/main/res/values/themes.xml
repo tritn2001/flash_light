@@ -1,0 +1,139 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.BaseProject" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/black</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="CustomTextViewAds">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_gravity">left</item>
+        <item name="android:background">@drawable/bg_text_ad</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:text">Ad</item>
+    </style>
+
+
+    <style name="ButtonToolBarStyle">
+        <item name="android:layout_width">@dimen/_30sdp</item>
+        <item name="android:layout_height">@dimen/_30sdp</item>
+        <item name="android:padding">@dimen/_3sdp</item>
+        <item name="android:layout_marginStart">@dimen/_12sdp</item>
+    </style>
+
+    <style name="IconColorPrimary24">
+        <item name="android:layout_width">@dimen/_30sdp</item>
+        <item name="android:layout_height">@dimen/_30sdp</item>
+        <item name="android:padding">@dimen/_5sdp</item>
+        <item name="tint">@color/color_primary</item>
+    </style>
+
+    <style name="IconColorPrimary30">
+        <item name="android:layout_width">@dimen/_36sdp</item>
+        <item name="android:layout_height">@dimen/_36sdp</item>
+        <item name="android:padding">@dimen/_3sdp</item>
+        <item name="tint">@color/color_primary</item>
+    </style>
+
+    <!--    <style name="CustomSwitch" parent="Theme.AppCompat.Light.NoActionBar">-->
+    <!--        <item name="android:layout_width">@dimen/_60sdp</item>-->
+    <!--        <item name="android:layout_height">@dimen/_35sdp</item>-->
+    <!--        <item name="android:scaleX">1.5</item>-->
+    <!--        <item name="android:scaleY">1.5</item>-->
+    <!--        <item name="android:track">@drawable/tracks</item>-->
+    <!--        <item name="android:thumbTint">#C8C8C8</item>-->
+
+    <!--    </style>-->
+
+
+    <style name="LayoutContainFeature">
+        <item name="android:layout_width">match_parent</item>-->
+        <item name="android:layout_height">wrap_content</item>-->
+        <item name="android:background">@drawable/corner_16_light_background</item>
+        <item name="android:padding">@dimen/_10sdp</item>
+    </style>
+
+    <style name="CustomTextViewFeature14sp">
+        <item name="android:textSize">@dimen/_14ssp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:lines">1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textStyle">bold</item>
+        <item name="fontFamily">@font/roboto</item>
+        <item name="android:paddingHorizontal" tools:ignore="NewApi">@dimen/_5sdp</item>
+    </style>
+
+    <style name="CustomTextViewFeature12sp">
+        <item name="android:textSize">@dimen/_10ssp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:lines">1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textStyle">bold</item>
+        <item name="fontFamily">@font/roboto_light</item>
+        <item name="android:paddingHorizontal" tools:ignore="NewApi">@dimen/_5sdp</item>
+    </style>
+
+    <style name="CustomSeekbar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="isb_max">100</item>
+        <item name="isb_min">-1.0</item>
+        <item name="isb_progress">25</item>
+        <item name="isb_seek_smoothly">true</item>
+        <item name="isb_show_tick_marks_type">oval</item>
+        <item name="isb_tick_marks_size">13dp</item>
+        <item name="isb_show_tick_texts">true</item>
+        <item name="isb_tick_texts_size">15sp</item>
+        <item name="isb_indicator_text_size">@dimen/_8ssp</item>
+        <item name="isb_tick_texts_color">@color/light_gray</item>
+        <item name="isb_thumb_color">@color/green</item>
+        <item name="isb_thumb_drawable">@drawable/seekbar_custom_thumb</item>
+        <item name="isb_thumb_size">30dp</item>
+        <item name="isb_show_indicator">circular_bubble</item>
+        <item name="isb_indicator_color">@color/light_gray</item>
+        <item name="isb_track_background_color">#00BCD4</item>
+        <item name="isb_track_background_size">2dp</item>
+        <item name="isb_track_progress_color">@color/color_primary</item>
+        <item name="isb_track_progress_size">4dp</item>
+        <item name="isb_only_thumb_draggable">false</item>
+        <item name="android:layout_marginTop">@dimen/_10sdp</item>
+    </style>
+
+    <style name="CustomBigSwitch">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/_50sdp</item>
+        <item name="android:scaleX">1.5</item>
+        <item name="android:scaleY">1.5</item>
+        <item name="thumbTint">#E1E1E1</item>
+        <item name="track">@drawable/tracks</item>
+    </style>
+
+    <style name="CustomSmallSwitch">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/_50sdp</item>
+        <item name="android:scaleX">1</item>
+        <item name="android:scaleY">1</item>
+        <item name="thumbTint">#E1E1E1</item>
+        <item name="track">@drawable/tracks</item>
+    </style>
+
+    <declare-styleable name="TemplateView">
+        <attr name="gnt_template_type" format="reference" />
+    </declare-styleable>
+</resources>

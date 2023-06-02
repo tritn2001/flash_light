@@ -1,0 +1,134 @@
+plugins {
+    id 'com.android.application'
+    id 'com.google.firebase.crashlytics'
+    id 'org.jetbrains.kotlin.android'
+    id 'org.jetbrains.kotlin.android.extensions'
+    id 'kotlin-kapt'
+//    id 'com.google.gms.google-services'
+}
+
+android {
+    namespace 'com.lutech.flashlight'
+    compileSdk 33
+
+    defaultConfig {
+        applicationId "com.lutech.flashlight"
+        minSdk 23
+        targetSdk 33
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        // tối giản MB app
+        ndk.abiFilters 'armeabi-v7a', 'arm64-v8a'
+        ndk {
+            abiFilters 'armeabi-v7a', 'arm64-v8a'
+        }
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+}
+
+dependencies {
+
+    implementation 'androidx.core:core-ktx:1.7.0'
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.9.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+
+
+    //ads
+    implementation 'com.google.android.gms:play-services-ads:21.0.0'
+
+    //FireBase
+    implementation platform('com.google.firebase:firebase-bom:30.4.1')
+    implementation 'com.google.firebase:firebase-analytics:21.2.0'
+    implementation 'com.google.firebase:firebase-config'
+    implementation 'com.google.firebase:firebase-crashlytics'
+    implementation 'com.google.firebase:firebase-messaging:23.0.8'
+    implementation 'com.google.firebase:firebase-database:20.0.6'
+    implementation 'com.google.firebase:firebase-firestore:24.3.1'
+
+    //lottie
+    implementation 'com.airbnb.android:lottie:3.4.0'
+
+    //ssp and sdp
+    implementation 'com.intuit.sdp:sdp-android:1.1.0'
+    implementation 'com.intuit.ssp:ssp-android:1.1.0'
+
+    //library custom crash when error
+    implementation 'cat.ereza:customactivityoncrash:2.4.0'
+
+    //Glide load image
+    implementation 'com.github.bumptech.glide:annotations:4.8.0'
+    implementation 'com.github.bumptech.glide:glide:4.14.2'
+
+    //facebook
+    implementation 'com.facebook.android:facebook-android-sdk:[4,5)'
+
+    //billing
+    def billing_version = "4.0.0"
+    implementation "com.android.billingclient:billing:$billing_version"
+
+    //Adjust
+    implementation 'com.google.android.gms:play-services-ads-identifier:18.0.1'
+    implementation 'com.android.installreferrer:installreferrer:2.2'
+    implementation 'com.adjust.sdk:adjust-android:4.33.0'
+    implementation 'com.android.installreferrer:installreferrer:2.2'
+    // Add the following if you are using the Adjust SDK inside web views on your app
+    implementation 'com.adjust.sdk:adjust-android-webbridge:4.33.0'
+
+    def lifecycle_version = "2.0.0"
+    implementation "androidx.lifecycle:lifecycle-extensions:$lifecycle_version"
+    implementation "androidx.lifecycle:lifecycle-runtime:$lifecycle_version"
+    annotationProcessor "androidx.lifecycle:lifecycle-compiler:$lifecycle_version"
+
+    //coroutine
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4'
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4'
+    implementation "androidx.lifecycle:lifecycle-runtime-ktx:2.6.0-alpha03"
+
+
+    //toast
+    implementation 'com.github.Spikeysanju:MotionToast:1.4'
+
+    implementation 'com.github.ybq:Android-SpinKit:1.4.0'
+
+    // Retrofit
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+
+    //permission
+    implementation 'io.github.ParkSangGwon:tedpermission-normal:3.3.0'
+
+//    // Okhttp3 for the POST requests
+//    implementation 'com.squareup.okhttp3:okhttp:4.10.0'
+//
+//    implementation("com.squareup.okhttp3:logging-interceptor:4.11.0")
+//
+//    // Gson to convert raw JSON to pretty JSON
+//    implementation 'com.google.code.gson:gson:2.8.9'
+//
+//    implementation 'com.squareup.retrofit2:converter-gson:2.5.0'
+
+        implementation 'com.github.warkiz.widget:indicatorseekbar:2.1.2'
+
+    implementation 'org.greenrobot:eventbus:3.3.1'
+
+}

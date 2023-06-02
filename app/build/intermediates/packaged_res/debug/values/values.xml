@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="av_dark_blue">#2196F3</color>
+    <color name="av_red">#EF062F</color>
+    <color name="black">#000000</color>
+    <color name="color_background_dark">#15181F</color>
+    <color name="color_background_light">#48525C6B</color>
+    <color name="color_blue_dark">#154FC3</color>
+    <color name="color_dark_blue">#4D7CA5</color>
+    <color name="color_dark_orange">#EC5155</color>
+    <color name="color_dark_rose">#A45898</color>
+    <color name="color_gray_menu_details">#554F4F</color>
+    <color name="color_light_blue">#F0F3FA</color>
+    <color name="color_primary">#FD8021</color>
+    <color name="color_purple">#824DEF</color>
+    <color name="color_transparent_white">#00FFFFFF</color>
+    <color name="dark_blue">#308ABC</color>
+    <color name="green">#4CDA64</color>
+    <color name="light_gray">#979797</color>
+    <color name="orange">#FB970B</color>
+    <color name="purple">#DB53FF</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="text_color_menu_primary">#333131</color>
+    <color name="text_color_menu_secondary">#B9B9B9</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="yellow">#F1C936</color>
+    <dimen name="border">2dp</dimen>
+    <dimen name="bottom_pnl_btn_size">84dp</dimen>
+    <dimen name="bottom_pnl_small_btn_size">54dp</dimen>
+    <dimen name="bottom_pnl_small_btn_size2">48dp</dimen>
+    <dimen name="divider">1dp</dimen>
+    <dimen name="divider_height">1dp</dimen>
+    <dimen name="gnt_default_margin">10dp</dimen>
+    <dimen name="gnt_no_margin">0dp</dimen>
+    <dimen name="gnt_no_size">0dp</dimen>
+    <dimen name="gnt_text_size_large">15sp</dimen>
+    <dimen name="gnt_text_size_small">12sp</dimen>
+    <dimen name="gradient_radius">320dp</dimen>
+    <dimen name="item_waveform_height">56dp</dimen>
+    <dimen name="menu_item_icon_size">24dp</dimen>
+    <dimen name="notification_btn">64dp</dimen>
+    <dimen name="panel_corner_radius">8dp</dimen>
+    <dimen name="panel_height">242dp</dimen>
+    <dimen name="spacing_double">32dp</dimen>
+    <dimen name="spacing_huge">72dp</dimen>
+    <dimen name="spacing_medium">12dp</dimen>
+    <dimen name="spacing_normal">16dp</dimen>
+    <dimen name="spacing_small">8dp</dimen>
+    <dimen name="spacing_tiny">4dp</dimen>
+    <dimen name="spacing_xdouble">48dp</dimen>
+    <dimen name="spacing_xnormal">24dp</dimen>
+    <dimen name="spacing_xsmall">10dp</dimen>
+    <dimen name="spacing_xtiny">6dp</dimen>
+    <dimen name="spacing_xxdouble">56dp</dimen>
+    <dimen name="spacing_zero">0dp</dimen>
+    <dimen name="text_double">36sp</dimen>
+    <dimen name="text_large">20sp</dimen>
+    <dimen name="text_largest">48sp</dimen>
+    <dimen name="text_medium">16sp</dimen>
+    <dimen name="text_normal">14sp</dimen>
+    <dimen name="text_small">12sp</dimen>
+    <dimen name="text_smallest">10sp</dimen>
+    <dimen name="text_xlarge">24sp</dimen>
+    <dimen name="text_xmedium">18sp</dimen>
+    <dimen name="toolbar_elevation">4dp</dimen>
+    <dimen name="toolbar_height">56dp</dimen>
+    <dimen name="waveform_height">200dp</dimen>
+    <string name="ads_app_id" translatable="false">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="app_name">BaseProject</string>
+    <string name="chinese" translatable="false">中国人</string>
+    <string name="com.google.firebase.crashlytics.mapping_file_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">00000000000000000000000000000000</string>
+    <string name="english" translatable="false">English</string>
+    <string name="facebook_app_id" translatable="false">facebook_app_id</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb852472952774405</string>
+    <string name="french" translatable="false">Français</string>
+    <string name="georgian" translatable="false">Georgian</string>
+    <string name="germany" translatable="false">Deutsch</string>
+    <string name="gps_location_banner_id" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="hausa" translatable="false">Hausa</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home_native_id" translatable="false">ca-app-pub-3940256099942544/2247696110</string>
+    <string name="india" translatable="false">हिन्दी</string>
+    <string name="israel" translatable="false">עִברִית</string>
+    <string name="italy" translatable="false">Italiano</string>
+    <string name="japan" translatable="false">日本</string>
+    <string name="korea" translatable="false">한국인</string>
+    <string name="language_native_id" translatable="false">ca-app-pub-3940256099942544/2247696110</string>
+    <string name="link_privacy_policy" translatable="false">https://pages.flycricket.io/blood-pressure-track/privacy.html</string>
+    <string name="nederland" translatable="false">Nederlands</string>
+    <string name="phone_tracker_inters_id" translatable="false">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="phone_tracker_open_id" translatable="false">ca-app-pub-3940256099942544/2247696110</string>
+    <string name="polish" translatable="false">Polish</string>
+    <string name="portugal" translatable="false">Português</string>
+    <string name="sounth_african" translatable="false">Afrikaans</string>
+    <string name="spain" translatable="false">Español</string>
+    <string name="title_warning_version">Your application version too low. Please update newest version to experience our app. Thanks</string>
+    <string name="turkish" translatable="false">Turkish</string>
+    <string name="txt_do_later">Ask me later</string>
+    <string name="txt_email_feedback" translatable="false">teammarketing@lutech.ltd</string>
+    <string name="txt_enjoying_the_app">Enjoying The App</string>
+    <string name="txt_feedback">Feedback</string>
+    <string name="txt_feedback_app">"Feedback App : "</string>
+    <string name="txt_flash_alert">Flash Alert</string>
+    <string name="txt_flash_is_on_press_the_off_button_to_stop">Flash is on.Press the \'\'OFF\'\' button to stop</string>
+    <string name="txt_flash_light">Flash Light</string>
+    <string name="txt_goto_store">I agree and go to update</string>
+    <string name="txt_guide">Guide</string>
+    <string name="txt_language">Language</string>
+    <string name="txt_loading_ads">loading ads</string>
+    <string name="txt_maybe_later">Maybe Later</string>
+    <string name="txt_no_internet_connection">No Internet Connection</string>
+    <string name="txt_normal">Normal</string>
+    <string name="txt_off_time">Off time</string>
+    <string name="txt_on_time">On time</string>
+    <string name="txt_please_check_internet_connection">Please check internet connection</string>
+    <string name="txt_press_again_to_exit">Press again to exit</string>
+    <string name="txt_rate_us">Rate Us</string>
+    <string name="txt_retry">Retry</string>
+    <string name="txt_second">seconds</string>
+    <string name="txt_setting">Setting</string>
+    <string name="txt_settings">Setting</string>
+    <string name="txt_share_app">Share App</string>
+    <string name="txt_silent">Silent</string>
+    <string name="txt_status_on">Status: On</string>
+    <string name="txt_toast_ads">This action can contain ads</string>
+    <string name="txt_turn_on_for_amp_notification"><![CDATA[Turn On For & Notification]]></string>
+    <string name="txt_turn_on_for_incoming_calls">Turn On For Incoming Calls</string>
+    <string name="txt_turn_on_for_sms">Turn On For SMS</string>
+    <string name="txt_update">Update</string>
+    <string name="txt_vibrate">Vibrate</string>
+    <string name="txt_welcome_to_back">Welcome To Back</string>
+    <string name="txt_write_your_feedback_here">Write your feedback here</string>
+    <string name="uae" translatable="false">عربي</string>
+    <string name="vietnamese" translatable="false">Tiếng Việt</string>
+    <style name="ButtonToolBarStyle">
+        <item name="android:layout_width">@dimen/_30sdp</item>
+        <item name="android:layout_height">@dimen/_30sdp</item>
+        <item name="android:padding">@dimen/_3sdp</item>
+        <item name="android:layout_marginStart">@dimen/_12sdp</item>
+    </style>
+    <style name="CustomBigSwitch">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/_50sdp</item>
+        <item name="android:scaleX">1.5</item>
+        <item name="android:scaleY">1.5</item>
+        <item name="thumbTint">#E1E1E1</item>
+        <item name="track">@drawable/tracks</item>
+    </style>
+    <style name="CustomSeekbar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="isb_max">100</item>
+        <item name="isb_min">-1.0</item>
+        <item name="isb_progress">25</item>
+        <item name="isb_seek_smoothly">true</item>
+        <item name="isb_show_tick_marks_type">oval</item>
+        <item name="isb_tick_marks_size">13dp</item>
+        <item name="isb_show_tick_texts">true</item>
+        <item name="isb_tick_texts_size">15sp</item>
+        <item name="isb_indicator_text_size">@dimen/_8ssp</item>
+        <item name="isb_tick_texts_color">@color/light_gray</item>
+        <item name="isb_thumb_color">@color/green</item>
+        <item name="isb_thumb_drawable">@drawable/seekbar_custom_thumb</item>
+        <item name="isb_thumb_size">30dp</item>
+        <item name="isb_show_indicator">circular_bubble</item>
+        <item name="isb_indicator_color">@color/light_gray</item>
+        <item name="isb_track_background_color">#00BCD4</item>
+        <item name="isb_track_background_size">2dp</item>
+        <item name="isb_track_progress_color">@color/color_primary</item>
+        <item name="isb_track_progress_size">4dp</item>
+        <item name="isb_only_thumb_draggable">false</item>
+        <item name="android:layout_marginTop">@dimen/_10sdp</item>
+    </style>
+    <style name="CustomSmallSwitch">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/_50sdp</item>
+        <item name="android:scaleX">1</item>
+        <item name="android:scaleY">1</item>
+        <item name="thumbTint">#E1E1E1</item>
+        <item name="track">@drawable/tracks</item>
+    </style>
+    <style name="CustomTextViewAds">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_gravity">left</item>
+        <item name="android:background">@drawable/bg_text_ad</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:text">Ad</item>
+    </style>
+    <style name="CustomTextViewFeature12sp">
+        <item name="android:textSize">@dimen/_10ssp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:lines">1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textStyle">bold</item>
+        <item name="fontFamily">@font/roboto_light</item>
+        <item name="android:paddingHorizontal" ns1:ignore="NewApi">@dimen/_5sdp</item>
+    </style>
+    <style name="CustomTextViewFeature14sp">
+        <item name="android:textSize">@dimen/_14ssp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:lines">1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textStyle">bold</item>
+        <item name="fontFamily">@font/roboto</item>
+        <item name="android:paddingHorizontal" ns1:ignore="NewApi">@dimen/_5sdp</item>
+    </style>
+    <style name="IconColorPrimary24">
+        <item name="android:layout_width">@dimen/_30sdp</item>
+        <item name="android:layout_height">@dimen/_30sdp</item>
+        <item name="android:padding">@dimen/_5sdp</item>
+        <item name="tint">@color/color_primary</item>
+    </style>
+    <style name="IconColorPrimary30">
+        <item name="android:layout_width">@dimen/_36sdp</item>
+        <item name="android:layout_height">@dimen/_36sdp</item>
+        <item name="android:padding">@dimen/_3sdp</item>
+        <item name="tint">@color/color_primary</item>
+    </style>
+    <style name="LayoutContainFeature">
+        <item name="android:layout_width">match_parent</item>-->
+        <item name="android:layout_height">wrap_content</item>-->
+        <item name="android:background">@drawable/corner_16_light_background</item>
+        <item name="android:padding">@dimen/_10sdp</item>
+    </style>
+    <style name="Theme.BaseProject" parent="Theme.AppCompat.Light.NoActionBar">
+        
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor">@color/black</item>
+        
+    </style>
+    <declare-styleable name="TemplateView">
+        <attr format="reference" name="gnt_template_type"/>
+    </declare-styleable>
+</resources>

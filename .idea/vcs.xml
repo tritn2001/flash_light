@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/AIsound23" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/AiSound2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/AppLock" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/BiAManager" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/GhimLocation" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/SalesManager_Firebase-main" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/blood-pressure" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/caculatorlock" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/english-translate" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/libphonenumber" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/music-player" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/phone-tracker2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/themepack2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/trackerapp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/translate" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/voicechange" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/voicescreenlock" vcs="Git" />
+  </component>
+</project>

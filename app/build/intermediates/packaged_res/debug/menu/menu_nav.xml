@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/bottom_flash_alert"
+        android:title="@string/txt_flash_alert"
+        android:icon="@drawable/ic_alert" />
+    <item
+        android:id="@+id/bottom_flash_light"
+        android:title="@string/txt_flash_light"
+        android:icon="@drawable/ic_flash_flight" />
+    <item
+        android:id="@+id/bottom_guide"
+        android:title="@string/txt_guide"
+        android:icon="@drawable/ic_guide" />
+
+    <item
+        android:id="@+id/bottom_setting"
+        android:title="@string/txt_setting"
+        android:icon="@drawable/ic_setting" />
+
+</menu>
