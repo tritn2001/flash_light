@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_10sdp"
+    android:background="@drawable/corner_8"
+    android:backgroundTint="@color/white"
+    android:orientation="vertical"
+    android:padding="@dimen/_10sdp">
+
+
+    <ImageView
+        android:layout_width="@dimen/_60sdp"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_permission" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:gravity="center"
+        android:text="@string/txt_request_permissions"
+        android:textColor="#201F1F"
+        android:textSize="@dimen/_18ssp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_content_permission"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/_5sdp"
+        />
+
+    <TextView
+        android:id="@+id/btnOkPermission"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="@dimen/_24sdp"
+        android:paddingVertical="@dimen/_8sdp"
+        android:text="@string/txt_ok"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:background="@drawable/corner_16"
+        android:backgroundTint="@color/color_primary"
+        android:fontFamily="@font/mulish_bold_700"
+        android:textColor="@color/white"
+        />
+</LinearLayout>

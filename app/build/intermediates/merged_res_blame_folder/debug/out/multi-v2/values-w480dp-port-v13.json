@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.lutech.flashlight.app-mergeDebugResources-4:/values-w480dp-port-v13/values-w480dp-port-v13.xml",
+            "outputFile": "com.lutech.flashlight.app-mergeDebugResources-52:/values-w480dp-port-v13/values-w480dp-port-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\caches\\transforms-3\\a7065f944202bdba1c4cff9da0bc09c8\\transformed\\material-1.9.0\\res\\values-w480dp-port-v13\\values-w480dp-port-v13.xml",
+                    "source": "C:\\Users\\conme\\.gradle\\caches\\transforms-3\\a7065f944202bdba1c4cff9da0bc09c8\\transformed\\material-1.9.0\\res\\values-w480dp-port-v13\\values-w480dp-port-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

@@ -3,6 +3,7 @@
     <color name="av_dark_blue">#2196F3</color>
     <color name="av_red">#EF062F</color>
     <color name="black">#000000</color>
+    <color name="color_accent">#00BCD4</color>
     <color name="color_background_dark">#15181F</color>
     <color name="color_background_light">#48525C6B</color>
     <color name="color_blue_dark">#154FC3</color>
@@ -99,6 +100,7 @@
     <string name="spain" translatable="false">Español</string>
     <string name="title_warning_version">Your application version too low. Please update newest version to experience our app. Thanks</string>
     <string name="turkish" translatable="false">Turkish</string>
+    <string name="txt_content_permission">For the flash to work you need to give camera and phone access. This permission does not affect the phone at all so please rest assured</string>
     <string name="txt_do_later">Ask me later</string>
     <string name="txt_email_feedback" translatable="false">teammarketing@lutech.ltd</string>
     <string name="txt_enjoying_the_app">Enjoying The App</string>
@@ -115,17 +117,22 @@
     <string name="txt_no_internet_connection">No Internet Connection</string>
     <string name="txt_normal">Normal</string>
     <string name="txt_off_time">Off time</string>
+    <string name="txt_ok">OK</string>
     <string name="txt_on_time">On time</string>
     <string name="txt_please_check_internet_connection">Please check internet connection</string>
     <string name="txt_press_again_to_exit">Press again to exit</string>
     <string name="txt_rate_us">Rate Us</string>
+    <string name="txt_request_permissions">Request permissions</string>
     <string name="txt_retry">Retry</string>
     <string name="txt_second">seconds</string>
     <string name="txt_setting">Setting</string>
     <string name="txt_settings">Setting</string>
     <string name="txt_share_app">Share App</string>
     <string name="txt_silent">Silent</string>
+    <string name="txt_speed">SPEED</string>
+    <string name="txt_status">STATUS</string>
     <string name="txt_status_on">Status: On</string>
+    <string name="txt_test">TEST</string>
     <string name="txt_toast_ads">This action can contain ads</string>
     <string name="txt_turn_on_for_amp_notification"><![CDATA[Turn On For & Notification]]></string>
     <string name="txt_turn_on_for_incoming_calls">Turn On For Incoming Calls</string>
@@ -168,7 +175,7 @@
         <item name="isb_thumb_size">30dp</item>
         <item name="isb_show_indicator">circular_bubble</item>
         <item name="isb_indicator_color">@color/light_gray</item>
-        <item name="isb_track_background_color">#00BCD4</item>
+        <item name="isb_track_background_color">@color/color_accent</item>
         <item name="isb_track_background_size">2dp</item>
         <item name="isb_track_progress_color">@color/color_primary</item>
         <item name="isb_track_progress_size">4dp</item>

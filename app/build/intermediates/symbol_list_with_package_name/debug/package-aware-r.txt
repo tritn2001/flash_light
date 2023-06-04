@@ -1446,6 +1446,7 @@ color cardview_shadow_start_color
 color colorAccent
 color colorPrimary
 color colorPrimaryDark
+color color_accent
 color color_background_dark
 color color_background_light
 color color_blue_dark
@@ -4030,6 +4031,7 @@ drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_no_internet
 drawable ic_notification_2
+drawable ic_permission
 drawable ic_policy
 drawable ic_question_guide
 drawable ic_search_black_24
@@ -4280,6 +4282,8 @@ id btnDoLater
 id btnFeedback
 id btnGotoStore
 id btnMaybeLater
+id btnOkPermission
+id btnTest
 id btnTickLanguage
 id btnTurnOffFlash
 id btnTurnOnFlash
@@ -4463,6 +4467,7 @@ id italic
 id item_touch_helper_previous_elevation
 id ivSilent
 id ivSpeaker
+id ivType
 id ivVibrate
 id jumpToEnd
 id jumpToStart
@@ -4471,6 +4476,7 @@ id large
 id layout
 id layoutLoadingAds
 id layoutLock
+id layoutStatus
 id layout_head
 id left
 id leftToRight
@@ -4620,6 +4626,8 @@ id sans
 id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
+id sbAlertOffTime
+id sbAlertOnTime
 id sbOffTime
 id sbOnTime
 id scale
@@ -4653,6 +4661,8 @@ id search_view_status_bar_spacer
 id search_view_toolbar
 id search_view_toolbar_container
 id search_voice_btn
+id secondAlertOffTime
+id secondAlertOnTime
 id secondOffTime
 id secondOnTime
 id secondary
@@ -4701,6 +4711,7 @@ id stretch
 id submenuarrow
 id submit_area
 id supportScrollUp
+id swStatus
 id sw_normal
 id sw_silent
 id sw_vibrate
@@ -4751,6 +4762,7 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tvContentType
 id tv_title
 id txtAds
 id txtFull
@@ -4897,6 +4909,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_home
 layout activity_language
+layout activity_settings_flash_alert
 layout activity_splash
 layout activity_welcome_back
 layout browser_actions_context_menu_page
@@ -4935,6 +4948,7 @@ layout full_color_toast
 layout gnt_medium_template_view
 layout gnt_small_template_view
 layout isb_indicator
+layout layout_check_permission
 layout layout_item_language
 layout layout_lock
 layout layout_test
@@ -5289,6 +5303,7 @@ string text_success
 string text_warning
 string title_warning_version
 string turkish
+string txt_content_permission
 string txt_do_later
 string txt_email_feedback
 string txt_enjoying_the_app
@@ -5305,17 +5320,22 @@ string txt_maybe_later
 string txt_no_internet_connection
 string txt_normal
 string txt_off_time
+string txt_ok
 string txt_on_time
 string txt_please_check_internet_connection
 string txt_press_again_to_exit
 string txt_rate_us
+string txt_request_permissions
 string txt_retry
 string txt_second
 string txt_setting
 string txt_settings
 string txt_share_app
 string txt_silent
+string txt_speed
+string txt_status
 string txt_status_on
+string txt_test
 string txt_toast_ads
 string txt_turn_on_for_amp_notification
 string txt_turn_on_for_incoming_calls

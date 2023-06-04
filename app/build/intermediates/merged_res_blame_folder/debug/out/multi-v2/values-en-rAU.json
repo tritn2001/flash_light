@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.lutech.flashlight.app-mergeDebugResources-4:/values-en-rAU/values-en-rAU.xml",
+            "outputFile": "com.lutech.flashlight.app-mergeDebugResources-52:/values-en-rAU/values-en-rAU.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\caches\\transforms-3\\6edea05761192a4b6dc44736ab75c7ac\\transformed\\appcompat-1.6.1\\res\\values-en-rAU\\values-en-rAU.xml",
+                    "source": "C:\\Users\\conme\\.gradle\\caches\\transforms-3\\6edea05761192a4b6dc44736ab75c7ac\\transformed\\appcompat-1.6.1\\res\\values-en-rAU\\values-en-rAU.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\caches\\transforms-3\\3c77c8c16ee2ccee4fa585708ca2353f\\transformed\\core-1.9.0\\res\\values-en-rAU\\values-en-rAU.xml",
+                    "source": "C:\\Users\\conme\\.gradle\\caches\\transforms-3\\3c77c8c16ee2ccee4fa585708ca2353f\\transformed\\core-1.9.0\\res\\values-en-rAU\\values-en-rAU.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

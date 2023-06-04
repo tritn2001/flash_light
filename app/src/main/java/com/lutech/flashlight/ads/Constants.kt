@@ -9,8 +9,6 @@ object Constants {
     const val KEY_IS_RATING = "KEY_IS_RATING"
 
 
-
-
     // code
     const val EDIT_ADD_NOTE = 10
 
@@ -32,7 +30,7 @@ object Constants {
 
     var IS_SHOW_RATE_FIRST_BACK = true
 
-  const  val FIRST_RATE = "FIRST_RATE"
+    const val FIRST_RATE = "FIRST_RATE"
 
     const val BRIGHT_DISPLAY = "bright_display"
     const val BRIGHT_DISPLAY_COLOR = "bright_display_color"
@@ -43,14 +41,24 @@ object Constants {
     const val TOGGLE_WIDGET_UI = "toggle_widget_ui"
     const val STROBOSCOPE_FREQUENCY_ON = "stroboscope_frequency_on"
     const val STROBOSCOPE_FREQUENCY_OFF = "stroboscope_frequency_off"
-
     const val STROBOSCOPE_PROGRESS_ON = "stroboscope_progress_on"
-
     const val STROBOSCOPE_PROGRESS_OFF = "stroboscope_progress_off"
+
+    const val STATUS_FLASH_ALERT = "STATUS_FLASH_ALERT"
+
 
     const val FORCE_PORTRAIT_MODE = "force_portrait_mode"
     const val SOS = "sos"
     const val BRIGHTNESS_LEVEL = "brightness_level"
     const val MIN_BRIGHTNESS_LEVEL = 1
     const val DEFAULT_BRIGHTNESS_LEVEL = -1
+
+    //type alert flash
+
+    const val CALL_PHONE = 0
+    const val SMS = 1
+    const val NOTIFICATION = 2
+
+    const val TYPE_ALERT = "TYPE_ALERT"
+
 }

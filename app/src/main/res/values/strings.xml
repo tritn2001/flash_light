@@ -87,6 +87,12 @@
     <string name="txt_silent">Silent</string>
     <string name="txt_second">seconds</string>
     <string name="txt_flash_is_on_press_the_off_button_to_stop">Flash is on.Press the \'\'OFF\'\' button to stop</string>
+    <string name="txt_status">STATUS</string>
+    <string name="txt_speed">SPEED</string>
+    <string name="txt_test">TEST</string>
+    <string name="txt_request_permissions">Request permissions</string>
+    <string name="txt_content_permission">For the flash to work you need to give camera and phone access. This permission does not affect the phone at all so please rest assured</string>
+    <string name="txt_ok">OK</string>
 
 
 </resources>

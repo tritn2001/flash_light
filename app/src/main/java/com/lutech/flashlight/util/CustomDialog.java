@@ -6,6 +6,9 @@ import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.view.WindowManager;
 
+import com.lutech.flashlight.R;
+import com.lutech.flashlight.callback.HandleEventCheckPermissionListener;
+
 public class CustomDialog {
     private Context context;
 
@@ -22,7 +25,6 @@ public class CustomDialog {
 
         Dialog dialog = new Dialog(context);
         dialog.setContentView(layout);
-        dialog.setCanceledOnTouchOutside(false);
 
         dialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
         dialog.getWindow().setLayout(WindowManager.LayoutParams.MATCH_PARENT, WindowManager.LayoutParams.WRAP_CONTENT);
@@ -30,7 +32,16 @@ public class CustomDialog {
         return dialog;
     }
 
+    public Dialog dialogCheckPermissionCallPhoneState(HandleEventCheckPermissionListener handleEventCheckPermissionListener) {
+        Dialog dialog = setDialog(R.layout.layout_check_permission);
+        dialog.findViewById(R.id.btnOkPermission).setOnClickListener(view -> {
+            new PermissionManager(context).requestPermissionReadPhoneAndCamera(handleEventCheckPermissionListener);
+            dialog.dismiss();
+        });
 
+
+        return dialog;
+    }
 
 
 }

@@ -63,6 +63,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.BaseProject" >
         <activity
+            android:name="com.lutech.flashlight.screen.flash_alert.SettingsFlashAlertActivity"
+            android:exported="false" />
+        <activity
             android:name="com.lutech.flashlight.HomeActivity"
             android:exported="true" >
             <intent-filter>

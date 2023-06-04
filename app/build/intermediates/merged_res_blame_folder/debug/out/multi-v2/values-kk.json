@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.lutech.flashlight.app-mergeDebugResources-4:/values-kk/values-kk.xml",
+            "outputFile": "com.lutech.flashlight.app-mergeDebugResources-52:/values-kk/values-kk.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\caches\\transforms-3\\a7065f944202bdba1c4cff9da0bc09c8\\transformed\\material-1.9.0\\res\\values-kk\\values-kk.xml",
+                    "source": "C:\\Users\\conme\\.gradle\\caches\\transforms-3\\a7065f944202bdba1c4cff9da0bc09c8\\transformed\\material-1.9.0\\res\\values-kk\\values-kk.xml",
                     "from": {
                         "startLines": "2,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -23,58 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\caches\\transforms-3\\ae675347088032996bbebd3e46a6b7f6\\transformed\\jetified-play-services-base-18.0.1\\res\\values-kk\\values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
-                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
-                        "startOffsets": "193,292,441,563,665,801,923,1042,1147,1308,1410,1563,1688,1837,1990,2049,2104",
-                        "endColumns": "98,148,121,101,135,121,118,104,160,101,152,124,148,152,58,54,73",
-                        "endOffsets": "291,440,562,664,800,922,1041,1146,1307,1409,1562,1687,1836,1989,2048,2103,2177"
-                    },
-                    "to": {
-                        "startLines": "41,42,43,44,45,46,47,48,50,51,52,53,54,55,56,57,58",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "3715,3818,3971,4097,4203,4343,4469,4592,4865,5030,5136,5293,5422,5575,5732,5795,5854",
-                        "endColumns": "102,152,125,105,139,125,122,108,164,105,156,128,152,156,62,58,77",
-                        "endOffsets": "3813,3966,4092,4198,4338,4464,4587,4696,5025,5131,5288,5417,5570,5727,5790,5849,5927"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\caches\\transforms-3\\0fd10c4bd4faa574e63183f628a99446\\transformed\\jetified-play-services-basement-18.1.0\\res\\values-kk\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "195",
-                        "endColumns": "159",
-                        "endOffsets": "354"
-                    },
-                    "to": {
-                        "startLines": "49",
-                        "startColumns": "4",
-                        "startOffsets": "4701",
-                        "endColumns": "163",
-                        "endOffsets": "4860"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\caches\\transforms-3\\8eb21f7b76ab9efbea5e992e587a93fd\\transformed\\jetified-play-services-ads-21.0.0\\res\\values-kk\\values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17",
-                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0",
-                        "startOffsets": "199,278,384,439,552,611,725,813,856,950,986,1024,1075,1158",
-                        "endColumns": "78,105,54,112,58,113,87,42,93,35,37,50,82,40",
-                        "endOffsets": "277,383,438,551,610,724,812,855,949,985,1023,1074,1157,1198"
-                    },
-                    "to": {
-                        "startLines": "112,113,114,115,116,117,118,120,121,122,123,124,125,126",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "10042,10125,10235,10294,10411,10474,10592,10768,10815,10913,10953,10995,11050,11137",
-                        "endColumns": "82,109,58,116,62,117,91,46,97,39,41,54,86,44",
-                        "endOffsets": "10120,10230,10289,10406,10469,10587,10679,10810,10908,10948,10990,11045,11132,11177"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\caches\\transforms-3\\6edea05761192a4b6dc44736ab75c7ac\\transformed\\appcompat-1.6.1\\res\\values-kk\\values-kk.xml",
+                    "source": "C:\\Users\\conme\\.gradle\\caches\\transforms-3\\6edea05761192a4b6dc44736ab75c7ac\\transformed\\appcompat-1.6.1\\res\\values-kk\\values-kk.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -91,7 +40,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\caches\\transforms-3\\3c77c8c16ee2ccee4fa585708ca2353f\\transformed\\core-1.9.0\\res\\values-kk\\values-kk.xml",
+                    "source": "C:\\Users\\conme\\.gradle\\caches\\transforms-3\\ae675347088032996bbebd3e46a6b7f6\\transformed\\jetified-play-services-base-18.0.1\\res\\values-kk\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "193,292,441,563,665,801,923,1042,1147,1308,1410,1563,1688,1837,1990,2049,2104",
+                        "endColumns": "98,148,121,101,135,121,118,104,160,101,152,124,148,152,58,54,73",
+                        "endOffsets": "291,440,562,664,800,922,1041,1146,1307,1409,1562,1687,1836,1989,2048,2103,2177"
+                    },
+                    "to": {
+                        "startLines": "41,42,43,44,45,46,47,48,50,51,52,53,54,55,56,57,58",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "3715,3818,3971,4097,4203,4343,4469,4592,4865,5030,5136,5293,5422,5575,5732,5795,5854",
+                        "endColumns": "102,152,125,105,139,125,122,108,164,105,156,128,152,156,62,58,77",
+                        "endOffsets": "3813,3966,4092,4198,4338,4464,4587,4696,5025,5131,5288,5417,5570,5727,5790,5849,5927"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\conme\\.gradle\\caches\\transforms-3\\3c77c8c16ee2ccee4fa585708ca2353f\\transformed\\core-1.9.0\\res\\values-kk\\values-kk.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -105,6 +71,40 @@
                         "startOffsets": "11264",
                         "endColumns": "100",
                         "endOffsets": "11360"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\conme\\.gradle\\caches\\transforms-3\\8eb21f7b76ab9efbea5e992e587a93fd\\transformed\\jetified-play-services-ads-21.0.0\\res\\values-kk\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "199,278,384,439,552,611,725,813,856,950,986,1024,1075,1158",
+                        "endColumns": "78,105,54,112,58,113,87,42,93,35,37,50,82,40",
+                        "endOffsets": "277,383,438,551,610,724,812,855,949,985,1023,1074,1157,1198"
+                    },
+                    "to": {
+                        "startLines": "112,113,114,115,116,117,118,120,121,122,123,124,125,126",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "10042,10125,10235,10294,10411,10474,10592,10768,10815,10913,10953,10995,11050,11137",
+                        "endColumns": "82,109,58,116,62,117,91,46,97,39,41,54,86,44",
+                        "endOffsets": "10120,10230,10289,10406,10469,10587,10679,10810,10908,10948,10990,11045,11132,11177"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\conme\\.gradle\\caches\\transforms-3\\0fd10c4bd4faa574e63183f628a99446\\transformed\\jetified-play-services-basement-18.1.0\\res\\values-kk\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "195",
+                        "endColumns": "159",
+                        "endOffsets": "354"
+                    },
+                    "to": {
+                        "startLines": "49",
+                        "startColumns": "4",
+                        "startOffsets": "4701",
+                        "endColumns": "163",
+                        "endOffsets": "4860"
                     }
                 }
             ]

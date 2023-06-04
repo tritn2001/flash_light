@@ -37,7 +37,6 @@ class FlashLightFragment : Fragment() {
 
     private var mIsFlashlightOn = false
 
-    private val FLASHLIGHT_STATE = "flashlight_state"
 
     private val MAX_STROBO_DELAY = 2000L
 
@@ -56,9 +55,8 @@ class FlashLightFragment : Fragment() {
         mContext = requireActivity()
 
         mMedia = Utils.initMediaPlayer(mContext, R.raw.sound_switch_on)
-
-
         mBus = EventBus.getDefault()
+
         initView(v)
         handleEvent(v)
 

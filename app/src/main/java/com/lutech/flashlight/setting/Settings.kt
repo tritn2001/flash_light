@@ -20,6 +20,7 @@ class Settings(private val mContext: Context) {
         NORMAL,
         VIBRATE,
         SILENT,
+        STATUS_ALERT
     }
     private val sharedPreferences by unsafeLazy {
         mContext.getSharedPreferences(SHARED_PREFERENCES_NAME, Context.MODE_PRIVATE)
@@ -37,6 +38,9 @@ class Settings(private val mContext: Context) {
         get() = get(Key.SILENT, true)
         set(value) = set(Key.SILENT, value)
 
+    var statusAlert :Boolean
+        get() = get(Key.STATUS_ALERT, false)
+        set(value) = set(Key.STATUS_ALERT, value)
 
 
     private fun get(key: Key, default: Int): Int {

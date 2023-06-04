@@ -1,7 +1,6 @@
 package com.lutech.flashlight.util;
 
 import android.Manifest;
-import android.app.Dialog;
 import android.content.Context;
 import android.content.pm.PackageManager;
 import android.location.LocationManager;
@@ -59,7 +58,7 @@ public class PermissionManager {
                 .check();
     }
 
-    public void requestPermissionReadPhone(HandleEventCheckPermissionListener handleEventCheckPermissionListener) {
+    public void requestPermissionReadPhoneAndCamera(HandleEventCheckPermissionListener handleEventCheckPermissionListener) {
         PermissionListener permissionlistener = new PermissionListener() {
             @Override
             public void onPermissionGranted() {
@@ -76,7 +75,7 @@ public class PermissionManager {
         TedPermission.create()
                 .setPermissionListener(permissionlistener)
                 .setDeniedMessage("If you reject permission,you can not use this service\n\nPlease turn on permissions at [Setting] > [Permission]")
-                .setPermissions(Manifest.permission.READ_PHONE_STATE)
+                .setPermissions(Manifest.permission.READ_PHONE_STATE, Manifest.permission.CAMERA)
                 .check();
     }
 }

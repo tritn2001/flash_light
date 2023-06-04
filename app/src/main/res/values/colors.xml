@@ -29,4 +29,6 @@
 
     <color name="av_red">#EF062F</color>
     <color name="av_dark_blue">#2196F3</color>
+
+    <color name="color_accent">#00BCD4</color>
 </resources>
