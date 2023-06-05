@@ -43,5 +43,22 @@ public class CustomDialog {
         return dialog;
     }
 
+    public Dialog dialogInstallSuccess() {
+        Dialog dialog = setDialog(R.layout.layout_dialog_install_success);
+        dialog.findViewById(R.id.btnOk).setOnClickListener(view -> {
+            dialog.dismiss();
+        });
+
+
+        return dialog;
+    }
+
+    public Dialog dialogInstalling() {
+        Dialog dialog = setDialog(R.layout.layout_dialog_loading);
+        dialog.setCanceledOnTouchOutside(false);
+        dialog.setCanceledOnTouchOutside(false);
+        return dialog;
+    }
+
 
 }

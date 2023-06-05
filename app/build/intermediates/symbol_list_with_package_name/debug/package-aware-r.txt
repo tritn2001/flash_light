@@ -3917,6 +3917,8 @@ drawable avd_show_password
 drawable bg_bound_warning
 drawable bg_btn_goto_store
 drawable bg_btn_subscribe
+drawable bg_call
+drawable bg_call_person
 drawable bg_text_ad
 drawable bg_white_rounded
 drawable btn_checkbox_checked_mtrl
@@ -3927,6 +3929,9 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable circle_gray
+drawable circle_green
+drawable circle_red
 drawable color_thumb
 drawable color_view_background
 drawable com_facebook_auth_dialog_background
@@ -3980,6 +3985,7 @@ drawable corner_16
 drawable corner_16_light_background
 drawable corner_22
 drawable corner_8
+drawable corner_8_stroke_gray
 drawable custom_bottom
 drawable customactivityoncrash_error_image
 drawable design_fab_background
@@ -3990,6 +3996,7 @@ drawable design_snackbar_background
 drawable gnt_outline_shape
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
+drawable ic_accept_call
 drawable ic_alert
 drawable ic_arrow_back_black_24
 drawable ic_back
@@ -4000,6 +4007,7 @@ drawable ic_call_coming
 drawable ic_check_green
 drawable ic_clear_black_24
 drawable ic_clock_black_24dp
+drawable ic_close
 drawable ic_cloud_yellow
 drawable ic_delete_
 drawable ic_error_
@@ -4032,6 +4040,7 @@ drawable ic_mtrl_chip_close_circle
 drawable ic_no_internet
 drawable ic_notification_2
 drawable ic_permission
+drawable ic_person
 drawable ic_policy
 drawable ic_question_guide
 drawable ic_search_black_24
@@ -4282,9 +4291,11 @@ id btnDoLater
 id btnFeedback
 id btnGotoStore
 id btnMaybeLater
+id btnOk
 id btnOkPermission
 id btnTest
 id btnTickLanguage
+id btnTry
 id btnTurnOffFlash
 id btnTurnOnFlash
 id button
@@ -4465,6 +4476,9 @@ id inward
 id isb_progress
 id italic
 id item_touch_helper_previous_elevation
+id ivApp
+id ivClose
+id ivFlash
 id ivSilent
 id ivSpeaker
 id ivType
@@ -4474,6 +4488,7 @@ id jumpToStart
 id labeled
 id large
 id layout
+id layoutContainer
 id layoutLoadingAds
 id layoutLock
 id layoutStatus
@@ -4907,7 +4922,10 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_alow_permission_activity
+layout activity_coming_call_trying
 layout activity_home
+layout activity_installing
 layout activity_language
 layout activity_settings_flash_alert
 layout activity_splash
@@ -4949,6 +4967,8 @@ layout gnt_medium_template_view
 layout gnt_small_template_view
 layout isb_indicator
 layout layout_check_permission
+layout layout_dialog_install_success
+layout layout_dialog_loading
 layout layout_item_language
 layout layout_lock
 layout layout_test
@@ -5037,6 +5057,8 @@ menu menu_nav
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
+raw anim_center
+raw anim_success
 raw anim_welcome_back
 raw firebase_common_keep
 raw sound_switch_on
@@ -5260,6 +5282,7 @@ string mtrl_switch_track_path
 string mtrl_timepicker_cancel
 string mtrl_timepicker_confirm
 string nederland
+string notification_listener_service
 string offline_notification_text
 string offline_notification_title
 string offline_opt_in_confirm
@@ -5303,17 +5326,23 @@ string text_success
 string text_warning
 string title_warning_version
 string turkish
+string txt_accept
 string txt_content_permission
+string txt_delince
 string txt_do_later
 string txt_email_feedback
 string txt_enjoying_the_app
 string txt_feedback
 string txt_feedback_app
 string txt_flash_alert
+string txt_flash_call_ntallation_successful
 string txt_flash_is_on_press_the_off_button_to_stop
 string txt_flash_light
 string txt_goto_store
 string txt_guide
+string txt_incoming_call
+string txt_install_successfully
+string txt_installing
 string txt_language
 string txt_loading_ads
 string txt_maybe_later
@@ -5322,6 +5351,7 @@ string txt_normal
 string txt_off_time
 string txt_ok
 string txt_on_time
+string txt_please_allow_notification_access
 string txt_please_check_internet_connection
 string txt_press_again_to_exit
 string txt_rate_us
@@ -5335,8 +5365,10 @@ string txt_silent
 string txt_speed
 string txt_status
 string txt_status_on
+string txt_stop
 string txt_test
 string txt_toast_ads
+string txt_try_it
 string txt_turn_on_for_amp_notification
 string txt_turn_on_for_incoming_calls
 string txt_turn_on_for_sms
@@ -5344,6 +5376,7 @@ string txt_update
 string txt_vibrate
 string txt_welcome_to_back
 string txt_write_your_feedback_here
+string txt_you_need_to_grant_notification_access_to_enalble_this_feature
 string uae
 string vietnamese
 style AlertDialog_AppCompat

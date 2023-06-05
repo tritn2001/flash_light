@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.lutech.flashlight.app-mergeDebugResources-52:/values-watch-v20/values-watch-v20.xml",
+            "outputFile": "com.lutech.flashlight.app-mergeDebugResources-4:/values-watch-v20/values-watch-v20.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\conme\\.gradle\\caches\\transforms-3\\6edea05761192a4b6dc44736ab75c7ac\\transformed\\appcompat-1.6.1\\res\\values-watch-v20\\values-watch-v20.xml",
+                    "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\caches\\transforms-3\\6edea05761192a4b6dc44736ab75c7ac\\transformed\\appcompat-1.6.1\\res\\values-watch-v20\\values-watch-v20.xml",
                     "from": {
                         "startLines": "2,5,8",
                         "startColumns": "4,4,4",

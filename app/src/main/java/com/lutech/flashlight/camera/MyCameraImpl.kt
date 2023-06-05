@@ -3,13 +3,20 @@ package com.lutech.flashlight.camera
 import android.content.Context
 import android.os.Handler
 import android.util.Log
+import com.lutech.flashlight.ads.Constants
+import com.lutech.flashlight.data.FlashAlert
 import com.lutech.flashlight.util.Events
+import com.lutech.flashlight.util.MySharePreference
 import com.lutech.flashlight.util.config
 
 
 import org.greenrobot.eventbus.EventBus
 
-class MyCameraImpl private constructor(val context: Context, private var cameraTorchListener: CameraTorchListener? = null) {
+class MyCameraImpl private constructor(
+    val context: Context,
+    private var cameraTorchListener: CameraTorchListener? = null,
+    mType: String
+) {
     var stroboFrequencyOn = 1000L
     var stroboFrequencyOff = 1000L
 
@@ -17,7 +24,26 @@ class MyCameraImpl private constructor(val context: Context, private var cameraT
         var isFlashlightOn = false
 
         private var u = 200L // The length of one dit (Time unit)
-        private val SOS = arrayListOf(u, u, u, u, u, u * 3, u * 3, u, u * 3, u, u * 3, u * 3, u, u, u, u, u, u * 7)
+        private val SOS = arrayListOf(
+            u,
+            u,
+            u,
+            u,
+            u,
+            u * 3,
+            u * 3,
+            u,
+            u * 3,
+            u,
+            u * 3,
+            u * 3,
+            u,
+            u,
+            u,
+            u,
+            u,
+            u * 7
+        )
 
         private var shouldEnableFlashlight = false
         private var shouldEnableStroboscope = false
@@ -35,13 +61,19 @@ class MyCameraImpl private constructor(val context: Context, private var cameraT
         @Volatile
         private var isSOSRunning = false
 
-        fun newInstance(context: Context, cameraTorchListener: CameraTorchListener? = null) = MyCameraImpl(context, cameraTorchListener)
+        fun newInstance(
+            context: Context,
+            cameraTorchListener: CameraTorchListener? = null,
+            mType: String
+        ) = MyCameraImpl(context, cameraTorchListener, mType)
     }
 
     init {
         handleCameraSetup()
-        stroboFrequencyOn = context.config.stroboscopeFrequencyOn
-        stroboFrequencyOff= context.config.stroboscopeFrequencyOff
+        val flashAlert = MySharePreference(context).getFlashAlert(mType)
+        stroboFrequencyOn = flashAlert!!.stroboscopeOn
+        stroboFrequencyOff = flashAlert!!.stroboscopeOff
+
     }
 
     fun toggleFlashlight() {
@@ -219,11 +251,12 @@ class MyCameraImpl private constructor(val context: Context, private var cameraT
             try {
                 cameraFlash!!.toggleFlashlight(true)
                 val onDuration = if (isStroboSOS) SOS[sosIndex++ % SOS.size] else stroboFrequencyOn
-                Log.d("=======>31211111111111", ": "+onDuration+isStroboSOS)
+                Log.d("=======>31211111111111", ": " + onDuration + isStroboSOS)
                 Thread.sleep(onDuration)
                 cameraFlash!!.toggleFlashlight(false)
-                val offDuration = if (isStroboSOS) SOS[sosIndex++ % SOS.size] else stroboFrequencyOff
-                Log.d("=======>31211111111111", ": "+offDuration+isStroboSOS)
+                val offDuration =
+                    if (isStroboSOS) SOS[sosIndex++ % SOS.size] else stroboFrequencyOff
+                Log.d("=======>31211111111111", ": " + offDuration + isStroboSOS)
 
                 Thread.sleep(offDuration)
             } catch (e: Exception) {

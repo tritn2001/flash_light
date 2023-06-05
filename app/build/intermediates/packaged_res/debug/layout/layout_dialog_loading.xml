@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_10sdp"
+    android:padding="@dimen/_14sdp"
+    android:orientation="vertical"
+    android:background="@drawable/corner_8"
+    android:backgroundTint="@color/white"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/ivApp"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/ivApp"
+            android:fontFamily="@font/helvetica_regular"
+            android:paddingHorizontal="@dimen/_10sdp"
+            android:text="@string/txt_installing"
+            android:textColor="@color/color_gray_menu_details"
+            android:textSize="@dimen/_15ssp" />
+
+    </RelativeLayout>
+
+    <ProgressBar
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:indeterminateTint="@color/color_primary"
+        />
+</LinearLayout>

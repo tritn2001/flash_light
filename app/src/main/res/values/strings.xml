@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">BaseProject</string>
+    <string name="app_name">FlashLight</string>
 
 
     <string name="facebook_app_id" translatable="false">facebook_app_id</string>
@@ -93,6 +93,17 @@
     <string name="txt_request_permissions">Request permissions</string>
     <string name="txt_content_permission">For the flash to work you need to give camera and phone access. This permission does not affect the phone at all so please rest assured</string>
     <string name="txt_ok">OK</string>
+    <string name="txt_stop">Stop</string>
+    <string name="txt_installing">Installing...</string>
+    <string name="txt_flash_call_ntallation_successful">Flash call installation successful!</string>
+    <string name="txt_try_it">TRY IT</string>
+    <string name="txt_incoming_call">Incoming Call....</string>
+    <string name="txt_accept">Accept</string>
+    <string name="txt_delince">Reject</string>
+    <string name="txt_install_successfully">Install successfully</string>
+    <string name="txt_please_allow_notification_access">Please allow notification access.</string>
+    <string name="txt_you_need_to_grant_notification_access_to_enalble_this_feature">You need to grant Notification Access to enalble this feature.</string>
+    <string name="notification_listener_service">FlashLight Notification Rules</string>
 
 
 </resources>

@@ -1,9 +1,12 @@
 package com.lutech.flashlight.util;
 
 import android.Manifest;
+import android.content.ContentResolver;
 import android.content.Context;
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.location.LocationManager;
+import android.provider.Settings;
 import android.widget.Toast;
 
 import androidx.core.content.ContextCompat;
@@ -36,17 +39,15 @@ public class PermissionManager {
         return ContextCompat.checkSelfPermission(context, Manifest.permission.CAMERA) != PackageManager.PERMISSION_DENIED;
     }
 
-    public void requestPermissionCamera(HandleEventCheckPermissionListener handleEventCheckPermissionListener) {
+    public void requestPermissionNotification(HandleEventCheckPermissionListener handleEventCheckPermissionListener) {
         PermissionListener permissionlistener = new PermissionListener() {
             @Override
             public void onPermissionGranted() {
-//                new TracksAudioFragment.ImportFileAudio().execute();
                 handleEventCheckPermissionListener.onAcceptPermissions();
             }
 
             @Override
             public void onPermissionDenied(List<String> deniedPermissions) {
-                Toast.makeText(context, "Permission Denied\n" + deniedPermissions.toString(), Toast.LENGTH_SHORT).show();
                 handleEventCheckPermissionListener.onDeniedPermissions();
 
             }
@@ -54,8 +55,20 @@ public class PermissionManager {
         TedPermission.create()
                 .setPermissionListener(permissionlistener)
                 .setDeniedMessage("If you reject permission,you can not use this service\n\nPlease turn on permissions at [Setting] > [Permission]")
-                .setPermissions(Manifest.permission.CAMERA)
+                .setPermissions(Manifest.permission.POST_NOTIFICATIONS)
                 .check();
+    }
+
+    public boolean isNotificationServiceRunning() {
+        ContentResolver contentResolver = context.getContentResolver();
+        String enabledNotificationListeners =
+                Settings.Secure.getString(contentResolver, "enabled_notification_listeners");
+        String packageName = context.getPackageName();
+        return enabledNotificationListeners != null && enabledNotificationListeners.contains(packageName);
+    }
+
+    public void gotoAllowNotificationAccess() {
+        context.startActivity(new Intent(Settings.ACTION_NOTIFICATION_LISTENER_SETTINGS));
     }
 
     public void requestPermissionReadPhoneAndCamera(HandleEventCheckPermissionListener handleEventCheckPermissionListener) {
@@ -78,4 +91,6 @@ public class PermissionManager {
                 .setPermissions(Manifest.permission.READ_PHONE_STATE, Manifest.permission.CAMERA)
                 .check();
     }
+
+
 }

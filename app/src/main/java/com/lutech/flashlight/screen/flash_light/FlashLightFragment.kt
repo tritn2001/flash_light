@@ -8,16 +8,16 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.view.WindowManager
-import android.widget.CompoundButton
 import androidx.core.view.isGone
 import androidx.core.view.isVisible
 import androidx.fragment.app.Fragment
-import androidx.fragment.app.FragmentActivity
 import com.lutech.flashlight.R
+import com.lutech.flashlight.ads.Constants
 import com.lutech.flashlight.ads.Utils
 import com.lutech.flashlight.camera.CameraTorchListener
 import com.lutech.flashlight.camera.MyCameraImpl
-import com.lutech.flashlight.util.config
+import com.lutech.flashlight.data.FlashAlert
+import com.lutech.flashlight.util.MySharePreference
 import com.lutech.phonetracker.util.settings
 import com.warkiz.widget.IndicatorSeekBar
 import com.warkiz.widget.OnSeekChangeListener
@@ -25,8 +25,6 @@ import com.warkiz.widget.SeekParams
 import kotlinx.android.synthetic.main.fragment_flash_light.*
 import kotlinx.android.synthetic.main.fragment_flash_light.view.*
 import org.greenrobot.eventbus.EventBus
-import java.util.concurrent.TimeUnit
-import kotlin.math.log
 
 
 class FlashLightFragment : Fragment() {
@@ -37,7 +35,6 @@ class FlashLightFragment : Fragment() {
 
     private var mIsFlashlightOn = false
 
-
     private val MAX_STROBO_DELAY = 2000L
 
     private val MIN_STROBO_DELAY = 10L
@@ -46,13 +43,19 @@ class FlashLightFragment : Fragment() {
 
     private lateinit var mMedia: MediaPlayer
 
+    private var mFlashAlert: FlashAlert? = null
+
+    private var mySharePreference: MySharePreference? = null
+
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         val v = inflater.inflate(R.layout.fragment_flash_light, container, false)
-
         mContext = requireActivity()
+        mySharePreference = MySharePreference(mContext)
+        mFlashAlert = mySharePreference!!.getFlashAlert(Constants.ALERT_NORMAL)
 
         mMedia = Utils.initMediaPlayer(mContext, R.raw.sound_switch_on)
         mBus = EventBus.getDefault()
@@ -64,6 +67,7 @@ class FlashLightFragment : Fragment() {
     }
 
     private fun initView(view: View) {
+
         view.apply {
             sw_normal.isChecked = mContext!!.settings.normal
             sw_silent.isChecked = mContext!!.settings.silent
@@ -84,7 +88,7 @@ class FlashLightFragment : Fragment() {
             }
             sbOnTime.max = (MAX_STROBO_DELAY - MIN_STROBO_DELAY + 10).toFloat()
 
-            val mProgressOn = context.config.stroboscopeOnProgress.toFloat()
+            val mProgressOn = mFlashAlert!!.stroboscopeProgressOn.toFloat()
             sbOnTime.setProgress(mProgressOn)
             secondOnTime.text =
                 "" + mProgressOn.toDouble() / 1000 + " " + getString(R.string.txt_second)
@@ -99,8 +103,10 @@ class FlashLightFragment : Fragment() {
                         frequency = 0
                     }
                     mCameraImpl?.stroboFrequencyOn = frequency
-                    context.config.stroboscopeFrequencyOn = frequency
-                    context.config.stroboscopeOnProgress = seekParams.progress
+                    mFlashAlert!!.stroboscopeOn = frequency
+                    mFlashAlert!!.stroboscopeProgressOn = seekParams.progress
+                    saveAlertFlash(mFlashAlert!!)
+
 
                     val mSeconds = (frequency.toDouble() / 1000).toString()
 
@@ -110,7 +116,7 @@ class FlashLightFragment : Fragment() {
                 override fun onStartTrackingTouch(seekBar: IndicatorSeekBar) {}
                 override fun onStopTrackingTouch(seekBar: IndicatorSeekBar) {}
             }
-            val mProgressOff = context.config.stroboscopeOnProgress.toFloat()
+            val mProgressOff = mFlashAlert!!.stroboscopeProgressOff.toFloat()
 
             sbOffTime.max = (MAX_STROBO_DELAY - MIN_STROBO_DELAY + 10).toFloat()
             sbOffTime.setProgress(mProgressOff)
@@ -129,9 +135,9 @@ class FlashLightFragment : Fragment() {
                         frequency = 0
                     }
                     mCameraImpl?.stroboFrequencyOff = frequency
-                    context.config.stroboscopeFrequencyOff = frequency
-                    context.config.stroboscopeOffProgress = seekParams.progress
-
+                    mFlashAlert!!.stroboscopeOff = frequency
+                    mFlashAlert!!.stroboscopeProgressOff = seekParams.progress
+                    saveAlertFlash(mFlashAlert!!)
                     val mSeconds = (frequency.toDouble() / 1000).toString()
 
 
@@ -144,17 +150,14 @@ class FlashLightFragment : Fragment() {
 
             sw_normal.setOnCheckedChangeListener { _, b -> mContext!!.settings!!.normal = b }
             sw_vibrate.setOnCheckedChangeListener { _, b -> mContext!!.settings!!.vibrate = b }
-            sw_silent.setOnCheckedChangeListener { _, b ->
-                mContext!!.settings!!.silent = b
-                Log.d("=====>333333333333", "handleFlash2: " + mContext!!.settings!!.silent)
-
-            }
+            sw_silent.setOnCheckedChangeListener { _, b -> mContext!!.settings!!.silent = b }
 
         }
-
-
     }
 
+    private fun saveAlertFlash(flashAlert: FlashAlert) {
+        mySharePreference!!.saveFlashAlert(Constants.ALERT_NORMAL, flashAlert!!)
+    }
 
     private fun handleFlash() {
         Log.d("=====>333333333333", "handleFlash: " + mContext!!.settings.silent)
@@ -193,6 +196,7 @@ class FlashLightFragment : Fragment() {
     }
 
     private fun setupCameraImpl() {
+
         mCameraImpl = MyCameraImpl.newInstance(mContext!!, object : CameraTorchListener {
             override fun onTorchEnabled(isEnabled: Boolean) {
                 if (mCameraImpl!!.supportsBrightnessControl()) {
@@ -202,7 +206,7 @@ class FlashLightFragment : Fragment() {
             override fun onTorchUnavailable() {
                 mCameraImpl!!.onCameraNotAvailable()
             }
-        })
+        }, Constants.ALERT_NORMAL)
 //        if (config.turnFlashlightOn) {
 //            mCameraImpl!!.enableFlashlight()
 //        }

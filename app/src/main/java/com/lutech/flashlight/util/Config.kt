@@ -4,10 +4,22 @@ import android.content.Context
 import com.lutech.flashlight.ads.Constants.BRIGHTNESS_LEVEL
 import com.lutech.flashlight.ads.Constants.DEFAULT_BRIGHTNESS_LEVEL
 import com.lutech.flashlight.ads.Constants.STATUS_FLASH_ALERT
+import com.lutech.flashlight.ads.Constants.STROBOSCOPE_CALL_FREQUENCY_OFF
+import com.lutech.flashlight.ads.Constants.STROBOSCOPE_CALL_FREQUENCY_ON
+import com.lutech.flashlight.ads.Constants.STROBOSCOPE_CALL_PROGRESS_OFF
+import com.lutech.flashlight.ads.Constants.STROBOSCOPE_CALL_PROGRESS_ON
 import com.lutech.flashlight.ads.Constants.STROBOSCOPE_FREQUENCY_OFF
 import com.lutech.flashlight.ads.Constants.STROBOSCOPE_FREQUENCY_ON
+import com.lutech.flashlight.ads.Constants.STROBOSCOPE_NOTI_FREQUENCY_OFF
+import com.lutech.flashlight.ads.Constants.STROBOSCOPE_NOTI_FREQUENCY_ON
+import com.lutech.flashlight.ads.Constants.STROBOSCOPE_NOTI_PROGRESS_OFF
+import com.lutech.flashlight.ads.Constants.STROBOSCOPE_NOTI_PROGRESS_ON
 import com.lutech.flashlight.ads.Constants.STROBOSCOPE_PROGRESS_OFF
 import com.lutech.flashlight.ads.Constants.STROBOSCOPE_PROGRESS_ON
+import com.lutech.flashlight.ads.Constants.STROBOSCOPE_SMS_FREQUENCY_OFF
+import com.lutech.flashlight.ads.Constants.STROBOSCOPE_SMS_FREQUENCY_ON
+import com.lutech.flashlight.ads.Constants.STROBOSCOPE_SMS_PROGRESS_OFF
+import com.lutech.flashlight.ads.Constants.STROBOSCOPE_SMS_PROGRESS_ON
 
 class Config(context: Context) {
 
@@ -53,7 +65,4 @@ class Config(context: Context) {
         set(brightnessLevel) = prefs?.setValueInt(BRIGHTNESS_LEVEL, brightnessLevel)
 
 
-    var statusAlert: Boolean
-        get() = prefs.getValueBoolean(STATUS_FLASH_ALERT)
-        set(status) = prefs?.setValueBoolean(STATUS_FLASH_ALERT,false)
 }

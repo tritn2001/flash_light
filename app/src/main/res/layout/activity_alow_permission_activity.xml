@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".screen.flash_alert.AllowPermissionActivityActivity">
+
+    <LinearLayout
+        android:layout_width="@dimen/_240sdp"
+        android:layout_height="@dimen/_240sdp"
+        android:background="@drawable/corner_8"
+        android:backgroundTint="@color/color_accent"
+        android:clipToOutline="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            android:paddingHorizontal="@dimen/_10sdp"
+            android:paddingVertical="@dimen/_15sdp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/helvetica_regular"
+                android:text="@string/txt_please_allow_notification_access"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_14ssp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_6sdp"
+                android:fontFamily="@font/helvetica_regular"
+                android:text="@string/txt_you_need_to_grant_notification_access_to_enalble_this_feature"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_10ssp" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/corner_8"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bg_call" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/btnOkPermission"
+        android:layout_width="@dimen/_240sdp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_6sdp"
+        android:background="@drawable/corner_8"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/roboto_medium"
+        android:gravity="center"
+        android:paddingVertical="@dimen/_8sdp"
+        android:text="@string/txt_ok"
+        android:textColor="#03A9F4"
+        android:textSize="@dimen/_18ssp"
+        android:textStyle="bold" />
+</LinearLayout>

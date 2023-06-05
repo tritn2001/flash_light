@@ -3,7 +3,9 @@ package com.lutech.flashlight.util
 import android.app.Activity
 import android.content.Context
 import android.text.TextUtils
+import com.google.gson.Gson
 import com.lutech.flashlight.ads.Constants
+import com.lutech.flashlight.data.FlashAlert
 
 class MySharePreference(var context: Context) {
     private var mSharedPreferences =
@@ -76,6 +78,15 @@ class MySharePreference(var context: Context) {
                 )
             )
         )
+    }
+
+    fun saveFlashAlert(key: String?, flashAlert: FlashAlert) {
+        mEditor.putString(key, Gson().toJson(flashAlert)).apply()
+    }
+
+    fun getFlashAlert(key: String?): FlashAlert? {
+        val flashAlert = mSharedPreferences.getString(key, null) ?: return FlashAlert()
+        return Gson().fromJson(flashAlert, FlashAlert::class.java)
     }
 
 }
