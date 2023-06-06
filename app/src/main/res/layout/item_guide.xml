@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginVertical="@dimen/_5sdp"
+    >
+
+    <RelativeLayout style="@style/LayoutContainFeature"
+
+        >
+        <ImageView
+            android:id="@+id/ivStart"
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:src="@drawable/ic_question_guide"
+            android:padding="@dimen/_3sdp"
+            app:tint ="@color/white"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true"
+            />
+        <TextView
+            android:id="@+id/tvContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/ivStart"
+            android:text="@string/txt_how_to_remove_this_application_from_the_restricted_list_of_power"
+            android:textColor="@color/white"
+            android:paddingHorizontal="@dimen/_10sdp"
+            android:fontFamily="@font/roboto"
+            android:layout_toStartOf="@id/ivEnd"
+            />
+        <ImageView
+            android:id="@+id/ivEnd"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:src="@drawable/ic_go"
+            android:padding="@dimen/_3sdp"
+            app:tint ="@color/white"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            />
+    </RelativeLayout>
+
+</RelativeLayout>

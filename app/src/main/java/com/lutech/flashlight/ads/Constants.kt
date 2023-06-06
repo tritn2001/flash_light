@@ -2,6 +2,7 @@ package com.lutech.flashlight.ads
 
 object Constants {
 
+
     const val APP_NAME = "GPS Locator App"
     const val KEY_LANG = "keyLang"
     const val IS_SET_LANG = "isSetLang"
@@ -31,6 +32,9 @@ object Constants {
     var IS_SHOW_RATE_FIRST_BACK = true
 
     const val FIRST_RATE = "FIRST_RATE"
+
+    const val GUIDE = "GUIDE"
+
 
     const val BRIGHT_DISPLAY = "bright_display"
     const val BRIGHT_DISPLAY_COLOR = "bright_display_color"

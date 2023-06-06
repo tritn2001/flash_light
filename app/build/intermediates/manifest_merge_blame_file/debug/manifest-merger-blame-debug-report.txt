@@ -32,8 +32,8 @@
 17-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:11:5-65
 17-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:11:22-62
 18    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
-18-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:13:5-77
-18-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:13:22-74
+18-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:12:5-77
+18-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:12:22-74
 19
 20    <!-- Required by older versions of Google Play services to create IID tokens -->
 21    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
@@ -96,768 +96,794 @@
 50-->[com.android.billingclient:billing:4.0.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\45173cac039647c9ed9766f5923e61af\transformed\jetified-billing-4.0.0\AndroidManifest.xml:10:22-64
 51
 52    <application
-52-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:17:5-143:19
+52-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:14:5-152:19
 53        android:name="com.lutech.flashlight.ads.MyApplication"
-53-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:18:9-42
+53-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:15:9-42
 54        android:allowBackup="true"
-54-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:19:9-35
+54-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:16:9-35
 55        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 55-->[androidx.core:core:1.9.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\3c77c8c16ee2ccee4fa585708ca2353f\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
 56        android:dataExtractionRules="@xml/data_extraction_rules"
-56-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:20:9-65
+56-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:17:9-65
 57        android:debuggable="true"
 58        android:extractNativeLibs="false"
 59        android:fullBackupContent="@xml/backup_rules"
-59-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:21:9-54
+59-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:18:9-54
 60        android:icon="@mipmap/ic_launcher"
-60-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:22:9-43
+60-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:19:9-43
 61        android:label="@string/app_name"
-61-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:23:9-41
+61-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:20:9-41
 62        android:networkSecurityConfig="@xml/network_security_config"
-62-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:24:9-69
+62-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:21:9-69
 63        android:roundIcon="@mipmap/ic_launcher_round"
-63-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:25:9-54
+63-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:22:9-54
 64        android:supportsRtl="true"
-64-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:26:9-35
+64-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:23:9-35
 65        android:testOnly="true"
 66        android:theme="@style/Theme.BaseProject" >
-66-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:27:9-49
+66-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:24:9-49
 67        <activity
-67-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:29:9-35:20
-68            android:name="com.lutech.flashlight.screen.flash_alert.AllowPermissionActivityActivity"
-68-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:30:13-79
+67-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:26:9-32:20
+68            android:name="com.lutech.flashlight.screen.guide.GuideDetaildActivity"
+68-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:27:13-62
 69            android:exported="false" >
-69-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:31:13-37
+69-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:28:13-37
 70            <meta-data
-70-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:32:13-34:36
+70-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:29:13-31:36
 71                android:name="android.app.lib_name"
-71-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:33:17-52
+71-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:30:17-52
 72                android:value="" />
-72-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:34:17-33
+72-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:31:17-33
 73        </activity>
 74        <activity
-74-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:36:9-42:20
-75            android:name="com.lutech.flashlight.screen.flash_alert.ComingCallTryingActivity"
-75-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:37:13-72
+74-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:33:9-39:20
+75            android:name="com.lutech.flashlight.screen.guide.GuideActivity"
+75-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:34:13-55
 76            android:exported="false" >
-76-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:38:13-37
+76-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:35:13-37
 77            <meta-data
-77-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:32:13-34:36
+77-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:29:13-31:36
 78                android:name="android.app.lib_name"
-78-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:33:17-52
+78-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:30:17-52
 79                android:value="" />
-79-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:34:17-33
+79-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:31:17-33
 80        </activity>
 81        <activity
-81-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:43:9-49:20
-82            android:name="com.lutech.flashlight.screen.flash_alert.InstallingActivity"
-82-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:44:13-66
+81-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:40:9-46:20
+82            android:name="com.lutech.flashlight.screen.flash_alert.AllowPermissionActivityActivity"
+82-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:41:13-79
 83            android:exported="false" >
-83-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:45:13-37
+83-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:42:13-37
 84            <meta-data
-84-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:32:13-34:36
+84-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:29:13-31:36
 85                android:name="android.app.lib_name"
-85-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:33:17-52
+85-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:30:17-52
 86                android:value="" />
-86-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:34:17-33
+86-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:31:17-33
 87        </activity>
 88        <activity
-88-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:50:9-52:40
-89            android:name="com.lutech.flashlight.screen.SettingsFlashAlertActivity"
-89-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:51:13-62
-90            android:exported="false" />
-90-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:52:13-37
-91        <activity
-91-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:53:9-65:20
-92            android:name="com.lutech.flashlight.HomeActivity"
-92-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:54:13-41
-93            android:exported="true" >
-93-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:55:13-36
-94            <intent-filter>
-94-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:56:13-60:29
-95                <action android:name="android.intent.action.MAIN" />
-95-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:57:17-69
-95-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:57:25-66
-96
-97                <category android:name="android.intent.category.LAUNCHER" />
-97-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:59:17-77
-97-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:59:27-74
-98            </intent-filter>
-99
-100            <meta-data
-100-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:32:13-34:36
-101                android:name="android.app.lib_name"
-101-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:33:17-52
-102                android:value="" />
-102-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:34:17-33
-103        </activity>
-104        <activity
-104-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:66:9-72:20
-105            android:name="com.lutech.flashlight.language.activity.LanguageActivity"
-105-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:67:13-63
-106            android:exported="false" >
-106-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:68:13-37
-107            <meta-data
-107-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:32:13-34:36
-108                android:name="android.app.lib_name"
-108-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:33:17-52
-109                android:value="" />
-109-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:34:17-33
-110        </activity>
-111        <activity
-111-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:73:9-86:20
-112            android:name="com.lutech.flashlight.SplashActivity"
-112-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:74:13-43
-113            android:exported="true"
-113-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:75:13-36
-114            android:screenOrientation="portrait" >
-114-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:76:13-49
-115            <intent-filter>
-115-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:56:13-60:29
-116                <action android:name="android.intent.action.MAIN" />
-116-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:57:17-69
-116-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:57:25-66
-117
-118                <category android:name="android.intent.category.LAUNCHER" />
-118-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:59:17-77
-118-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:59:27-74
-119            </intent-filter>
-120
+88-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:47:9-53:20
+89            android:name="com.lutech.flashlight.screen.flash_alert.ComingCallTryingActivity"
+89-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:48:13-72
+90            android:exported="false" >
+90-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:49:13-37
+91            <meta-data
+91-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:29:13-31:36
+92                android:name="android.app.lib_name"
+92-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:30:17-52
+93                android:value="" />
+93-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:31:17-33
+94        </activity>
+95        <activity
+95-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:54:9-60:20
+96            android:name="com.lutech.flashlight.screen.flash_alert.InstallingActivity"
+96-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:55:13-66
+97            android:exported="false" >
+97-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:56:13-37
+98            <meta-data
+98-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:29:13-31:36
+99                android:name="android.app.lib_name"
+99-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:30:17-52
+100                android:value="" />
+100-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:31:17-33
+101        </activity>
+102        <activity
+102-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:61:9-63:40
+103            android:name="com.lutech.flashlight.screen.SettingsFlashAlertActivity"
+103-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:62:13-62
+104            android:exported="false" />
+104-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:63:13-37
+105        <activity
+105-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:64:9-76:20
+106            android:name="com.lutech.flashlight.HomeActivity"
+106-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:65:13-41
+107            android:exported="true" >
+107-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:66:13-36
+108            <intent-filter>
+108-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:67:13-71:29
+109                <action android:name="android.intent.action.MAIN" />
+109-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:68:17-69
+109-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:68:25-66
+110
+111                <category android:name="android.intent.category.LAUNCHER" />
+111-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:70:17-77
+111-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:70:27-74
+112            </intent-filter>
+113
+114            <meta-data
+114-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:29:13-31:36
+115                android:name="android.app.lib_name"
+115-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:30:17-52
+116                android:value="" />
+116-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:31:17-33
+117        </activity>
+118        <activity
+118-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:77:9-83:20
+119            android:name="com.lutech.flashlight.language.activity.LanguageActivity"
+119-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:78:13-63
+120            android:exported="false" >
+120-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:79:13-37
 121            <meta-data
-121-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:32:13-34:36
+121-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:29:13-31:36
 122                android:name="android.app.lib_name"
-122-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:33:17-52
+122-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:30:17-52
 123                android:value="" />
-123-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:34:17-33
+123-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:31:17-33
 124        </activity>
 125
 126        <meta-data
-126-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:88:9-90:35
+126-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:85:9-87:35
 127            android:name="com.google.firebase.ml.vision.DEPENDENCIES"
-127-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:89:13-70
+127-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:86:13-70
 128            android:value="ocr" />
-128-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:90:13-32
+128-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:87:13-32
 129        <meta-data
-129-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:91:9-93:50
+129-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:88:9-90:50
 130            android:name="com.google.android.gms.ads.APPLICATION_ID"
-130-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:92:13-69
+130-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:89:13-69
 131            android:value="@string/ads_app_id" />
-131-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:93:13-47
+131-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:90:13-47
 132
 133        <activity
-133-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:95:9-102:20
+133-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:92:9-99:20
 134            android:name="com.lutech.flashlight.ads.welcome.WelcomeBackActivity"
-134-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:96:13-60
+134-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:93:13-60
 135            android:exported="false"
-135-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:97:13-37
+135-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:94:13-37
 136            android:screenOrientation="nosensor" >
-136-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:98:13-49
+136-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:95:13-49
 137            <meta-data
-137-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:32:13-34:36
+137-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:29:13-31:36
 138                android:name="android.app.lib_name"
-138-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:33:17-52
+138-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:30:17-52
 139                android:value="" />
-139-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:34:17-33
+139-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:31:17-33
 140        </activity>
 141
 142        <service
-142-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:104:9-112:19
+142-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:101:9-110:19
 143            android:name="com.lutech.flashlight.Notification.NotificationListener"
-143-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:105:13-62
+143-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:102:13-62
 144            android:exported="true"
-144-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:106:13-36
+144-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:103:13-36
 145            android:label="@string/notification_listener_service"
-145-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:107:13-66
+145-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:104:13-66
 146            android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE" >
-146-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:108:13-87
+146-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:105:13-87
 147            <intent-filter>
-147-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:109:13-111:29
-148                <action android:name="android.service.notification.NotificationListenerService" />
-148-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:110:17-99
-148-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:110:25-96
-149            </intent-filter>
-150        </service>
-151        <service
-151-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:114:9-120:19
-152            android:name="com.lutech.flashlight.Notification.MyFirebaseMessageService"
-152-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:115:13-66
-153            android:exported="false" >
-153-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:116:13-37
-154            <intent-filter>
-154-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:117:13-119:29
-155                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-155-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:118:17-78
-155-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:118:25-75
-156            </intent-filter>
-157        </service>
-158
-159        <receiver
-159-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:122:9-129:20
-160            android:name="com.adjust.sdk.AdjustReferrerReceiver"
-160-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:123:13-65
-161            android:exported="true"
-161-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:124:13-36
-162            android:permission="android.permission.INSTALL_PACKAGES" >
-162-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:125:13-69
-163            <intent-filter>
-163-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:126:13-128:29
-164                <action android:name="com.android.vending.INSTALL_REFERRER" />
-164-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:127:17-79
-164-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:127:25-76
-165            </intent-filter>
-166        </receiver>
-167
-168        <activity
-168-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:131:9-135:52
-169            android:name="com.facebook.FacebookActivity"
-169-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:132:13-57
-170            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
-170-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:133:13-96
-171            android:label="@string/app_name"
-171-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:134:13-45
-172            android:screenOrientation="nosensor"
-172-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:135:13-49
-173            android:theme="@style/com_facebook_activity_theme" />
-173-->[com.facebook.android:facebook-common:4.42.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\369b4e090baa793a3efdfa9970521d44\transformed\jetified-facebook-common-4.42.0\AndroidManifest.xml:32:13-63
-174
-175        <meta-data
-175-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:137:9-139:55
-176            android:name="com.google.firebase.messaging.default_notification_color"
-176-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:138:13-84
-177            android:resource="@color/color_primary" />
-177-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:139:13-52
-178        <meta-data
-178-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:140:9-142:55
-179            android:name="com.facebook.sdk.ApplicationId"
-179-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:141:13-58
-180            android:value="@string/facebook_app_id" />
-180-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:142:13-52
-181
-182        <activity
-182-->[cat.ereza:customactivityoncrash:2.4.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\9769132ed901ed611f5b347f81d88f9d\transformed\jetified-customactivityoncrash-2.4.0\AndroidManifest.xml:10:9-12:49
-183            android:name="cat.ereza.customactivityoncrash.activity.DefaultErrorActivity"
-183-->[cat.ereza:customactivityoncrash:2.4.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\9769132ed901ed611f5b347f81d88f9d\transformed\jetified-customactivityoncrash-2.4.0\AndroidManifest.xml:11:13-89
-184            android:process=":error_activity" />
-184-->[cat.ereza:customactivityoncrash:2.4.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\9769132ed901ed611f5b347f81d88f9d\transformed\jetified-customactivityoncrash-2.4.0\AndroidManifest.xml:12:13-46
-185
-186        <provider
-186-->[cat.ereza:customactivityoncrash:2.4.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\9769132ed901ed611f5b347f81d88f9d\transformed\jetified-customactivityoncrash-2.4.0\AndroidManifest.xml:14:9-18:39
-187            android:name="cat.ereza.customactivityoncrash.provider.CaocInitProvider"
-187-->[cat.ereza:customactivityoncrash:2.4.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\9769132ed901ed611f5b347f81d88f9d\transformed\jetified-customactivityoncrash-2.4.0\AndroidManifest.xml:15:13-85
-188            android:authorities="com.lutech.flashlight.customactivityoncrashinitprovider"
-188-->[cat.ereza:customactivityoncrash:2.4.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\9769132ed901ed611f5b347f81d88f9d\transformed\jetified-customactivityoncrash-2.4.0\AndroidManifest.xml:16:13-85
-189            android:exported="false"
-189-->[cat.ereza:customactivityoncrash:2.4.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\9769132ed901ed611f5b347f81d88f9d\transformed\jetified-customactivityoncrash-2.4.0\AndroidManifest.xml:17:13-37
-190            android:initOrder="101" />
-190-->[cat.ereza:customactivityoncrash:2.4.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\9769132ed901ed611f5b347f81d88f9d\transformed\jetified-customactivityoncrash-2.4.0\AndroidManifest.xml:18:13-36
-191
-192        <activity android:name="com.facebook.CustomTabMainActivity" />
-192-->[com.facebook.android:facebook-common:4.42.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\369b4e090baa793a3efdfa9970521d44\transformed\jetified-facebook-common-4.42.0\AndroidManifest.xml:33:9-71
-192-->[com.facebook.android:facebook-common:4.42.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\369b4e090baa793a3efdfa9970521d44\transformed\jetified-facebook-common-4.42.0\AndroidManifest.xml:33:19-68
-193        <activity android:name="com.facebook.CustomTabActivity" />
-193-->[com.facebook.android:facebook-common:4.42.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\369b4e090baa793a3efdfa9970521d44\transformed\jetified-facebook-common-4.42.0\AndroidManifest.xml:34:9-67
-193-->[com.facebook.android:facebook-common:4.42.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\369b4e090baa793a3efdfa9970521d44\transformed\jetified-facebook-common-4.42.0\AndroidManifest.xml:34:19-64
-194        <activity
-194-->[io.github.ParkSangGwon:tedpermission:3.3.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\002654d41916f7ecb5aece4d66e67291\transformed\jetified-tedpermission-3.3.0\AndroidManifest.xml:10:9-14:67
-195            android:name="com.gun0912.tedpermission.TedPermissionActivity"
-195-->[io.github.ParkSangGwon:tedpermission:3.3.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\002654d41916f7ecb5aece4d66e67291\transformed\jetified-tedpermission-3.3.0\AndroidManifest.xml:11:13-75
-196            android:configChanges="mcc|mnc|locale|keyboard|keyboardHidden|screenLayout|fontScale|uiMode|orientation|screenSize|layoutDirection"
-196-->[io.github.ParkSangGwon:tedpermission:3.3.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\002654d41916f7ecb5aece4d66e67291\transformed\jetified-tedpermission-3.3.0\AndroidManifest.xml:12:13-144
-197            android:screenOrientation="unspecified"
-197-->[io.github.ParkSangGwon:tedpermission:3.3.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\002654d41916f7ecb5aece4d66e67291\transformed\jetified-tedpermission-3.3.0\AndroidManifest.xml:13:13-52
-198            android:theme="@style/Theme.Transparent.Permission" />
-198-->[io.github.ParkSangGwon:tedpermission:3.3.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\002654d41916f7ecb5aece4d66e67291\transformed\jetified-tedpermission-3.3.0\AndroidManifest.xml:14:13-64
-199
-200        <provider
-200-->[io.github.ParkSangGwon:tedpermission:3.3.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\002654d41916f7ecb5aece4d66e67291\transformed\jetified-tedpermission-3.3.0\AndroidManifest.xml:16:9-19:40
-201            android:name="com.gun0912.tedpermission.provider.TedPermissionProvider"
-201-->[io.github.ParkSangGwon:tedpermission:3.3.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\002654d41916f7ecb5aece4d66e67291\transformed\jetified-tedpermission-3.3.0\AndroidManifest.xml:17:13-84
-202            android:authorities="com.lutech.flashlight.tedpermissionprovider"
-202-->[io.github.ParkSangGwon:tedpermission:3.3.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\002654d41916f7ecb5aece4d66e67291\transformed\jetified-tedpermission-3.3.0\AndroidManifest.xml:18:13-73
-203            android:exported="false" />
-203-->[io.github.ParkSangGwon:tedpermission:3.3.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\002654d41916f7ecb5aece4d66e67291\transformed\jetified-tedpermission-3.3.0\AndroidManifest.xml:19:13-37
+147-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:106:13-109:29
+148                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+148-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:107:17-82
+148-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:107:25-79
+149                <action android:name="android.service.notification.NotificationListenerService" />
+149-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:108:17-99
+149-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:108:25-96
+150            </intent-filter>
+151        </service>
+152        <service
+152-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:111:9-122:19
+153            android:name="com.lutech.flashlight.receiver.PhoneCallService"
+153-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:112:13-54
+154            android:exported="true"
+154-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:113:13-36
+155            android:permission="android.permission.BIND_INCALL_SERVICE" >
+155-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:114:13-72
+156            <meta-data
+156-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:115:13-117:40
+157                android:name="android.telecom.IN_CALL_SERVICE_UI"
+157-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:116:17-66
+158                android:value="true" />
+158-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:117:17-37
+159
+160            <intent-filter android:priority="1001" >
+160-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:119:13-121:29
+160-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:119:28-51
+161                <action android:name="android.telecom.InCallService" />
+161-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:120:17-72
+161-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:120:25-69
+162            </intent-filter>
+163        </service>
+164        <service
+164-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:123:9-129:19
+165            android:name="com.lutech.flashlight.Notification.MyFirebaseMessageService"
+165-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:124:13-66
+166            android:exported="false" >
+166-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:125:13-37
+167            <intent-filter>
+167-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:126:13-128:29
+168                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+168-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:127:17-78
+168-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:127:25-75
+169            </intent-filter>
+170        </service>
+171
+172        <receiver
+172-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:131:9-138:20
+173            android:name="com.adjust.sdk.AdjustReferrerReceiver"
+173-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:132:13-65
+174            android:exported="true"
+174-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:133:13-36
+175            android:permission="android.permission.INSTALL_PACKAGES" >
+175-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:134:13-69
+176            <intent-filter>
+176-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:135:13-137:29
+177                <action android:name="com.android.vending.INSTALL_REFERRER" />
+177-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:136:17-79
+177-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:136:25-76
+178            </intent-filter>
+179        </receiver>
+180
+181        <activity
+181-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:140:9-144:52
+182            android:name="com.facebook.FacebookActivity"
+182-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:141:13-57
+183            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+183-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:142:13-96
+184            android:label="@string/app_name"
+184-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:143:13-45
+185            android:screenOrientation="nosensor"
+185-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:144:13-49
+186            android:theme="@style/com_facebook_activity_theme" />
+186-->[com.facebook.android:facebook-common:4.42.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\369b4e090baa793a3efdfa9970521d44\transformed\jetified-facebook-common-4.42.0\AndroidManifest.xml:32:13-63
+187
+188        <meta-data
+188-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:146:9-148:55
+189            android:name="com.google.firebase.messaging.default_notification_color"
+189-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:147:13-84
+190            android:resource="@color/color_primary" />
+190-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:148:13-52
+191        <meta-data
+191-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:149:9-151:55
+192            android:name="com.facebook.sdk.ApplicationId"
+192-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:150:13-58
+193            android:value="@string/facebook_app_id" />
+193-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:151:13-52
+194
+195        <activity
+195-->[cat.ereza:customactivityoncrash:2.4.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\9769132ed901ed611f5b347f81d88f9d\transformed\jetified-customactivityoncrash-2.4.0\AndroidManifest.xml:10:9-12:49
+196            android:name="cat.ereza.customactivityoncrash.activity.DefaultErrorActivity"
+196-->[cat.ereza:customactivityoncrash:2.4.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\9769132ed901ed611f5b347f81d88f9d\transformed\jetified-customactivityoncrash-2.4.0\AndroidManifest.xml:11:13-89
+197            android:process=":error_activity" />
+197-->[cat.ereza:customactivityoncrash:2.4.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\9769132ed901ed611f5b347f81d88f9d\transformed\jetified-customactivityoncrash-2.4.0\AndroidManifest.xml:12:13-46
+198
+199        <provider
+199-->[cat.ereza:customactivityoncrash:2.4.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\9769132ed901ed611f5b347f81d88f9d\transformed\jetified-customactivityoncrash-2.4.0\AndroidManifest.xml:14:9-18:39
+200            android:name="cat.ereza.customactivityoncrash.provider.CaocInitProvider"
+200-->[cat.ereza:customactivityoncrash:2.4.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\9769132ed901ed611f5b347f81d88f9d\transformed\jetified-customactivityoncrash-2.4.0\AndroidManifest.xml:15:13-85
+201            android:authorities="com.lutech.flashlight.customactivityoncrashinitprovider"
+201-->[cat.ereza:customactivityoncrash:2.4.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\9769132ed901ed611f5b347f81d88f9d\transformed\jetified-customactivityoncrash-2.4.0\AndroidManifest.xml:16:13-85
+202            android:exported="false"
+202-->[cat.ereza:customactivityoncrash:2.4.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\9769132ed901ed611f5b347f81d88f9d\transformed\jetified-customactivityoncrash-2.4.0\AndroidManifest.xml:17:13-37
+203            android:initOrder="101" />
+203-->[cat.ereza:customactivityoncrash:2.4.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\9769132ed901ed611f5b347f81d88f9d\transformed\jetified-customactivityoncrash-2.4.0\AndroidManifest.xml:18:13-36
 204
-205        <receiver
-205-->[com.google.firebase:firebase-messaging:23.0.8] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\6e013afb7ec209ae0397356861f6f878\transformed\jetified-firebase-messaging-23.0.8\AndroidManifest.xml:32:9-39:20
-206            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
-206-->[com.google.firebase:firebase-messaging:23.0.8] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\6e013afb7ec209ae0397356861f6f878\transformed\jetified-firebase-messaging-23.0.8\AndroidManifest.xml:33:13-78
-207            android:exported="true"
-207-->[com.google.firebase:firebase-messaging:23.0.8] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\6e013afb7ec209ae0397356861f6f878\transformed\jetified-firebase-messaging-23.0.8\AndroidManifest.xml:34:13-36
-208            android:permission="com.google.android.c2dm.permission.SEND" >
-208-->[com.google.firebase:firebase-messaging:23.0.8] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\6e013afb7ec209ae0397356861f6f878\transformed\jetified-firebase-messaging-23.0.8\AndroidManifest.xml:35:13-73
-209            <intent-filter>
-209-->[com.google.firebase:firebase-messaging:23.0.8] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\6e013afb7ec209ae0397356861f6f878\transformed\jetified-firebase-messaging-23.0.8\AndroidManifest.xml:36:13-38:29
-210                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-210-->[com.google.firebase:firebase-messaging:23.0.8] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\6e013afb7ec209ae0397356861f6f878\transformed\jetified-firebase-messaging-23.0.8\AndroidManifest.xml:37:17-81
-210-->[com.google.firebase:firebase-messaging:23.0.8] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\6e013afb7ec209ae0397356861f6f878\transformed\jetified-firebase-messaging-23.0.8\AndroidManifest.xml:37:25-78
-211            </intent-filter>
-212        </receiver>
-213        <!--
-214             FirebaseMessagingService performs security checks at runtime,
-215             but set to not exported to explicitly avoid allowing another app to call it.
-216        -->
-217        <service
-217-->[com.google.firebase:firebase-messaging:23.0.8] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\6e013afb7ec209ae0397356861f6f878\transformed\jetified-firebase-messaging-23.0.8\AndroidManifest.xml:45:9-52:19
-218            android:name="com.google.firebase.messaging.FirebaseMessagingService"
-218-->[com.google.firebase:firebase-messaging:23.0.8] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\6e013afb7ec209ae0397356861f6f878\transformed\jetified-firebase-messaging-23.0.8\AndroidManifest.xml:46:13-82
-219            android:directBootAware="true"
-219-->[com.google.firebase:firebase-messaging:23.0.8] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\6e013afb7ec209ae0397356861f6f878\transformed\jetified-firebase-messaging-23.0.8\AndroidManifest.xml:47:13-43
-220            android:exported="false" >
-220-->[com.google.firebase:firebase-messaging:23.0.8] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\6e013afb7ec209ae0397356861f6f878\transformed\jetified-firebase-messaging-23.0.8\AndroidManifest.xml:48:13-37
-221            <intent-filter android:priority="-500" >
-221-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:117:13-119:29
-222                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-222-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:118:17-78
-222-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:118:25-75
-223            </intent-filter>
-224        </service>
-225        <service
-225-->[com.google.firebase:firebase-messaging:23.0.8] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\6e013afb7ec209ae0397356861f6f878\transformed\jetified-firebase-messaging-23.0.8\AndroidManifest.xml:53:9-59:19
-226            android:name="com.google.firebase.components.ComponentDiscoveryService"
-226-->[com.google.firebase:firebase-messaging:23.0.8] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\6e013afb7ec209ae0397356861f6f878\transformed\jetified-firebase-messaging-23.0.8\AndroidManifest.xml:54:13-84
-227            android:directBootAware="true"
-227-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\9fd7a67dc516c668be59235cd2e54477\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:34:13-43
-228            android:exported="false" >
-228-->[com.google.firebase:firebase-messaging:23.0.8] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\6e013afb7ec209ae0397356861f6f878\transformed\jetified-firebase-messaging-23.0.8\AndroidManifest.xml:55:13-37
-229            <meta-data
-229-->[com.google.firebase:firebase-messaging:23.0.8] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\6e013afb7ec209ae0397356861f6f878\transformed\jetified-firebase-messaging-23.0.8\AndroidManifest.xml:56:13-58:85
-230                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
-230-->[com.google.firebase:firebase-messaging:23.0.8] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\6e013afb7ec209ae0397356861f6f878\transformed\jetified-firebase-messaging-23.0.8\AndroidManifest.xml:57:17-119
-231                android:value="com.google.firebase.components.ComponentRegistrar" />
-231-->[com.google.firebase:firebase-messaging:23.0.8] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\6e013afb7ec209ae0397356861f6f878\transformed\jetified-firebase-messaging-23.0.8\AndroidManifest.xml:58:17-82
-232            <meta-data
-232-->[com.google.firebase:firebase-database:20.0.6] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\05640f5670a8dae4bf33a32aea180078\transformed\jetified-firebase-database-20.0.6\AndroidManifest.xml:32:13-34:85
-233                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
-233-->[com.google.firebase:firebase-database:20.0.6] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\05640f5670a8dae4bf33a32aea180078\transformed\jetified-firebase-database-20.0.6\AndroidManifest.xml:33:17-109
-234                android:value="com.google.firebase.components.ComponentRegistrar" />
-234-->[com.google.firebase:firebase-database:20.0.6] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\05640f5670a8dae4bf33a32aea180078\transformed\jetified-firebase-database-20.0.6\AndroidManifest.xml:34:17-82
-235            <meta-data
-235-->[com.google.firebase:firebase-firestore:24.3.1] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\a05153e350f542a3ff686ab107d2687e\transformed\jetified-firebase-firestore-24.3.1\AndroidManifest.xml:20:13-22:85
-236                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
-236-->[com.google.firebase:firebase-firestore:24.3.1] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\a05153e350f542a3ff686ab107d2687e\transformed\jetified-firebase-firestore-24.3.1\AndroidManifest.xml:21:17-111
-237                android:value="com.google.firebase.components.ComponentRegistrar" />
-237-->[com.google.firebase:firebase-firestore:24.3.1] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\a05153e350f542a3ff686ab107d2687e\transformed\jetified-firebase-firestore-24.3.1\AndroidManifest.xml:22:17-82
-238            <meta-data
-238-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\41cc577ece42f1d2457bc91723f9e66d\transformed\jetified-play-services-measurement-api-21.2.0\AndroidManifest.xml:31:13-33:85
-239                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
-239-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\41cc577ece42f1d2457bc91723f9e66d\transformed\jetified-play-services-measurement-api-21.2.0\AndroidManifest.xml:32:17-139
-240                android:value="com.google.firebase.components.ComponentRegistrar" />
-240-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\41cc577ece42f1d2457bc91723f9e66d\transformed\jetified-play-services-measurement-api-21.2.0\AndroidManifest.xml:33:17-82
-241            <meta-data
-241-->[com.google.firebase:firebase-config:21.1.2] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\913a867f4d7a6f94d3575ba1806f8a54\transformed\jetified-firebase-config-21.1.2\AndroidManifest.xml:32:13-34:85
-242                android:name="com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar"
-242-->[com.google.firebase:firebase-config:21.1.2] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\913a867f4d7a6f94d3575ba1806f8a54\transformed\jetified-firebase-config-21.1.2\AndroidManifest.xml:33:17-117
-243                android:value="com.google.firebase.components.ComponentRegistrar" />
-243-->[com.google.firebase:firebase-config:21.1.2] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\913a867f4d7a6f94d3575ba1806f8a54\transformed\jetified-firebase-config-21.1.2\AndroidManifest.xml:34:17-82
-244            <meta-data
-244-->[com.google.firebase:firebase-crashlytics:18.2.13] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\f6dafeafdd8565dca14af9bccf7d038e\transformed\jetified-firebase-crashlytics-18.2.13\AndroidManifest.xml:18:13-20:85
-245                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
-245-->[com.google.firebase:firebase-crashlytics:18.2.13] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\f6dafeafdd8565dca14af9bccf7d038e\transformed\jetified-firebase-crashlytics-18.2.13\AndroidManifest.xml:19:17-115
-246                android:value="com.google.firebase.components.ComponentRegistrar" />
-246-->[com.google.firebase:firebase-crashlytics:18.2.13] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\f6dafeafdd8565dca14af9bccf7d038e\transformed\jetified-firebase-crashlytics-18.2.13\AndroidManifest.xml:20:17-82
-247            <meta-data
-247-->[com.google.firebase:firebase-installations:17.0.2] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\d024fc2c9784bbe18b356676699a125f\transformed\jetified-firebase-installations-17.0.2\AndroidManifest.xml:18:13-20:85
-248                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
-248-->[com.google.firebase:firebase-installations:17.0.2] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\d024fc2c9784bbe18b356676699a125f\transformed\jetified-firebase-installations-17.0.2\AndroidManifest.xml:19:17-127
-249                android:value="com.google.firebase.components.ComponentRegistrar" />
-249-->[com.google.firebase:firebase-installations:17.0.2] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\d024fc2c9784bbe18b356676699a125f\transformed\jetified-firebase-installations-17.0.2\AndroidManifest.xml:20:17-82
-250            <meta-data
-250-->[com.google.firebase:firebase-datatransport:18.1.6] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\e8724eb9719903516d56da3b3f21d26f\transformed\jetified-firebase-datatransport-18.1.6\AndroidManifest.xml:28:13-30:85
-251                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
-251-->[com.google.firebase:firebase-datatransport:18.1.6] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\e8724eb9719903516d56da3b3f21d26f\transformed\jetified-firebase-datatransport-18.1.6\AndroidManifest.xml:29:17-115
-252                android:value="com.google.firebase.components.ComponentRegistrar" />
-252-->[com.google.firebase:firebase-datatransport:18.1.6] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\e8724eb9719903516d56da3b3f21d26f\transformed\jetified-firebase-datatransport-18.1.6\AndroidManifest.xml:30:17-82
-253            <meta-data
-253-->[com.google.firebase:firebase-abt:21.0.2] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\af51675acbe7b911d2ba22f955591b05\transformed\jetified-firebase-abt-21.0.2\AndroidManifest.xml:13:13-15:85
-254                android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar"
-254-->[com.google.firebase:firebase-abt:21.0.2] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\af51675acbe7b911d2ba22f955591b05\transformed\jetified-firebase-abt-21.0.2\AndroidManifest.xml:14:17-109
-255                android:value="com.google.firebase.components.ComponentRegistrar" />
-255-->[com.google.firebase:firebase-abt:21.0.2] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\af51675acbe7b911d2ba22f955591b05\transformed\jetified-firebase-abt-21.0.2\AndroidManifest.xml:15:17-82
-256        </service>
-257
-258        <receiver
-258-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\9941c7edd63d4f477a65a9516ddb2031\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:29:9-33:20
-259            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-259-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\9941c7edd63d4f477a65a9516ddb2031\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:30:13-85
-260            android:enabled="true"
-260-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\9941c7edd63d4f477a65a9516ddb2031\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:31:13-35
-261            android:exported="false" >
-261-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\9941c7edd63d4f477a65a9516ddb2031\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:32:13-37
-262        </receiver>
-263
-264        <service
-264-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\9941c7edd63d4f477a65a9516ddb2031\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:35:9-38:40
-265            android:name="com.google.android.gms.measurement.AppMeasurementService"
-265-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\9941c7edd63d4f477a65a9516ddb2031\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:36:13-84
-266            android:enabled="true"
-266-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\9941c7edd63d4f477a65a9516ddb2031\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:37:13-35
-267            android:exported="false" />
-267-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\9941c7edd63d4f477a65a9516ddb2031\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:38:13-37
-268        <service
-268-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\9941c7edd63d4f477a65a9516ddb2031\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:39:9-43:72
-269            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-269-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\9941c7edd63d4f477a65a9516ddb2031\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:40:13-87
-270            android:enabled="true"
-270-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\9941c7edd63d4f477a65a9516ddb2031\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:41:13-35
-271            android:exported="false"
-271-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\9941c7edd63d4f477a65a9516ddb2031\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:42:13-37
-272            android:permission="android.permission.BIND_JOB_SERVICE" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
-272-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\9941c7edd63d4f477a65a9516ddb2031\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:43:13-69
-273        <activity
-273-->[com.google.android.gms:play-services-ads-lite:21.0.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\7800a9ce675d94e42e471a45a7a0eb82\transformed\jetified-play-services-ads-lite-21.0.0\AndroidManifest.xml:49:9-53:64
-274            android:name="com.google.android.gms.ads.AdActivity"
-274-->[com.google.android.gms:play-services-ads-lite:21.0.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\7800a9ce675d94e42e471a45a7a0eb82\transformed\jetified-play-services-ads-lite-21.0.0\AndroidManifest.xml:50:13-65
-275            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
-275-->[com.google.android.gms:play-services-ads-lite:21.0.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\7800a9ce675d94e42e471a45a7a0eb82\transformed\jetified-play-services-ads-lite-21.0.0\AndroidManifest.xml:51:13-122
-276            android:exported="false"
-276-->[com.google.android.gms:play-services-ads-lite:21.0.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\7800a9ce675d94e42e471a45a7a0eb82\transformed\jetified-play-services-ads-lite-21.0.0\AndroidManifest.xml:52:13-37
-277            android:theme="@android:style/Theme.Translucent" />
-277-->[com.google.android.gms:play-services-ads-lite:21.0.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\7800a9ce675d94e42e471a45a7a0eb82\transformed\jetified-play-services-ads-lite-21.0.0\AndroidManifest.xml:53:13-61
-278
-279        <provider
-279-->[com.google.android.gms:play-services-ads-lite:21.0.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\7800a9ce675d94e42e471a45a7a0eb82\transformed\jetified-play-services-ads-lite-21.0.0\AndroidManifest.xml:55:9-59:39
-280            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
-280-->[com.google.android.gms:play-services-ads-lite:21.0.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\7800a9ce675d94e42e471a45a7a0eb82\transformed\jetified-play-services-ads-lite-21.0.0\AndroidManifest.xml:56:13-76
-281            android:authorities="com.lutech.flashlight.mobileadsinitprovider"
-281-->[com.google.android.gms:play-services-ads-lite:21.0.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\7800a9ce675d94e42e471a45a7a0eb82\transformed\jetified-play-services-ads-lite-21.0.0\AndroidManifest.xml:57:13-73
-282            android:exported="false"
-282-->[com.google.android.gms:play-services-ads-lite:21.0.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\7800a9ce675d94e42e471a45a7a0eb82\transformed\jetified-play-services-ads-lite-21.0.0\AndroidManifest.xml:58:13-37
-283            android:initOrder="100" />
-283-->[com.google.android.gms:play-services-ads-lite:21.0.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\7800a9ce675d94e42e471a45a7a0eb82\transformed\jetified-play-services-ads-lite-21.0.0\AndroidManifest.xml:59:13-36
-284
-285        <service
-285-->[com.google.android.gms:play-services-ads-lite:21.0.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\7800a9ce675d94e42e471a45a7a0eb82\transformed\jetified-play-services-ads-lite-21.0.0\AndroidManifest.xml:61:9-64:40
-286            android:name="com.google.android.gms.ads.AdService"
-286-->[com.google.android.gms:play-services-ads-lite:21.0.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\7800a9ce675d94e42e471a45a7a0eb82\transformed\jetified-play-services-ads-lite-21.0.0\AndroidManifest.xml:62:13-64
-287            android:enabled="true"
-287-->[com.google.android.gms:play-services-ads-lite:21.0.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\7800a9ce675d94e42e471a45a7a0eb82\transformed\jetified-play-services-ads-lite-21.0.0\AndroidManifest.xml:63:13-35
-288            android:exported="false" />
-288-->[com.google.android.gms:play-services-ads-lite:21.0.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\7800a9ce675d94e42e471a45a7a0eb82\transformed\jetified-play-services-ads-lite-21.0.0\AndroidManifest.xml:64:13-37
-289
-290        <activity
-290-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\ae675347088032996bbebd3e46a6b7f6\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
-291            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-291-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\ae675347088032996bbebd3e46a6b7f6\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
-292            android:exported="false"
-292-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\ae675347088032996bbebd3e46a6b7f6\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
-293            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-293-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\ae675347088032996bbebd3e46a6b7f6\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
-294
-295        <provider
-295-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\9fd7a67dc516c668be59235cd2e54477\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:25:9-30:39
-296            android:name="com.google.firebase.provider.FirebaseInitProvider"
-296-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\9fd7a67dc516c668be59235cd2e54477\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:26:13-77
-297            android:authorities="com.lutech.flashlight.firebaseinitprovider"
-297-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\9fd7a67dc516c668be59235cd2e54477\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:27:13-72
-298            android:directBootAware="true"
-298-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\9fd7a67dc516c668be59235cd2e54477\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:28:13-43
-299            android:exported="false"
-299-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\9fd7a67dc516c668be59235cd2e54477\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:29:13-37
-300            android:initOrder="100" />
-300-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\9fd7a67dc516c668be59235cd2e54477\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:30:13-36
-301
-302        <meta-data
-302-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\0fd10c4bd4faa574e63183f628a99446\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
-303            android:name="com.google.android.gms.version"
-303-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\0fd10c4bd4faa574e63183f628a99446\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
-304            android:value="@integer/google_play_services_version" />
-304-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\0fd10c4bd4faa574e63183f628a99446\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
-305
-306        <provider
-306-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\ec7babbd0d865ba02293a5641388bd26\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-307            android:name="androidx.startup.InitializationProvider"
-307-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\ec7babbd0d865ba02293a5641388bd26\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
-308            android:authorities="com.lutech.flashlight.androidx-startup"
-308-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\ec7babbd0d865ba02293a5641388bd26\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
-309            android:exported="false" >
-309-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\ec7babbd0d865ba02293a5641388bd26\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
-310            <meta-data
-310-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\ec7babbd0d865ba02293a5641388bd26\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-311                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-311-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\ec7babbd0d865ba02293a5641388bd26\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
-312                android:value="androidx.startup" />
-312-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\ec7babbd0d865ba02293a5641388bd26\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
-313            <meta-data
-313-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:36:13-38:52
-314                android:name="androidx.work.WorkManagerInitializer"
-314-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:37:17-68
-315                android:value="androidx.startup" />
-315-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:38:17-49
-316            <meta-data
-316-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\d3da64c8fa7e0aa0b6eb075380882fc0\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
-317                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-317-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\d3da64c8fa7e0aa0b6eb075380882fc0\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
-318                android:value="androidx.startup" />
-318-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\d3da64c8fa7e0aa0b6eb075380882fc0\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
-319        </provider>
-320        <!--
-321         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
-322         with the application context. This config is merged in with the host app's manifest,
-323         but there can only be one provider with the same authority activated at any given
-324         point; so if the end user has two or more different apps that use Facebook SDK, only the
-325         first one will be able to use the provider. To work around this problem, we use the
-326         following placeholder in the authority to identify each host application as if it was
-327         a completely different provider.
-328        -->
-329        <provider
-329-->[com.facebook.android:facebook-core:4.42.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\105772d5de269d2ef2cdbb796c9a3010\transformed\jetified-facebook-core-4.42.0\AndroidManifest.xml:39:9-42:40
-330            android:name="com.facebook.internal.FacebookInitProvider"
-330-->[com.facebook.android:facebook-core:4.42.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\105772d5de269d2ef2cdbb796c9a3010\transformed\jetified-facebook-core-4.42.0\AndroidManifest.xml:40:13-70
-331            android:authorities="com.lutech.flashlight.FacebookInitProvider"
-331-->[com.facebook.android:facebook-core:4.42.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\105772d5de269d2ef2cdbb796c9a3010\transformed\jetified-facebook-core-4.42.0\AndroidManifest.xml:41:13-72
-332            android:exported="false" />
-332-->[com.facebook.android:facebook-core:4.42.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\105772d5de269d2ef2cdbb796c9a3010\transformed\jetified-facebook-core-4.42.0\AndroidManifest.xml:42:13-37
-333
-334        <receiver
-334-->[com.facebook.android:facebook-core:4.42.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\105772d5de269d2ef2cdbb796c9a3010\transformed\jetified-facebook-core-4.42.0\AndroidManifest.xml:44:9-50:20
-335            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
-335-->[com.facebook.android:facebook-core:4.42.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\105772d5de269d2ef2cdbb796c9a3010\transformed\jetified-facebook-core-4.42.0\AndroidManifest.xml:45:13-86
-336            android:exported="false" >
-336-->[com.facebook.android:facebook-core:4.42.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\105772d5de269d2ef2cdbb796c9a3010\transformed\jetified-facebook-core-4.42.0\AndroidManifest.xml:46:13-37
-337            <intent-filter>
-337-->[com.facebook.android:facebook-core:4.42.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\105772d5de269d2ef2cdbb796c9a3010\transformed\jetified-facebook-core-4.42.0\AndroidManifest.xml:47:13-49:29
-338                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
-338-->[com.facebook.android:facebook-core:4.42.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\105772d5de269d2ef2cdbb796c9a3010\transformed\jetified-facebook-core-4.42.0\AndroidManifest.xml:48:17-95
-338-->[com.facebook.android:facebook-core:4.42.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\105772d5de269d2ef2cdbb796c9a3010\transformed\jetified-facebook-core-4.42.0\AndroidManifest.xml:48:25-92
-339            </intent-filter>
-340        </receiver>
-341
-342        <service
-342-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:41:9-46:35
-343            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
-343-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:42:13-88
-344            android:directBootAware="false"
-344-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:43:13-44
-345            android:enabled="@bool/enable_system_alarm_service_default"
-345-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:44:13-72
-346            android:exported="false" />
-346-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:45:13-37
-347        <service
-347-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:47:9-53:35
-348            android:name="androidx.work.impl.background.systemjob.SystemJobService"
-348-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:48:13-84
-349            android:directBootAware="false"
-349-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:49:13-44
-350            android:enabled="@bool/enable_system_job_service_default"
-350-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:50:13-70
-351            android:exported="true"
-351-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:51:13-36
-352            android:permission="android.permission.BIND_JOB_SERVICE" />
-352-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:52:13-69
-353        <service
-353-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:54:9-59:35
-354            android:name="androidx.work.impl.foreground.SystemForegroundService"
-354-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:55:13-81
-355            android:directBootAware="false"
-355-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:56:13-44
-356            android:enabled="@bool/enable_system_foreground_service_default"
-356-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:57:13-77
-357            android:exported="false" />
-357-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:58:13-37
-358
-359        <receiver
-359-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:61:9-66:35
-360            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
-360-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:62:13-88
-361            android:directBootAware="false"
-361-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:63:13-44
-362            android:enabled="true"
-362-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:64:13-35
-363            android:exported="false" />
-363-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:65:13-37
-364        <receiver
-364-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:67:9-77:20
-365            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
-365-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:68:13-106
-366            android:directBootAware="false"
-366-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:69:13-44
-367            android:enabled="false"
-367-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:70:13-36
-368            android:exported="false" >
-368-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:71:13-37
-369            <intent-filter>
-369-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:73:13-76:29
-370                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
-370-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:74:17-87
-370-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:74:25-84
-371                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
-371-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:75:17-90
-371-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:75:25-87
-372            </intent-filter>
-373        </receiver>
-374        <receiver
-374-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:78:9-88:20
-375            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
-375-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:79:13-104
-376            android:directBootAware="false"
-376-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:80:13-44
-377            android:enabled="false"
-377-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:81:13-36
-378            android:exported="false" >
-378-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:82:13-37
-379            <intent-filter>
-379-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:84:13-87:29
-380                <action android:name="android.intent.action.BATTERY_OKAY" />
-380-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:85:17-77
-380-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:85:25-74
-381                <action android:name="android.intent.action.BATTERY_LOW" />
-381-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:86:17-76
-381-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:86:25-73
-382            </intent-filter>
-383        </receiver>
-384        <receiver
-384-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:89:9-99:20
-385            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
-385-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:90:13-104
-386            android:directBootAware="false"
-386-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:91:13-44
-387            android:enabled="false"
-387-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:92:13-36
-388            android:exported="false" >
-388-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:93:13-37
-389            <intent-filter>
-389-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:95:13-98:29
-390                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
-390-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:96:17-83
-390-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:96:25-80
-391                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
-391-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:97:17-82
-391-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:97:25-79
-392            </intent-filter>
-393        </receiver>
-394        <receiver
-394-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:100:9-109:20
-395            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
-395-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:101:13-103
-396            android:directBootAware="false"
-396-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:102:13-44
-397            android:enabled="false"
-397-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:103:13-36
-398            android:exported="false" >
-398-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:104:13-37
-399            <intent-filter>
-399-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:106:13-108:29
-400                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
-400-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:107:17-79
-400-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:107:25-76
-401            </intent-filter>
-402        </receiver>
-403        <receiver
-403-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:110:9-121:20
-404            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
-404-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:111:13-88
-405            android:directBootAware="false"
-405-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:112:13-44
-406            android:enabled="false"
-406-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:113:13-36
-407            android:exported="false" >
-407-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:114:13-37
-408            <intent-filter>
-408-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:116:13-120:29
-409                <action android:name="android.intent.action.BOOT_COMPLETED" />
-409-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:117:17-79
-409-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:117:25-76
-410                <action android:name="android.intent.action.TIME_SET" />
-410-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:118:17-73
-410-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:118:25-70
-411                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
-411-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:119:17-81
-411-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:119:25-78
-412            </intent-filter>
-413        </receiver>
-414        <receiver
-414-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:122:9-131:20
-415            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
-415-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:123:13-99
-416            android:directBootAware="false"
-416-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:124:13-44
-417            android:enabled="@bool/enable_system_alarm_service_default"
-417-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:125:13-72
-418            android:exported="false" >
-418-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:126:13-37
-419            <intent-filter>
-419-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:128:13-130:29
-420                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
-420-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:129:17-98
-420-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:129:25-95
-421            </intent-filter>
-422        </receiver>
-423        <receiver
-423-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:132:9-142:20
-424            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
-424-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:133:13-78
-425            android:directBootAware="false"
-425-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:134:13-44
-426            android:enabled="true"
-426-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:135:13-35
-427            android:exported="true"
-427-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:136:13-36
-428            android:permission="android.permission.DUMP" >
-428-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:137:13-57
-429            <intent-filter>
-429-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:139:13-141:29
-430                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
-430-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:140:17-88
-430-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:140:25-85
-431            </intent-filter>
-432        </receiver>
-433
-434        <meta-data
-434-->[com.android.billingclient:billing:4.0.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\45173cac039647c9ed9766f5923e61af\transformed\jetified-billing-4.0.0\AndroidManifest.xml:13:9-15:37
-435            android:name="com.google.android.play.billingclient.version"
-435-->[com.android.billingclient:billing:4.0.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\45173cac039647c9ed9766f5923e61af\transformed\jetified-billing-4.0.0\AndroidManifest.xml:14:13-73
-436            android:value="4.0.0" />
-436-->[com.android.billingclient:billing:4.0.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\45173cac039647c9ed9766f5923e61af\transformed\jetified-billing-4.0.0\AndroidManifest.xml:15:13-34
-437
-438        <activity
-438-->[com.android.billingclient:billing:4.0.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\45173cac039647c9ed9766f5923e61af\transformed\jetified-billing-4.0.0\AndroidManifest.xml:17:9-21:75
-439            android:name="com.android.billingclient.api.ProxyBillingActivity"
-439-->[com.android.billingclient:billing:4.0.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\45173cac039647c9ed9766f5923e61af\transformed\jetified-billing-4.0.0\AndroidManifest.xml:18:13-78
-440            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
-440-->[com.android.billingclient:billing:4.0.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\45173cac039647c9ed9766f5923e61af\transformed\jetified-billing-4.0.0\AndroidManifest.xml:19:13-96
-441            android:exported="false"
-441-->[com.android.billingclient:billing:4.0.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\45173cac039647c9ed9766f5923e61af\transformed\jetified-billing-4.0.0\AndroidManifest.xml:20:13-37
-442            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-442-->[com.android.billingclient:billing:4.0.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\45173cac039647c9ed9766f5923e61af\transformed\jetified-billing-4.0.0\AndroidManifest.xml:21:13-72
-443
-444        <service
-444-->[com.google.android.datatransport:transport-backend-cct:3.1.7] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\f88b6c1b76873eaa416a370611f4105c\transformed\jetified-transport-backend-cct-3.1.7\AndroidManifest.xml:29:9-35:19
-445            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
-445-->[com.google.android.datatransport:transport-backend-cct:3.1.7] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\f88b6c1b76873eaa416a370611f4105c\transformed\jetified-transport-backend-cct-3.1.7\AndroidManifest.xml:30:13-103
-446            android:exported="false" >
-446-->[com.google.android.datatransport:transport-backend-cct:3.1.7] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\f88b6c1b76873eaa416a370611f4105c\transformed\jetified-transport-backend-cct-3.1.7\AndroidManifest.xml:31:13-37
-447            <meta-data
-447-->[com.google.android.datatransport:transport-backend-cct:3.1.7] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\f88b6c1b76873eaa416a370611f4105c\transformed\jetified-transport-backend-cct-3.1.7\AndroidManifest.xml:32:13-34:39
-448                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
-448-->[com.google.android.datatransport:transport-backend-cct:3.1.7] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\f88b6c1b76873eaa416a370611f4105c\transformed\jetified-transport-backend-cct-3.1.7\AndroidManifest.xml:33:17-94
-449                android:value="cct" />
-449-->[com.google.android.datatransport:transport-backend-cct:3.1.7] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\f88b6c1b76873eaa416a370611f4105c\transformed\jetified-transport-backend-cct-3.1.7\AndroidManifest.xml:34:17-36
-450        </service>
-451        <service
-451-->[com.google.android.datatransport:transport-runtime:3.1.7] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\c1df53da289899ff0e656a5769a1c3a1\transformed\jetified-transport-runtime-3.1.7\AndroidManifest.xml:26:9-30:19
-452            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
-452-->[com.google.android.datatransport:transport-runtime:3.1.7] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\c1df53da289899ff0e656a5769a1c3a1\transformed\jetified-transport-runtime-3.1.7\AndroidManifest.xml:27:13-117
-453            android:exported="false"
-453-->[com.google.android.datatransport:transport-runtime:3.1.7] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\c1df53da289899ff0e656a5769a1c3a1\transformed\jetified-transport-runtime-3.1.7\AndroidManifest.xml:28:13-37
-454            android:permission="android.permission.BIND_JOB_SERVICE" >
-454-->[com.google.android.datatransport:transport-runtime:3.1.7] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\c1df53da289899ff0e656a5769a1c3a1\transformed\jetified-transport-runtime-3.1.7\AndroidManifest.xml:29:13-69
-455        </service>
+205        <activity android:name="com.facebook.CustomTabMainActivity" />
+205-->[com.facebook.android:facebook-common:4.42.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\369b4e090baa793a3efdfa9970521d44\transformed\jetified-facebook-common-4.42.0\AndroidManifest.xml:33:9-71
+205-->[com.facebook.android:facebook-common:4.42.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\369b4e090baa793a3efdfa9970521d44\transformed\jetified-facebook-common-4.42.0\AndroidManifest.xml:33:19-68
+206        <activity android:name="com.facebook.CustomTabActivity" />
+206-->[com.facebook.android:facebook-common:4.42.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\369b4e090baa793a3efdfa9970521d44\transformed\jetified-facebook-common-4.42.0\AndroidManifest.xml:34:9-67
+206-->[com.facebook.android:facebook-common:4.42.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\369b4e090baa793a3efdfa9970521d44\transformed\jetified-facebook-common-4.42.0\AndroidManifest.xml:34:19-64
+207        <activity
+207-->[io.github.ParkSangGwon:tedpermission:3.3.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\002654d41916f7ecb5aece4d66e67291\transformed\jetified-tedpermission-3.3.0\AndroidManifest.xml:10:9-14:67
+208            android:name="com.gun0912.tedpermission.TedPermissionActivity"
+208-->[io.github.ParkSangGwon:tedpermission:3.3.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\002654d41916f7ecb5aece4d66e67291\transformed\jetified-tedpermission-3.3.0\AndroidManifest.xml:11:13-75
+209            android:configChanges="mcc|mnc|locale|keyboard|keyboardHidden|screenLayout|fontScale|uiMode|orientation|screenSize|layoutDirection"
+209-->[io.github.ParkSangGwon:tedpermission:3.3.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\002654d41916f7ecb5aece4d66e67291\transformed\jetified-tedpermission-3.3.0\AndroidManifest.xml:12:13-144
+210            android:screenOrientation="unspecified"
+210-->[io.github.ParkSangGwon:tedpermission:3.3.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\002654d41916f7ecb5aece4d66e67291\transformed\jetified-tedpermission-3.3.0\AndroidManifest.xml:13:13-52
+211            android:theme="@style/Theme.Transparent.Permission" />
+211-->[io.github.ParkSangGwon:tedpermission:3.3.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\002654d41916f7ecb5aece4d66e67291\transformed\jetified-tedpermission-3.3.0\AndroidManifest.xml:14:13-64
+212
+213        <provider
+213-->[io.github.ParkSangGwon:tedpermission:3.3.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\002654d41916f7ecb5aece4d66e67291\transformed\jetified-tedpermission-3.3.0\AndroidManifest.xml:16:9-19:40
+214            android:name="com.gun0912.tedpermission.provider.TedPermissionProvider"
+214-->[io.github.ParkSangGwon:tedpermission:3.3.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\002654d41916f7ecb5aece4d66e67291\transformed\jetified-tedpermission-3.3.0\AndroidManifest.xml:17:13-84
+215            android:authorities="com.lutech.flashlight.tedpermissionprovider"
+215-->[io.github.ParkSangGwon:tedpermission:3.3.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\002654d41916f7ecb5aece4d66e67291\transformed\jetified-tedpermission-3.3.0\AndroidManifest.xml:18:13-73
+216            android:exported="false" />
+216-->[io.github.ParkSangGwon:tedpermission:3.3.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\002654d41916f7ecb5aece4d66e67291\transformed\jetified-tedpermission-3.3.0\AndroidManifest.xml:19:13-37
+217
+218        <receiver
+218-->[com.google.firebase:firebase-messaging:23.0.8] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\6e013afb7ec209ae0397356861f6f878\transformed\jetified-firebase-messaging-23.0.8\AndroidManifest.xml:32:9-39:20
+219            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+219-->[com.google.firebase:firebase-messaging:23.0.8] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\6e013afb7ec209ae0397356861f6f878\transformed\jetified-firebase-messaging-23.0.8\AndroidManifest.xml:33:13-78
+220            android:exported="true"
+220-->[com.google.firebase:firebase-messaging:23.0.8] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\6e013afb7ec209ae0397356861f6f878\transformed\jetified-firebase-messaging-23.0.8\AndroidManifest.xml:34:13-36
+221            android:permission="com.google.android.c2dm.permission.SEND" >
+221-->[com.google.firebase:firebase-messaging:23.0.8] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\6e013afb7ec209ae0397356861f6f878\transformed\jetified-firebase-messaging-23.0.8\AndroidManifest.xml:35:13-73
+222            <intent-filter>
+222-->[com.google.firebase:firebase-messaging:23.0.8] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\6e013afb7ec209ae0397356861f6f878\transformed\jetified-firebase-messaging-23.0.8\AndroidManifest.xml:36:13-38:29
+223                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+223-->[com.google.firebase:firebase-messaging:23.0.8] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\6e013afb7ec209ae0397356861f6f878\transformed\jetified-firebase-messaging-23.0.8\AndroidManifest.xml:37:17-81
+223-->[com.google.firebase:firebase-messaging:23.0.8] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\6e013afb7ec209ae0397356861f6f878\transformed\jetified-firebase-messaging-23.0.8\AndroidManifest.xml:37:25-78
+224            </intent-filter>
+225        </receiver>
+226        <!--
+227             FirebaseMessagingService performs security checks at runtime,
+228             but set to not exported to explicitly avoid allowing another app to call it.
+229        -->
+230        <service
+230-->[com.google.firebase:firebase-messaging:23.0.8] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\6e013afb7ec209ae0397356861f6f878\transformed\jetified-firebase-messaging-23.0.8\AndroidManifest.xml:45:9-52:19
+231            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+231-->[com.google.firebase:firebase-messaging:23.0.8] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\6e013afb7ec209ae0397356861f6f878\transformed\jetified-firebase-messaging-23.0.8\AndroidManifest.xml:46:13-82
+232            android:directBootAware="true"
+232-->[com.google.firebase:firebase-messaging:23.0.8] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\6e013afb7ec209ae0397356861f6f878\transformed\jetified-firebase-messaging-23.0.8\AndroidManifest.xml:47:13-43
+233            android:exported="false" >
+233-->[com.google.firebase:firebase-messaging:23.0.8] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\6e013afb7ec209ae0397356861f6f878\transformed\jetified-firebase-messaging-23.0.8\AndroidManifest.xml:48:13-37
+234            <intent-filter android:priority="-500" >
+234-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:126:13-128:29
+235                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+235-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:127:17-78
+235-->C:\Users\Admin\Downloads\File Tri\FlashLight\app\src\main\AndroidManifest.xml:127:25-75
+236            </intent-filter>
+237        </service>
+238        <service
+238-->[com.google.firebase:firebase-messaging:23.0.8] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\6e013afb7ec209ae0397356861f6f878\transformed\jetified-firebase-messaging-23.0.8\AndroidManifest.xml:53:9-59:19
+239            android:name="com.google.firebase.components.ComponentDiscoveryService"
+239-->[com.google.firebase:firebase-messaging:23.0.8] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\6e013afb7ec209ae0397356861f6f878\transformed\jetified-firebase-messaging-23.0.8\AndroidManifest.xml:54:13-84
+240            android:directBootAware="true"
+240-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\9fd7a67dc516c668be59235cd2e54477\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:34:13-43
+241            android:exported="false" >
+241-->[com.google.firebase:firebase-messaging:23.0.8] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\6e013afb7ec209ae0397356861f6f878\transformed\jetified-firebase-messaging-23.0.8\AndroidManifest.xml:55:13-37
+242            <meta-data
+242-->[com.google.firebase:firebase-messaging:23.0.8] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\6e013afb7ec209ae0397356861f6f878\transformed\jetified-firebase-messaging-23.0.8\AndroidManifest.xml:56:13-58:85
+243                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+243-->[com.google.firebase:firebase-messaging:23.0.8] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\6e013afb7ec209ae0397356861f6f878\transformed\jetified-firebase-messaging-23.0.8\AndroidManifest.xml:57:17-119
+244                android:value="com.google.firebase.components.ComponentRegistrar" />
+244-->[com.google.firebase:firebase-messaging:23.0.8] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\6e013afb7ec209ae0397356861f6f878\transformed\jetified-firebase-messaging-23.0.8\AndroidManifest.xml:58:17-82
+245            <meta-data
+245-->[com.google.firebase:firebase-database:20.0.6] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\05640f5670a8dae4bf33a32aea180078\transformed\jetified-firebase-database-20.0.6\AndroidManifest.xml:32:13-34:85
+246                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+246-->[com.google.firebase:firebase-database:20.0.6] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\05640f5670a8dae4bf33a32aea180078\transformed\jetified-firebase-database-20.0.6\AndroidManifest.xml:33:17-109
+247                android:value="com.google.firebase.components.ComponentRegistrar" />
+247-->[com.google.firebase:firebase-database:20.0.6] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\05640f5670a8dae4bf33a32aea180078\transformed\jetified-firebase-database-20.0.6\AndroidManifest.xml:34:17-82
+248            <meta-data
+248-->[com.google.firebase:firebase-firestore:24.3.1] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\a05153e350f542a3ff686ab107d2687e\transformed\jetified-firebase-firestore-24.3.1\AndroidManifest.xml:20:13-22:85
+249                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+249-->[com.google.firebase:firebase-firestore:24.3.1] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\a05153e350f542a3ff686ab107d2687e\transformed\jetified-firebase-firestore-24.3.1\AndroidManifest.xml:21:17-111
+250                android:value="com.google.firebase.components.ComponentRegistrar" />
+250-->[com.google.firebase:firebase-firestore:24.3.1] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\a05153e350f542a3ff686ab107d2687e\transformed\jetified-firebase-firestore-24.3.1\AndroidManifest.xml:22:17-82
+251            <meta-data
+251-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\41cc577ece42f1d2457bc91723f9e66d\transformed\jetified-play-services-measurement-api-21.2.0\AndroidManifest.xml:31:13-33:85
+252                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+252-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\41cc577ece42f1d2457bc91723f9e66d\transformed\jetified-play-services-measurement-api-21.2.0\AndroidManifest.xml:32:17-139
+253                android:value="com.google.firebase.components.ComponentRegistrar" />
+253-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\41cc577ece42f1d2457bc91723f9e66d\transformed\jetified-play-services-measurement-api-21.2.0\AndroidManifest.xml:33:17-82
+254            <meta-data
+254-->[com.google.firebase:firebase-config:21.1.2] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\913a867f4d7a6f94d3575ba1806f8a54\transformed\jetified-firebase-config-21.1.2\AndroidManifest.xml:32:13-34:85
+255                android:name="com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar"
+255-->[com.google.firebase:firebase-config:21.1.2] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\913a867f4d7a6f94d3575ba1806f8a54\transformed\jetified-firebase-config-21.1.2\AndroidManifest.xml:33:17-117
+256                android:value="com.google.firebase.components.ComponentRegistrar" />
+256-->[com.google.firebase:firebase-config:21.1.2] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\913a867f4d7a6f94d3575ba1806f8a54\transformed\jetified-firebase-config-21.1.2\AndroidManifest.xml:34:17-82
+257            <meta-data
+257-->[com.google.firebase:firebase-crashlytics:18.2.13] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\f6dafeafdd8565dca14af9bccf7d038e\transformed\jetified-firebase-crashlytics-18.2.13\AndroidManifest.xml:18:13-20:85
+258                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+258-->[com.google.firebase:firebase-crashlytics:18.2.13] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\f6dafeafdd8565dca14af9bccf7d038e\transformed\jetified-firebase-crashlytics-18.2.13\AndroidManifest.xml:19:17-115
+259                android:value="com.google.firebase.components.ComponentRegistrar" />
+259-->[com.google.firebase:firebase-crashlytics:18.2.13] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\f6dafeafdd8565dca14af9bccf7d038e\transformed\jetified-firebase-crashlytics-18.2.13\AndroidManifest.xml:20:17-82
+260            <meta-data
+260-->[com.google.firebase:firebase-installations:17.0.2] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\d024fc2c9784bbe18b356676699a125f\transformed\jetified-firebase-installations-17.0.2\AndroidManifest.xml:18:13-20:85
+261                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+261-->[com.google.firebase:firebase-installations:17.0.2] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\d024fc2c9784bbe18b356676699a125f\transformed\jetified-firebase-installations-17.0.2\AndroidManifest.xml:19:17-127
+262                android:value="com.google.firebase.components.ComponentRegistrar" />
+262-->[com.google.firebase:firebase-installations:17.0.2] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\d024fc2c9784bbe18b356676699a125f\transformed\jetified-firebase-installations-17.0.2\AndroidManifest.xml:20:17-82
+263            <meta-data
+263-->[com.google.firebase:firebase-datatransport:18.1.6] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\e8724eb9719903516d56da3b3f21d26f\transformed\jetified-firebase-datatransport-18.1.6\AndroidManifest.xml:28:13-30:85
+264                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+264-->[com.google.firebase:firebase-datatransport:18.1.6] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\e8724eb9719903516d56da3b3f21d26f\transformed\jetified-firebase-datatransport-18.1.6\AndroidManifest.xml:29:17-115
+265                android:value="com.google.firebase.components.ComponentRegistrar" />
+265-->[com.google.firebase:firebase-datatransport:18.1.6] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\e8724eb9719903516d56da3b3f21d26f\transformed\jetified-firebase-datatransport-18.1.6\AndroidManifest.xml:30:17-82
+266            <meta-data
+266-->[com.google.firebase:firebase-abt:21.0.2] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\af51675acbe7b911d2ba22f955591b05\transformed\jetified-firebase-abt-21.0.2\AndroidManifest.xml:13:13-15:85
+267                android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar"
+267-->[com.google.firebase:firebase-abt:21.0.2] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\af51675acbe7b911d2ba22f955591b05\transformed\jetified-firebase-abt-21.0.2\AndroidManifest.xml:14:17-109
+268                android:value="com.google.firebase.components.ComponentRegistrar" />
+268-->[com.google.firebase:firebase-abt:21.0.2] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\af51675acbe7b911d2ba22f955591b05\transformed\jetified-firebase-abt-21.0.2\AndroidManifest.xml:15:17-82
+269        </service>
+270
+271        <receiver
+271-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\9941c7edd63d4f477a65a9516ddb2031\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:29:9-33:20
+272            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+272-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\9941c7edd63d4f477a65a9516ddb2031\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:30:13-85
+273            android:enabled="true"
+273-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\9941c7edd63d4f477a65a9516ddb2031\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:31:13-35
+274            android:exported="false" >
+274-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\9941c7edd63d4f477a65a9516ddb2031\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:32:13-37
+275        </receiver>
+276
+277        <service
+277-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\9941c7edd63d4f477a65a9516ddb2031\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:35:9-38:40
+278            android:name="com.google.android.gms.measurement.AppMeasurementService"
+278-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\9941c7edd63d4f477a65a9516ddb2031\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:36:13-84
+279            android:enabled="true"
+279-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\9941c7edd63d4f477a65a9516ddb2031\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:37:13-35
+280            android:exported="false" />
+280-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\9941c7edd63d4f477a65a9516ddb2031\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:38:13-37
+281        <service
+281-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\9941c7edd63d4f477a65a9516ddb2031\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:39:9-43:72
+282            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+282-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\9941c7edd63d4f477a65a9516ddb2031\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:40:13-87
+283            android:enabled="true"
+283-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\9941c7edd63d4f477a65a9516ddb2031\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:41:13-35
+284            android:exported="false"
+284-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\9941c7edd63d4f477a65a9516ddb2031\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:42:13-37
+285            android:permission="android.permission.BIND_JOB_SERVICE" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+285-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\9941c7edd63d4f477a65a9516ddb2031\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:43:13-69
+286        <activity
+286-->[com.google.android.gms:play-services-ads-lite:21.0.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\7800a9ce675d94e42e471a45a7a0eb82\transformed\jetified-play-services-ads-lite-21.0.0\AndroidManifest.xml:49:9-53:64
+287            android:name="com.google.android.gms.ads.AdActivity"
+287-->[com.google.android.gms:play-services-ads-lite:21.0.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\7800a9ce675d94e42e471a45a7a0eb82\transformed\jetified-play-services-ads-lite-21.0.0\AndroidManifest.xml:50:13-65
+288            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+288-->[com.google.android.gms:play-services-ads-lite:21.0.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\7800a9ce675d94e42e471a45a7a0eb82\transformed\jetified-play-services-ads-lite-21.0.0\AndroidManifest.xml:51:13-122
+289            android:exported="false"
+289-->[com.google.android.gms:play-services-ads-lite:21.0.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\7800a9ce675d94e42e471a45a7a0eb82\transformed\jetified-play-services-ads-lite-21.0.0\AndroidManifest.xml:52:13-37
+290            android:theme="@android:style/Theme.Translucent" />
+290-->[com.google.android.gms:play-services-ads-lite:21.0.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\7800a9ce675d94e42e471a45a7a0eb82\transformed\jetified-play-services-ads-lite-21.0.0\AndroidManifest.xml:53:13-61
+291
+292        <provider
+292-->[com.google.android.gms:play-services-ads-lite:21.0.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\7800a9ce675d94e42e471a45a7a0eb82\transformed\jetified-play-services-ads-lite-21.0.0\AndroidManifest.xml:55:9-59:39
+293            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+293-->[com.google.android.gms:play-services-ads-lite:21.0.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\7800a9ce675d94e42e471a45a7a0eb82\transformed\jetified-play-services-ads-lite-21.0.0\AndroidManifest.xml:56:13-76
+294            android:authorities="com.lutech.flashlight.mobileadsinitprovider"
+294-->[com.google.android.gms:play-services-ads-lite:21.0.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\7800a9ce675d94e42e471a45a7a0eb82\transformed\jetified-play-services-ads-lite-21.0.0\AndroidManifest.xml:57:13-73
+295            android:exported="false"
+295-->[com.google.android.gms:play-services-ads-lite:21.0.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\7800a9ce675d94e42e471a45a7a0eb82\transformed\jetified-play-services-ads-lite-21.0.0\AndroidManifest.xml:58:13-37
+296            android:initOrder="100" />
+296-->[com.google.android.gms:play-services-ads-lite:21.0.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\7800a9ce675d94e42e471a45a7a0eb82\transformed\jetified-play-services-ads-lite-21.0.0\AndroidManifest.xml:59:13-36
+297
+298        <service
+298-->[com.google.android.gms:play-services-ads-lite:21.0.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\7800a9ce675d94e42e471a45a7a0eb82\transformed\jetified-play-services-ads-lite-21.0.0\AndroidManifest.xml:61:9-64:40
+299            android:name="com.google.android.gms.ads.AdService"
+299-->[com.google.android.gms:play-services-ads-lite:21.0.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\7800a9ce675d94e42e471a45a7a0eb82\transformed\jetified-play-services-ads-lite-21.0.0\AndroidManifest.xml:62:13-64
+300            android:enabled="true"
+300-->[com.google.android.gms:play-services-ads-lite:21.0.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\7800a9ce675d94e42e471a45a7a0eb82\transformed\jetified-play-services-ads-lite-21.0.0\AndroidManifest.xml:63:13-35
+301            android:exported="false" />
+301-->[com.google.android.gms:play-services-ads-lite:21.0.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\7800a9ce675d94e42e471a45a7a0eb82\transformed\jetified-play-services-ads-lite-21.0.0\AndroidManifest.xml:64:13-37
+302
+303        <activity
+303-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\ae675347088032996bbebd3e46a6b7f6\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+304            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+304-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\ae675347088032996bbebd3e46a6b7f6\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+305            android:exported="false"
+305-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\ae675347088032996bbebd3e46a6b7f6\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+306            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+306-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\ae675347088032996bbebd3e46a6b7f6\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+307
+308        <provider
+308-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\9fd7a67dc516c668be59235cd2e54477\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:25:9-30:39
+309            android:name="com.google.firebase.provider.FirebaseInitProvider"
+309-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\9fd7a67dc516c668be59235cd2e54477\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:26:13-77
+310            android:authorities="com.lutech.flashlight.firebaseinitprovider"
+310-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\9fd7a67dc516c668be59235cd2e54477\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:27:13-72
+311            android:directBootAware="true"
+311-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\9fd7a67dc516c668be59235cd2e54477\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:28:13-43
+312            android:exported="false"
+312-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\9fd7a67dc516c668be59235cd2e54477\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:29:13-37
+313            android:initOrder="100" />
+313-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\9fd7a67dc516c668be59235cd2e54477\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:30:13-36
+314
+315        <meta-data
+315-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\0fd10c4bd4faa574e63183f628a99446\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+316            android:name="com.google.android.gms.version"
+316-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\0fd10c4bd4faa574e63183f628a99446\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+317            android:value="@integer/google_play_services_version" />
+317-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\0fd10c4bd4faa574e63183f628a99446\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+318
+319        <provider
+319-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\ec7babbd0d865ba02293a5641388bd26\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+320            android:name="androidx.startup.InitializationProvider"
+320-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\ec7babbd0d865ba02293a5641388bd26\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+321            android:authorities="com.lutech.flashlight.androidx-startup"
+321-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\ec7babbd0d865ba02293a5641388bd26\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+322            android:exported="false" >
+322-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\ec7babbd0d865ba02293a5641388bd26\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+323            <meta-data
+323-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\ec7babbd0d865ba02293a5641388bd26\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+324                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+324-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\ec7babbd0d865ba02293a5641388bd26\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+325                android:value="androidx.startup" />
+325-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\ec7babbd0d865ba02293a5641388bd26\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+326            <meta-data
+326-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:36:13-38:52
+327                android:name="androidx.work.WorkManagerInitializer"
+327-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:37:17-68
+328                android:value="androidx.startup" />
+328-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:38:17-49
+329            <meta-data
+329-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\d3da64c8fa7e0aa0b6eb075380882fc0\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+330                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+330-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\d3da64c8fa7e0aa0b6eb075380882fc0\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+331                android:value="androidx.startup" />
+331-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\d3da64c8fa7e0aa0b6eb075380882fc0\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+332        </provider>
+333        <!--
+334         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+335         with the application context. This config is merged in with the host app's manifest,
+336         but there can only be one provider with the same authority activated at any given
+337         point; so if the end user has two or more different apps that use Facebook SDK, only the
+338         first one will be able to use the provider. To work around this problem, we use the
+339         following placeholder in the authority to identify each host application as if it was
+340         a completely different provider.
+341        -->
+342        <provider
+342-->[com.facebook.android:facebook-core:4.42.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\105772d5de269d2ef2cdbb796c9a3010\transformed\jetified-facebook-core-4.42.0\AndroidManifest.xml:39:9-42:40
+343            android:name="com.facebook.internal.FacebookInitProvider"
+343-->[com.facebook.android:facebook-core:4.42.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\105772d5de269d2ef2cdbb796c9a3010\transformed\jetified-facebook-core-4.42.0\AndroidManifest.xml:40:13-70
+344            android:authorities="com.lutech.flashlight.FacebookInitProvider"
+344-->[com.facebook.android:facebook-core:4.42.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\105772d5de269d2ef2cdbb796c9a3010\transformed\jetified-facebook-core-4.42.0\AndroidManifest.xml:41:13-72
+345            android:exported="false" />
+345-->[com.facebook.android:facebook-core:4.42.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\105772d5de269d2ef2cdbb796c9a3010\transformed\jetified-facebook-core-4.42.0\AndroidManifest.xml:42:13-37
+346
+347        <receiver
+347-->[com.facebook.android:facebook-core:4.42.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\105772d5de269d2ef2cdbb796c9a3010\transformed\jetified-facebook-core-4.42.0\AndroidManifest.xml:44:9-50:20
+348            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+348-->[com.facebook.android:facebook-core:4.42.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\105772d5de269d2ef2cdbb796c9a3010\transformed\jetified-facebook-core-4.42.0\AndroidManifest.xml:45:13-86
+349            android:exported="false" >
+349-->[com.facebook.android:facebook-core:4.42.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\105772d5de269d2ef2cdbb796c9a3010\transformed\jetified-facebook-core-4.42.0\AndroidManifest.xml:46:13-37
+350            <intent-filter>
+350-->[com.facebook.android:facebook-core:4.42.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\105772d5de269d2ef2cdbb796c9a3010\transformed\jetified-facebook-core-4.42.0\AndroidManifest.xml:47:13-49:29
+351                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+351-->[com.facebook.android:facebook-core:4.42.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\105772d5de269d2ef2cdbb796c9a3010\transformed\jetified-facebook-core-4.42.0\AndroidManifest.xml:48:17-95
+351-->[com.facebook.android:facebook-core:4.42.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\105772d5de269d2ef2cdbb796c9a3010\transformed\jetified-facebook-core-4.42.0\AndroidManifest.xml:48:25-92
+352            </intent-filter>
+353        </receiver>
+354
+355        <service
+355-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:41:9-46:35
+356            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+356-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:42:13-88
+357            android:directBootAware="false"
+357-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:43:13-44
+358            android:enabled="@bool/enable_system_alarm_service_default"
+358-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:44:13-72
+359            android:exported="false" />
+359-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:45:13-37
+360        <service
+360-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:47:9-53:35
+361            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+361-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:48:13-84
+362            android:directBootAware="false"
+362-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:49:13-44
+363            android:enabled="@bool/enable_system_job_service_default"
+363-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:50:13-70
+364            android:exported="true"
+364-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:51:13-36
+365            android:permission="android.permission.BIND_JOB_SERVICE" />
+365-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:52:13-69
+366        <service
+366-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:54:9-59:35
+367            android:name="androidx.work.impl.foreground.SystemForegroundService"
+367-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:55:13-81
+368            android:directBootAware="false"
+368-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:56:13-44
+369            android:enabled="@bool/enable_system_foreground_service_default"
+369-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:57:13-77
+370            android:exported="false" />
+370-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:58:13-37
+371
+372        <receiver
+372-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:61:9-66:35
+373            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+373-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:62:13-88
+374            android:directBootAware="false"
+374-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:63:13-44
+375            android:enabled="true"
+375-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:64:13-35
+376            android:exported="false" />
+376-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:65:13-37
+377        <receiver
+377-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:67:9-77:20
+378            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+378-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:68:13-106
+379            android:directBootAware="false"
+379-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:69:13-44
+380            android:enabled="false"
+380-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:70:13-36
+381            android:exported="false" >
+381-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:71:13-37
+382            <intent-filter>
+382-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:73:13-76:29
+383                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+383-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:74:17-87
+383-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:74:25-84
+384                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+384-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:75:17-90
+384-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:75:25-87
+385            </intent-filter>
+386        </receiver>
+387        <receiver
+387-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:78:9-88:20
+388            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+388-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:79:13-104
+389            android:directBootAware="false"
+389-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:80:13-44
+390            android:enabled="false"
+390-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:81:13-36
+391            android:exported="false" >
+391-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:82:13-37
+392            <intent-filter>
+392-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:84:13-87:29
+393                <action android:name="android.intent.action.BATTERY_OKAY" />
+393-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:85:17-77
+393-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:85:25-74
+394                <action android:name="android.intent.action.BATTERY_LOW" />
+394-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:86:17-76
+394-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:86:25-73
+395            </intent-filter>
+396        </receiver>
+397        <receiver
+397-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:89:9-99:20
+398            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+398-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:90:13-104
+399            android:directBootAware="false"
+399-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:91:13-44
+400            android:enabled="false"
+400-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:92:13-36
+401            android:exported="false" >
+401-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:93:13-37
+402            <intent-filter>
+402-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:95:13-98:29
+403                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+403-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:96:17-83
+403-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:96:25-80
+404                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+404-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:97:17-82
+404-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:97:25-79
+405            </intent-filter>
+406        </receiver>
+407        <receiver
+407-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:100:9-109:20
+408            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+408-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:101:13-103
+409            android:directBootAware="false"
+409-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:102:13-44
+410            android:enabled="false"
+410-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:103:13-36
+411            android:exported="false" >
+411-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:104:13-37
+412            <intent-filter>
+412-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:106:13-108:29
+413                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+413-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:107:17-79
+413-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:107:25-76
+414            </intent-filter>
+415        </receiver>
+416        <receiver
+416-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:110:9-121:20
+417            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+417-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:111:13-88
+418            android:directBootAware="false"
+418-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:112:13-44
+419            android:enabled="false"
+419-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:113:13-36
+420            android:exported="false" >
+420-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:114:13-37
+421            <intent-filter>
+421-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:116:13-120:29
+422                <action android:name="android.intent.action.BOOT_COMPLETED" />
+422-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:117:17-79
+422-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:117:25-76
+423                <action android:name="android.intent.action.TIME_SET" />
+423-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:118:17-73
+423-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:118:25-70
+424                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+424-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:119:17-81
+424-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:119:25-78
+425            </intent-filter>
+426        </receiver>
+427        <receiver
+427-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:122:9-131:20
+428            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+428-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:123:13-99
+429            android:directBootAware="false"
+429-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:124:13-44
+430            android:enabled="@bool/enable_system_alarm_service_default"
+430-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:125:13-72
+431            android:exported="false" >
+431-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:126:13-37
+432            <intent-filter>
+432-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:128:13-130:29
+433                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+433-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:129:17-98
+433-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:129:25-95
+434            </intent-filter>
+435        </receiver>
+436        <receiver
+436-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:132:9-142:20
+437            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+437-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:133:13-78
+438            android:directBootAware="false"
+438-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:134:13-44
+439            android:enabled="true"
+439-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:135:13-35
+440            android:exported="true"
+440-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:136:13-36
+441            android:permission="android.permission.DUMP" >
+441-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:137:13-57
+442            <intent-filter>
+442-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:139:13-141:29
+443                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+443-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:140:17-88
+443-->[androidx.work:work-runtime:2.7.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\742261110d32630c4c4287a2242311a7\transformed\work-runtime-2.7.0\AndroidManifest.xml:140:25-85
+444            </intent-filter>
+445        </receiver>
+446
+447        <meta-data
+447-->[com.android.billingclient:billing:4.0.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\45173cac039647c9ed9766f5923e61af\transformed\jetified-billing-4.0.0\AndroidManifest.xml:13:9-15:37
+448            android:name="com.google.android.play.billingclient.version"
+448-->[com.android.billingclient:billing:4.0.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\45173cac039647c9ed9766f5923e61af\transformed\jetified-billing-4.0.0\AndroidManifest.xml:14:13-73
+449            android:value="4.0.0" />
+449-->[com.android.billingclient:billing:4.0.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\45173cac039647c9ed9766f5923e61af\transformed\jetified-billing-4.0.0\AndroidManifest.xml:15:13-34
+450
+451        <activity
+451-->[com.android.billingclient:billing:4.0.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\45173cac039647c9ed9766f5923e61af\transformed\jetified-billing-4.0.0\AndroidManifest.xml:17:9-21:75
+452            android:name="com.android.billingclient.api.ProxyBillingActivity"
+452-->[com.android.billingclient:billing:4.0.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\45173cac039647c9ed9766f5923e61af\transformed\jetified-billing-4.0.0\AndroidManifest.xml:18:13-78
+453            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+453-->[com.android.billingclient:billing:4.0.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\45173cac039647c9ed9766f5923e61af\transformed\jetified-billing-4.0.0\AndroidManifest.xml:19:13-96
+454            android:exported="false"
+454-->[com.android.billingclient:billing:4.0.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\45173cac039647c9ed9766f5923e61af\transformed\jetified-billing-4.0.0\AndroidManifest.xml:20:13-37
+455            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+455-->[com.android.billingclient:billing:4.0.0] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\45173cac039647c9ed9766f5923e61af\transformed\jetified-billing-4.0.0\AndroidManifest.xml:21:13-72
 456
-457        <receiver
-457-->[com.google.android.datatransport:transport-runtime:3.1.7] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\c1df53da289899ff0e656a5769a1c3a1\transformed\jetified-transport-runtime-3.1.7\AndroidManifest.xml:32:9-34:40
-458            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
-458-->[com.google.android.datatransport:transport-runtime:3.1.7] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\c1df53da289899ff0e656a5769a1c3a1\transformed\jetified-transport-runtime-3.1.7\AndroidManifest.xml:33:13-132
-459            android:exported="false" />
-459-->[com.google.android.datatransport:transport-runtime:3.1.7] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\c1df53da289899ff0e656a5769a1c3a1\transformed\jetified-transport-runtime-3.1.7\AndroidManifest.xml:34:13-37
-460
-461        <service
-461-->[androidx.room:room-runtime:2.2.5] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\7410759bb2abd9b545ebeb77f70f043e\transformed\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
-462            android:name="androidx.room.MultiInstanceInvalidationService"
-462-->[androidx.room:room-runtime:2.2.5] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\7410759bb2abd9b545ebeb77f70f043e\transformed\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
-463            android:directBootAware="true"
-463-->[androidx.room:room-runtime:2.2.5] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\7410759bb2abd9b545ebeb77f70f043e\transformed\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
-464            android:exported="false" />
-464-->[androidx.room:room-runtime:2.2.5] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\7410759bb2abd9b545ebeb77f70f043e\transformed\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
-465    </application>
-466
-467</manifest>
+457        <service
+457-->[com.google.android.datatransport:transport-backend-cct:3.1.7] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\f88b6c1b76873eaa416a370611f4105c\transformed\jetified-transport-backend-cct-3.1.7\AndroidManifest.xml:29:9-35:19
+458            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+458-->[com.google.android.datatransport:transport-backend-cct:3.1.7] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\f88b6c1b76873eaa416a370611f4105c\transformed\jetified-transport-backend-cct-3.1.7\AndroidManifest.xml:30:13-103
+459            android:exported="false" >
+459-->[com.google.android.datatransport:transport-backend-cct:3.1.7] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\f88b6c1b76873eaa416a370611f4105c\transformed\jetified-transport-backend-cct-3.1.7\AndroidManifest.xml:31:13-37
+460            <meta-data
+460-->[com.google.android.datatransport:transport-backend-cct:3.1.7] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\f88b6c1b76873eaa416a370611f4105c\transformed\jetified-transport-backend-cct-3.1.7\AndroidManifest.xml:32:13-34:39
+461                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+461-->[com.google.android.datatransport:transport-backend-cct:3.1.7] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\f88b6c1b76873eaa416a370611f4105c\transformed\jetified-transport-backend-cct-3.1.7\AndroidManifest.xml:33:17-94
+462                android:value="cct" />
+462-->[com.google.android.datatransport:transport-backend-cct:3.1.7] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\f88b6c1b76873eaa416a370611f4105c\transformed\jetified-transport-backend-cct-3.1.7\AndroidManifest.xml:34:17-36
+463        </service>
+464        <service
+464-->[com.google.android.datatransport:transport-runtime:3.1.7] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\c1df53da289899ff0e656a5769a1c3a1\transformed\jetified-transport-runtime-3.1.7\AndroidManifest.xml:26:9-30:19
+465            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+465-->[com.google.android.datatransport:transport-runtime:3.1.7] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\c1df53da289899ff0e656a5769a1c3a1\transformed\jetified-transport-runtime-3.1.7\AndroidManifest.xml:27:13-117
+466            android:exported="false"
+466-->[com.google.android.datatransport:transport-runtime:3.1.7] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\c1df53da289899ff0e656a5769a1c3a1\transformed\jetified-transport-runtime-3.1.7\AndroidManifest.xml:28:13-37
+467            android:permission="android.permission.BIND_JOB_SERVICE" >
+467-->[com.google.android.datatransport:transport-runtime:3.1.7] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\c1df53da289899ff0e656a5769a1c3a1\transformed\jetified-transport-runtime-3.1.7\AndroidManifest.xml:29:13-69
+468        </service>
+469
+470        <receiver
+470-->[com.google.android.datatransport:transport-runtime:3.1.7] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\c1df53da289899ff0e656a5769a1c3a1\transformed\jetified-transport-runtime-3.1.7\AndroidManifest.xml:32:9-34:40
+471            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+471-->[com.google.android.datatransport:transport-runtime:3.1.7] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\c1df53da289899ff0e656a5769a1c3a1\transformed\jetified-transport-runtime-3.1.7\AndroidManifest.xml:33:13-132
+472            android:exported="false" />
+472-->[com.google.android.datatransport:transport-runtime:3.1.7] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\c1df53da289899ff0e656a5769a1c3a1\transformed\jetified-transport-runtime-3.1.7\AndroidManifest.xml:34:13-37
+473
+474        <service
+474-->[androidx.room:room-runtime:2.2.5] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\7410759bb2abd9b545ebeb77f70f043e\transformed\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+475            android:name="androidx.room.MultiInstanceInvalidationService"
+475-->[androidx.room:room-runtime:2.2.5] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\7410759bb2abd9b545ebeb77f70f043e\transformed\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
+476            android:directBootAware="true"
+476-->[androidx.room:room-runtime:2.2.5] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\7410759bb2abd9b545ebeb77f70f043e\transformed\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+477            android:exported="false" />
+477-->[androidx.room:room-runtime:2.2.5] C:\Users\Admin\Downloads\File Tri\VoiceChanger\caches\transforms-3\7410759bb2abd9b545ebeb77f70f043e\transformed\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+478    </application>
+479
+480</manifest>

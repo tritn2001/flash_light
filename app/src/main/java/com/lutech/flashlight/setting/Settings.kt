@@ -20,7 +20,9 @@ class Settings(private val mContext: Context) {
         NORMAL,
         VIBRATE,
         SILENT,
-        STATUS_ALERT
+        STATUS_ALERT,
+        SCREEN_ON,
+        SAVE_BATTERY
     }
 
     private val sharedPreferences by unsafeLazy {
@@ -44,6 +46,13 @@ class Settings(private val mContext: Context) {
         set(value) = set(Key.STATUS_ALERT, value)
 
 
+    var notFlashWhileTheScreenOn: Boolean
+        get() = get(Key.SCREEN_ON, false)
+        set(value) = set(Key.SCREEN_ON, value)
+
+    var saveBattery: Boolean
+        get() = get(Key.SAVE_BATTERY, true)
+        set(value) = set(Key.SAVE_BATTERY, value)
 
     private fun get(key: Key, default: Int): Int {
         return sharedPreferences.getInt(key.name, default)

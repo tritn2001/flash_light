@@ -89,7 +89,7 @@
     <string name="txt_flash_is_on_press_the_off_button_to_stop">Flash is on.Press the \'\'OFF\'\' button to stop</string>
     <string name="txt_status">STATUS</string>
     <string name="txt_speed">SPEED</string>
-    <string name="txt_test">TEST</string>
+    <string name="txt_test">Test</string>
     <string name="txt_request_permissions">Request permissions</string>
     <string name="txt_content_permission">For the flash to work you need to give camera and phone access. This permission does not affect the phone at all so please rest assured</string>
     <string name="txt_ok">OK</string>
@@ -104,6 +104,30 @@
     <string name="txt_please_allow_notification_access">Please allow notification access.</string>
     <string name="txt_you_need_to_grant_notification_access_to_enalble_this_feature">You need to grant Notification Access to enalble this feature.</string>
     <string name="notification_listener_service">FlashLight Notification Rules</string>
+    <string name="txt_status_off">Status: Off</string>
+    <string name="txt_advanced">ADVANCED</string>
+    <string name="txt_do_not_flash_the_flash_while_the_screen_is_on">Do not flash the flash while the screen is on</string>
+    <string name="txt_save_battery">Save Battery</string>
+    <string name="txt_turn_off_flash_when_battery_is_low">Turn off flash when battery is low</string>
+    <string name="txt_policy">Policy</string>
+    <string name="txt_share">Share</string>
+    <string name="txt_how_to_remove_this_application_from_the_restricted_list_of_power">How to remove this application from the restricted list of power</string>
+    <string name="txt_why_this_app_not_flashing">Why this app not flashing or not flashing sometimes</string>
+    <string name="txt_how_to_avoid_accidentally">How to avoid accidentally closing this app?</string>
+    <string name="txt_what_permissions_does_this_app_require">What permissions does this app require?</string>
+    <string name="txt_quest_how_to_remove_this_application_from_the_restricted_list_of_power">How to remove this application from the restriced list of power saving features on the phone?</string>
+    <string name="txt_quest_why_this_app_not_flashing">Why this app not flashing or not flashing sometimes?</string>
+    <string name="txt_quest_what_permissions_does_this_app_require">What permissions does this app require?</string>
+    <string name="txt_answer_how_to_remove_this_application_from_the_restricted_list_of_power">General guide:</string>
+
+    <string name="txt_answer_why_this_app_not_flashing">1. This application was accidentally \n\n2. On some phones, the phone\'s battery optimizer did not allow the app to run in the background, causing this app to stop working. \n\n3. When the phone indicats low battery level and you activate the power saving feature, this application may stop working. \n4. When you shutdown and restart your phone, on some devices this app may not be able to restart itself. \n\n5. In any case, when this application is closed and not working, you just need to reopen this application.
+    </string>
+    <string name="txt_answer_how_to_avoid_accidentally">
+        Locking this app on the multitasking manager can make this app work better, keep it active all the time, avoid this app being closed accidentally (disabled and inoperable).
+    </string>
+    <string name="txt_answer_what_permissions_does_this_app_require"><b>Call management:</b> Enable this permission, when you having incoming calls, we can flash to notify you \n\n<b>Notifications:</b> Enable this permission so that we can notify battery status Background running: Enable this permission to keep the flash of incoming call and battery detection working stably \n\n<b>Notification Access:</b> Enable this permission so that we can flash when you receive messages from other applications \n\n<b>Display Permission:</b> Enable this permission so that we can show notifications appear on the top of screen \n\n<b>Camera Access: </b> Enable this permission so that flashlight can work normally.
+
+   </string>
 
 
 </resources>

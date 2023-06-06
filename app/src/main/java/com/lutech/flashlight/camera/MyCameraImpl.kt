@@ -4,10 +4,12 @@ import android.content.Context
 import android.os.Handler
 import android.util.Log
 import com.lutech.flashlight.ads.Constants
+import com.lutech.flashlight.ads.Utils
 import com.lutech.flashlight.data.FlashAlert
 import com.lutech.flashlight.util.Events
 import com.lutech.flashlight.util.MySharePreference
 import com.lutech.flashlight.util.config
+import com.lutech.phonetracker.util.settings
 
 
 import org.greenrobot.eventbus.EventBus
@@ -82,6 +84,16 @@ class MyCameraImpl private constructor(
     }
 
     fun toggleStroboscope(): Boolean {
+        if (context.settings.notFlashWhileTheScreenOn) {
+            if (Utils.isScreenOn(context)) {
+                return false
+            }
+        }
+        if (context.settings.saveBattery) {
+            if (Utils.isLowBattery(context)) {
+                return false
+            }
+        }
         handleCameraSetup()
 
         if (isSOSRunning) {

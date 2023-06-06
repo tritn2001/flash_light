@@ -1,662 +1,666 @@
 [
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable-v24_circle_green.xml.flat",
+        "source": "com.lutech.flashlight.app-main-8:/drawable-v24/circle_green.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\font_mulish_medium_500.ttf.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\font\\mulish_medium_500.ttf"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable_ic_notification_2.xml.flat",
+        "source": "com.lutech.flashlight.app-main-8:/drawable/ic_notification_2.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\font_roboto.ttf.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\font\\roboto.ttf"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable-v24_circle_red.xml.flat",
+        "source": "com.lutech.flashlight.app-main-8:/drawable-v24/circle_red.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable_bg_text_ad.xml.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\drawable\\bg_text_ad.xml"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable-anydpi-v24_ic_flash_flight.xml.flat",
+        "source": "com.lutech.flashlight.app-pngs-1:/drawable-anydpi-v24/ic_flash_flight.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/layout_activity_splash.xml.flat",
+        "source": "com.lutech.flashlight.app-main-8:/layout/activity_splash.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable-xhdpi_ic_lock.png.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-pngs-1:\\drawable-xhdpi\\ic_lock.png"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/font_roboto_slab_regular.ttf.flat",
+        "source": "com.lutech.flashlight.app-main-8:/font/roboto_slab_regular.ttf"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable-ldpi_ic_share.png.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-pngs-1:\\drawable-ldpi\\ic_share.png"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.lutech.flashlight.app-main-8:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable-xxxhdpi_ic_accept_call.png.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-pngs-1:\\drawable-xxxhdpi\\ic_accept_call.png"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/font_roboto_regular.ttf.flat",
+        "source": "com.lutech.flashlight.app-main-8:/font/roboto_regular.ttf"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable_ic_notification_2.xml.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\drawable\\ic_notification_2.xml"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable_ic_permission.xml.flat",
+        "source": "com.lutech.flashlight.app-main-8:/drawable/ic_permission.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable_ic_flag_portugal.png.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\drawable\\ic_flag_portugal.png"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable_ic_flag_spain.png.flat",
+        "source": "com.lutech.flashlight.app-main-8:/drawable/ic_flag_spain.png"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable_thumb.xml.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\drawable\\thumb.xml"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable_bg_call.jpg.flat",
+        "source": "com.lutech.flashlight.app-main-8:/drawable/bg_call.jpg"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\layout_layout_check_permission.xml.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\layout\\layout_check_permission.xml"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable_corner_16_light_background.xml.flat",
+        "source": "com.lutech.flashlight.app-main-8:/drawable/corner_16_light_background.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable-mdpi_ic_mail.png.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-pngs-1:\\drawable-mdpi\\ic_mail.png"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable-ldpi_ic_back.png.flat",
+        "source": "com.lutech.flashlight.app-pngs-1:/drawable-ldpi/ic_back.png"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable_light.png.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\drawable\\light.png"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/layout_activity_home.xml.flat",
+        "source": "com.lutech.flashlight.app-main-8:/layout/activity_home.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\layout_activity_welcome_back.xml.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\layout\\activity_welcome_back.xml"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable_ic_bright.xml.flat",
+        "source": "com.lutech.flashlight.app-main-8:/drawable/ic_bright.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\drawable\\ic_launcher_background.xml"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable_custom_bottom.xml.flat",
+        "source": "com.lutech.flashlight.app-main-8:/drawable/custom_bottom.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable_tracks.xml.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\drawable\\tracks.xml"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable-xhdpi_ic_alert.png.flat",
+        "source": "com.lutech.flashlight.app-pngs-1:/drawable-xhdpi/ic_alert.png"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\color_custom_icon_tint.xml.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\color\\custom_icon_tint.xml"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/raw_anim_success.json.flat",
+        "source": "com.lutech.flashlight.app-main-8:/raw/anim_success.json"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable-xxxhdpi_ic_call_coming.png.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-pngs-1:\\drawable-xxxhdpi\\ic_call_coming.png"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable_gnt_outline_shape.xml.flat",
+        "source": "com.lutech.flashlight.app-main-8:/drawable/gnt_outline_shape.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable-xxhdpi_ic_accept_call.png.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-pngs-1:\\drawable-xxhdpi\\ic_accept_call.png"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable-hdpi_ic_lock.png.flat",
+        "source": "com.lutech.flashlight.app-pngs-1:/drawable-hdpi/ic_lock.png"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\layout_dialog_rateus.xml.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\layout\\dialog_rateus.xml"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable-xxxhdpi_ic_mail.png.flat",
+        "source": "com.lutech.flashlight.app-pngs-1:/drawable-xxxhdpi/ic_mail.png"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable_ic_flag_germany.png.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\drawable\\ic_flag_germany.png"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/xml_remote_config_defaults.xml.flat",
+        "source": "com.lutech.flashlight.app-main-8:/xml/remote_config_defaults.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\layout_activity_coming_call_trying.xml.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\layout\\activity_coming_call_trying.xml"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable-xxhdpi_ic_share.png.flat",
+        "source": "com.lutech.flashlight.app-pngs-1:/drawable-xxhdpi/ic_share.png"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable-xxxhdpi_ic_share.png.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-pngs-1:\\drawable-xxxhdpi\\ic_share.png"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/font_roboto_light.ttf.flat",
+        "source": "com.lutech.flashlight.app-main-8:/font/roboto_light.ttf"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable_ic_silent.xml.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\drawable\\ic_silent.xml"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable_ic_setting.xml.flat",
+        "source": "com.lutech.flashlight.app-main-8:/drawable/ic_setting.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\xml\\data_extraction_rules.xml"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable_thumb.xml.flat",
+        "source": "com.lutech.flashlight.app-main-8:/drawable/thumb.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\layout_layout_item_language.xml.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\layout\\layout_item_language.xml"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.lutech.flashlight.app-main-8:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\layout_fragment_setting.xml.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\layout\\fragment_setting.xml"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable-mdpi_ic_flash_flight.png.flat",
+        "source": "com.lutech.flashlight.app-pngs-1:/drawable-mdpi/ic_flash_flight.png"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable_corner_8.xml.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\drawable\\corner_8.xml"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable-xhdpi_ic_lock.png.flat",
+        "source": "com.lutech.flashlight.app-pngs-1:/drawable-xhdpi/ic_lock.png"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/menu_menu_nav.xml.flat",
+        "source": "com.lutech.flashlight.app-main-8:/menu/menu_nav.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable-xhdpi_ic_call_coming.png.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-pngs-1:\\drawable-xhdpi\\ic_call_coming.png"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/layout_activity_guide_detaild.xml.flat",
+        "source": "com.lutech.flashlight.app-main-8:/layout/activity_guide_detaild.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\layout_layout_dialog_install_success.xml.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\layout\\layout_dialog_install_success.xml"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/layout_layout_test.xml.flat",
+        "source": "com.lutech.flashlight.app-main-8:/layout/layout_test.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable_ic_flag_spain.png.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\drawable\\ic_flag_spain.png"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable_icon_turnoff.png.flat",
+        "source": "com.lutech.flashlight.app-main-8:/drawable/icon_turnoff.png"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\layout_activity_splash.xml.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\layout\\activity_splash.xml"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable-xxhdpi_ic_back.png.flat",
+        "source": "com.lutech.flashlight.app-pngs-1:/drawable-xxhdpi/ic_back.png"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable_bg_btn_goto_store.xml.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\drawable\\bg_btn_goto_store.xml"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable-ldpi_ic_mail.png.flat",
+        "source": "com.lutech.flashlight.app-pngs-1:/drawable-ldpi/ic_mail.png"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable_gnt_outline_shape.xml.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\drawable\\gnt_outline_shape.xml"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/layout_layout_dialog_install_success.xml.flat",
+        "source": "com.lutech.flashlight.app-main-8:/layout/layout_dialog_install_success.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable_ic_flag_uae.png.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\drawable\\ic_flag_uae.png"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable-anydpi-v24_ic_lock.xml.flat",
+        "source": "com.lutech.flashlight.app-pngs-1:/drawable-anydpi-v24/ic_lock.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable_bg_white_rounded.xml.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\drawable\\bg_white_rounded.xml"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable_light.png.flat",
+        "source": "com.lutech.flashlight.app-main-8:/drawable/light.png"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable-xxxhdpi_ic_back.png.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-pngs-1:\\drawable-xxxhdpi\\ic_back.png"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable_ic_policy.xml.flat",
+        "source": "com.lutech.flashlight.app-main-8:/drawable/ic_policy.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable_ic_close.xml.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\drawable\\ic_close.xml"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable-xxxhdpi_ic_accept_call.png.flat",
+        "source": "com.lutech.flashlight.app-pngs-1:/drawable-xxxhdpi/ic_accept_call.png"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable-ldpi_ic_lock.png.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-pngs-1:\\drawable-ldpi\\ic_lock.png"
-    },
-    {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\mipmap-hdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable_ic_flag_chinese.png.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\drawable\\ic_flag_chinese.png"
-    },
-    {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable_ic_vibrate.xml.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\drawable\\ic_vibrate.xml"
-    },
-    {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable-mdpi_ic_back.png.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-pngs-1:\\drawable-mdpi\\ic_back.png"
-    },
-    {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
-    },
-    {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable-mdpi_ic_share.png.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-pngs-1:\\drawable-mdpi\\ic_share.png"
-    },
-    {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\mipmap-mdpi\\ic_launcher.webp"
-    },
-    {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable-xhdpi_ic_mail.png.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-pngs-1:\\drawable-xhdpi\\ic_mail.png"
-    },
-    {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable-anydpi-v24_ic_flash_flight.xml.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-pngs-1:\\drawable-anydpi-v24\\ic_flash_flight.xml"
-    },
-    {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\layout_fragment_guide.xml.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\layout\\fragment_guide.xml"
-    },
-    {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\layout_layout_dialog_loading.xml.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\layout\\layout_dialog_loading.xml"
-    },
-    {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable_ic_tick_language.xml.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\drawable\\ic_tick_language.xml"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable-ldpi_ic_accept_call.png.flat",
+        "source": "com.lutech.flashlight.app-pngs-1:/drawable-ldpi/ic_accept_call.png"
     },
     {
         "merged": "com.lutech.flashlight.app-merged_res-6:/layout_activity_coming_call_trying.xml.flat",
         "source": "com.lutech.flashlight.app-main-8:/layout/activity_coming_call_trying.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable_ic_flag_india.png.flat",
+        "source": "com.lutech.flashlight.app-main-8:/drawable/ic_flag_india.png"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable-v24_seekbar_custom_thumb.xml.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\drawable-v24\\seekbar_custom_thumb.xml"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable-v24_seekbar_custom_thumb.xml.flat",
+        "source": "com.lutech.flashlight.app-main-8:/drawable-v24/seekbar_custom_thumb.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable_ic_flag_africa.png.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\drawable\\ic_flag_africa.png"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable-anydpi-v24_ic_accept_call.xml.flat",
+        "source": "com.lutech.flashlight.app-pngs-1:/drawable-anydpi-v24/ic_accept_call.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable-mdpi_ic_alert.png.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-pngs-1:\\drawable-mdpi\\ic_alert.png"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/layout_activity_language.xml.flat",
+        "source": "com.lutech.flashlight.app-main-8:/layout/activity_language.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable_ic_policy.xml.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\drawable\\ic_policy.xml"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/color_custom_icon_tint.xml.flat",
+        "source": "com.lutech.flashlight.app-main-8:/color/custom_icon_tint.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\font_roboto_medium.ttf.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\font\\roboto_medium.ttf"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/layout_gnt_medium_template_view.xml.flat",
+        "source": "com.lutech.flashlight.app-main-8:/layout/gnt_medium_template_view.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\layout_activity_installing.xml.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\layout\\activity_installing.xml"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/layout_layout_check_permission.xml.flat",
+        "source": "com.lutech.flashlight.app-main-8:/layout/layout_check_permission.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\font_roboto_medium_numbers.ttf.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\font\\roboto_medium_numbers.ttf"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/font_roboto_medium_numbers.ttf.flat",
+        "source": "com.lutech.flashlight.app-main-8:/font/roboto_medium_numbers.ttf"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable-xxhdpi_ic_flash_flight.png.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-pngs-1:\\drawable-xxhdpi\\ic_flash_flight.png"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable_icon_flag_hausa.webp.flat",
+        "source": "com.lutech.flashlight.app-main-8:/drawable/icon_flag_hausa.webp"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable-mdpi_ic_lock.png.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-pngs-1:\\drawable-mdpi\\ic_lock.png"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.lutech.flashlight.app-main-8:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable-hdpi_ic_lock.png.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-pngs-1:\\drawable-hdpi\\ic_lock.png"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable-xxhdpi_ic_call_coming.png.flat",
+        "source": "com.lutech.flashlight.app-pngs-1:/drawable-xxhdpi/ic_call_coming.png"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable-xxxhdpi_ic_alert.png.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-pngs-1:\\drawable-xxxhdpi\\ic_alert.png"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/font_roboto_medium.ttf.flat",
+        "source": "com.lutech.flashlight.app-main-8:/font/roboto_medium.ttf"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\layout_content_ads_loading.xml.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\layout\\content_ads_loading.xml"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.lutech.flashlight.app-main-8:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable-hdpi_ic_call_coming.png.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-pngs-1:\\drawable-hdpi\\ic_call_coming.png"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/font_mulish_bold_700.ttf.flat",
+        "source": "com.lutech.flashlight.app-main-8:/font/mulish_bold_700.ttf"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable-xxhdpi_ic_lock.png.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-pngs-1:\\drawable-xxhdpi\\ic_lock.png"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/layout_layout_item_language.xml.flat",
+        "source": "com.lutech.flashlight.app-main-8:/layout/layout_item_language.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable_bg_call.jpg.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\drawable\\bg_call.jpg"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable_ic_flag_portugal.png.flat",
+        "source": "com.lutech.flashlight.app-main-8:/drawable/ic_flag_portugal.png"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable-v24_circle_green.xml.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\drawable-v24\\circle_green.xml"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/layout_activity_welcome_back.xml.flat",
+        "source": "com.lutech.flashlight.app-main-8:/layout/activity_welcome_back.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable_icon_turnoff.png.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\drawable\\icon_turnoff.png"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable-xhdpi_ic_accept_call.png.flat",
+        "source": "com.lutech.flashlight.app-pngs-1:/drawable-xhdpi/ic_accept_call.png"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\font_roboto_light.ttf.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\font\\roboto_light.ttf"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable-xxhdpi_ic_mail.png.flat",
+        "source": "com.lutech.flashlight.app-pngs-1:/drawable-xxhdpi/ic_mail.png"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\layout_activity_home.xml.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\layout\\activity_home.xml"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable-ldpi_ic_lock.png.flat",
+        "source": "com.lutech.flashlight.app-pngs-1:/drawable-ldpi/ic_lock.png"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable-xxhdpi_ic_back.png.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-pngs-1:\\drawable-xxhdpi\\ic_back.png"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable_ic_flag_uae.png.flat",
+        "source": "com.lutech.flashlight.app-main-8:/drawable/ic_flag_uae.png"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable_ic_guide.xml.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\drawable\\ic_guide.xml"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/xml_backup_rules.xml.flat",
+        "source": "com.lutech.flashlight.app-main-8:/xml/backup_rules.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable-mdpi_ic_call_coming.png.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-pngs-1:\\drawable-mdpi\\ic_call_coming.png"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable_bg_btn_goto_store.xml.flat",
+        "source": "com.lutech.flashlight.app-main-8:/drawable/bg_btn_goto_store.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable-hdpi_ic_back.png.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-pngs-1:\\drawable-hdpi\\ic_back.png"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable_ic_flag_english.png.flat",
+        "source": "com.lutech.flashlight.app-main-8:/drawable/ic_flag_english.png"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable_bg_bound_warning.xml.flat",
+        "source": "com.lutech.flashlight.app-main-8:/drawable/bg_bound_warning.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable-xxhdpi_ic_alert.png.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-pngs-1:\\drawable-xxhdpi\\ic_alert.png"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/layout_gnt_small_template_view.xml.flat",
+        "source": "com.lutech.flashlight.app-main-8:/layout/gnt_small_template_view.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.lutech.flashlight.app-main-8:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable_corner_16_light_background.xml.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\drawable\\corner_16_light_background.xml"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable-hdpi_ic_alert.png.flat",
+        "source": "com.lutech.flashlight.app-pngs-1:/drawable-hdpi/ic_alert.png"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable_icon_flag_hausa.webp.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\drawable\\icon_flag_hausa.webp"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable-xxxhdpi_ic_share.png.flat",
+        "source": "com.lutech.flashlight.app-pngs-1:/drawable-xxxhdpi/ic_share.png"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-pngs-1:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.lutech.flashlight.app-main-8:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable_ic_setting.xml.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\drawable\\ic_setting.xml"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable-ldpi_ic_share.png.flat",
+        "source": "com.lutech.flashlight.app-pngs-1:/drawable-ldpi/ic_share.png"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\font_mulish_bold_700.ttf.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\font\\mulish_bold_700.ttf"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.lutech.flashlight.app-main-8:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable-ldpi_ic_mail.png.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-pngs-1:\\drawable-ldpi\\ic_mail.png"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/layout_content_ads_loading.xml.flat",
+        "source": "com.lutech.flashlight.app-main-8:/layout/content_ads_loading.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/font_mulish_medium_500.ttf.flat",
+        "source": "com.lutech.flashlight.app-main-8:/font/mulish_medium_500.ttf"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\xml_network_security_config.xml.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\xml\\network_security_config.xml"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable-xhdpi_ic_mail.png.flat",
+        "source": "com.lutech.flashlight.app-pngs-1:/drawable-xhdpi/ic_mail.png"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\raw_anim_success.json.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\raw\\anim_success.json"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable_ic_silent.xml.flat",
+        "source": "com.lutech.flashlight.app-main-8:/drawable/ic_silent.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable-hdpi_ic_share.png.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-pngs-1:\\drawable-hdpi\\ic_share.png"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable-mdpi_ic_back.png.flat",
+        "source": "com.lutech.flashlight.app-pngs-1:/drawable-mdpi/ic_back.png"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\layout_fragment_flash_light.xml.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\layout\\fragment_flash_light.xml"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/layout_dialog_update_version.xml.flat",
+        "source": "com.lutech.flashlight.app-main-8:/layout/dialog_update_version.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\layout_layout_lock.xml.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\layout\\layout_lock.xml"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/layout_fragment_guide.xml.flat",
+        "source": "com.lutech.flashlight.app-main-8:/layout/fragment_guide.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable-v24_corner_8_stroke_gray.xml.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\drawable-v24\\corner_8_stroke_gray.xml"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/layout_activity_alow_permission_activity.xml.flat",
+        "source": "com.lutech.flashlight.app-main-8:/layout/activity_alow_permission_activity.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable_icon_turnon.png.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\drawable\\icon_turnon.png"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable_ic_flag_vietnam.png.flat",
+        "source": "com.lutech.flashlight.app-main-8:/drawable/ic_flag_vietnam.png"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable_ic_baseline_clear_24.xml.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\drawable\\ic_baseline_clear_24.xml"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable-ldpi_ic_flash_flight.png.flat",
+        "source": "com.lutech.flashlight.app-pngs-1:/drawable-ldpi/ic_flash_flight.png"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable_bg_btn_subscribe.xml.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\drawable\\bg_btn_subscribe.xml"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable_corner_22.xml.flat",
+        "source": "com.lutech.flashlight.app-main-8:/drawable/corner_22.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\layout_gnt_medium_template_view.xml.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\layout\\gnt_medium_template_view.xml"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/layout_activity_guide.xml.flat",
+        "source": "com.lutech.flashlight.app-main-8:/layout/activity_guide.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable_corner_8_stroke_gray.xml.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\drawable\\corner_8_stroke_gray.xml"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable_ic_flag_germany.png.flat",
+        "source": "com.lutech.flashlight.app-main-8:/drawable/ic_flag_germany.png"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable-xhdpi_ic_share.png.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-pngs-1:\\drawable-xhdpi\\ic_share.png"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.lutech.flashlight.app-main-8:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable-xxxhdpi_ic_mail.png.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-pngs-1:\\drawable-xxxhdpi\\ic_mail.png"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.lutech.flashlight.app-main-8:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\layout_activity_settings_flash_alert.xml.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\layout\\activity_settings_flash_alert.xml"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable-xxhdpi_ic_flash_flight.png.flat",
+        "source": "com.lutech.flashlight.app-pngs-1:/drawable-xxhdpi/ic_flash_flight.png"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable_corner_22.xml.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\drawable\\corner_22.xml"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable_ic_flag_africa.png.flat",
+        "source": "com.lutech.flashlight.app-main-8:/drawable/ic_flag_africa.png"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\raw_sound_switch_on.mp3.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\raw\\sound_switch_on.mp3"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable_color_thumb.xml.flat",
+        "source": "com.lutech.flashlight.app-main-8:/drawable/color_thumb.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable-xxxhdpi_ic_flash_flight.png.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-pngs-1:\\drawable-xxxhdpi\\ic_flash_flight.png"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable-xxhdpi_ic_lock.png.flat",
+        "source": "com.lutech.flashlight.app-pngs-1:/drawable-xxhdpi/ic_lock.png"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable-ldpi_ic_call_coming.png.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-pngs-1:\\drawable-ldpi\\ic_call_coming.png"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable-xhdpi_ic_flash_flight.png.flat",
+        "source": "com.lutech.flashlight.app-pngs-1:/drawable-xhdpi/ic_flash_flight.png"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable-xhdpi_ic_back.png.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-pngs-1:\\drawable-xhdpi\\ic_back.png"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable-anydpi-v24_ic_mail.xml.flat",
+        "source": "com.lutech.flashlight.app-pngs-1:/drawable-anydpi-v24/ic_mail.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable-ldpi_ic_flash_flight.png.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-pngs-1:\\drawable-ldpi\\ic_flash_flight.png"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable-xxxhdpi_ic_alert.png.flat",
+        "source": "com.lutech.flashlight.app-pngs-1:/drawable-xxxhdpi/ic_alert.png"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable_bg_bound_warning.xml.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\drawable\\bg_bound_warning.xml"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/layout_activity_settings_flash_alert.xml.flat",
+        "source": "com.lutech.flashlight.app-main-8:/layout/activity_settings_flash_alert.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\font_roboto_slab_regular.ttf.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\font\\roboto_slab_regular.ttf"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.lutech.flashlight.app-main-8:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable-anydpi-v24_ic_accept_call.xml.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-pngs-1:\\drawable-anydpi-v24\\ic_accept_call.xml"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable-hdpi_ic_flash_flight.png.flat",
+        "source": "com.lutech.flashlight.app-pngs-1:/drawable-hdpi/ic_flash_flight.png"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable-mdpi_ic_flash_flight.png.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-pngs-1:\\drawable-mdpi\\ic_flash_flight.png"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/layout_notification.xml.flat",
+        "source": "com.lutech.flashlight.app-main-8:/layout/notification.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable-xxxhdpi_ic_lock.png.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-pngs-1:\\drawable-xxxhdpi\\ic_lock.png"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable-hdpi_ic_call_coming.png.flat",
+        "source": "com.lutech.flashlight.app-pngs-1:/drawable-hdpi/ic_call_coming.png"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable-anydpi-v24_ic_mail.xml.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-pngs-1:\\drawable-anydpi-v24\\ic_mail.xml"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable-mdpi_ic_accept_call.png.flat",
+        "source": "com.lutech.flashlight.app-pngs-1:/drawable-mdpi/ic_accept_call.png"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable-xxhdpi_ic_share.png.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-pngs-1:\\drawable-xxhdpi\\ic_share.png"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable-mdpi_ic_lock.png.flat",
+        "source": "com.lutech.flashlight.app-pngs-1:/drawable-mdpi/ic_lock.png"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\font_roboto_regular.ttf.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\font\\roboto_regular.ttf"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable_ic_close.xml.flat",
+        "source": "com.lutech.flashlight.app-main-8:/drawable/ic_close.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable_ic_question_guide.xml.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\drawable\\ic_question_guide.xml"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/raw_anim_welcome_back.json.flat",
+        "source": "com.lutech.flashlight.app-main-8:/raw/anim_welcome_back.json"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable-hdpi_ic_flash_flight.png.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-pngs-1:\\drawable-hdpi\\ic_flash_flight.png"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.lutech.flashlight.app-main-8:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable-mdpi_ic_accept_call.png.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-pngs-1:\\drawable-mdpi\\ic_accept_call.png"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/layout_layout_lock.xml.flat",
+        "source": "com.lutech.flashlight.app-main-8:/layout/layout_lock.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable_ic_battery.xml.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\drawable\\ic_battery.xml"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable_bg_white_rounded.xml.flat",
+        "source": "com.lutech.flashlight.app-main-8:/drawable/bg_white_rounded.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable-v24_circle_red.xml.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\drawable-v24\\circle_red.xml"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable_ic_flag_chinese.png.flat",
+        "source": "com.lutech.flashlight.app-main-8:/drawable/ic_flag_chinese.png"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable_color_thumb.xml.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\drawable\\color_thumb.xml"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable-mdpi_ic_alert.png.flat",
+        "source": "com.lutech.flashlight.app-pngs-1:/drawable-mdpi/ic_alert.png"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable_ic_flag_india.png.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\drawable\\ic_flag_india.png"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable-mdpi_ic_call_coming.png.flat",
+        "source": "com.lutech.flashlight.app-pngs-1:/drawable-mdpi/ic_call_coming.png"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\raw_anim_center.json.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\raw\\anim_center.json"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/xml_network_security_config.xml.flat",
+        "source": "com.lutech.flashlight.app-main-8:/xml/network_security_config.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\layout_dialog_update_version.xml.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\layout\\dialog_update_version.xml"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/layout_fragment_setting.xml.flat",
+        "source": "com.lutech.flashlight.app-main-8:/layout/fragment_setting.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable-hdpi_ic_alert.png.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-pngs-1:\\drawable-hdpi\\ic_alert.png"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/font_roboto.ttf.flat",
+        "source": "com.lutech.flashlight.app-main-8:/font/roboto.ttf"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable_ic_flag_france.png.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\drawable\\ic_flag_france.png"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/layout_fragment_flash_light.xml.flat",
+        "source": "com.lutech.flashlight.app-main-8:/layout/fragment_flash_light.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable-anydpi-v24_ic_alert.xml.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-pngs-1:\\drawable-anydpi-v24\\ic_alert.xml"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable-anydpi-v24_ic_share.xml.flat",
+        "source": "com.lutech.flashlight.app-pngs-1:/drawable-anydpi-v24/ic_share.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable-hdpi_ic_accept_call.png.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-pngs-1:\\drawable-hdpi\\ic_accept_call.png"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable-ldpi_ic_alert.png.flat",
+        "source": "com.lutech.flashlight.app-pngs-1:/drawable-ldpi/ic_alert.png"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable-anydpi-v24_ic_call_coming.xml.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-pngs-1:\\drawable-anydpi-v24\\ic_call_coming.xml"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable-xxxhdpi_ic_call_coming.png.flat",
+        "source": "com.lutech.flashlight.app-pngs-1:/drawable-xxxhdpi/ic_call_coming.png"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable_ic_permission.xml.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\drawable\\ic_permission.xml"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable-hdpi_ic_back.png.flat",
+        "source": "com.lutech.flashlight.app-pngs-1:/drawable-hdpi/ic_back.png"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\layout_gnt_small_template_view.xml.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\layout\\gnt_small_template_view.xml"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/layout_item_guide.xml.flat",
+        "source": "com.lutech.flashlight.app-main-8:/layout/item_guide.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable-xhdpi_ic_call_coming.png.flat",
+        "source": "com.lutech.flashlight.app-pngs-1:/drawable-xhdpi/ic_call_coming.png"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable-xxxhdpi_ic_flash_flight.png.flat",
+        "source": "com.lutech.flashlight.app-pngs-1:/drawable-xxxhdpi/ic_flash_flight.png"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\layout_activity_alow_permission_activity.xml.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\layout\\activity_alow_permission_activity.xml"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable-xxxhdpi_ic_back.png.flat",
+        "source": "com.lutech.flashlight.app-pngs-1:/drawable-xxxhdpi/ic_back.png"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable-xhdpi_ic_alert.png.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-pngs-1:\\drawable-xhdpi\\ic_alert.png"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable-hdpi_ic_share.png.flat",
+        "source": "com.lutech.flashlight.app-pngs-1:/drawable-hdpi/ic_share.png"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\layout_layout_test.xml.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\layout\\layout_test.xml"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable_circle_gray.xml.flat",
+        "source": "com.lutech.flashlight.app-main-8:/drawable/circle_gray.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\layout_activity_language.xml.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\layout\\activity_language.xml"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable-xxhdpi_ic_accept_call.png.flat",
+        "source": "com.lutech.flashlight.app-pngs-1:/drawable-xxhdpi/ic_accept_call.png"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\xml\\backup_rules.xml"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable_tracks.xml.flat",
+        "source": "com.lutech.flashlight.app-main-8:/drawable/tracks.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\layout_fragment_flash_alert.xml.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\layout\\fragment_flash_alert.xml"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable_ic_speaker.xml.flat",
+        "source": "com.lutech.flashlight.app-main-8:/drawable/ic_speaker.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable_custom_bottom.xml.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\drawable\\custom_bottom.xml"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable_corner_8_stroke_gray.xml.flat",
+        "source": "com.lutech.flashlight.app-main-8:/drawable/corner_8_stroke_gray.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\layout_notification.xml.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\layout\\notification.xml"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable-v24_bg_call_person.xml.flat",
+        "source": "com.lutech.flashlight.app-main-8:/drawable-v24/bg_call_person.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\raw_anim_welcome_back.json.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\raw\\anim_welcome_back.json"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/layout_dialog_rateus.xml.flat",
+        "source": "com.lutech.flashlight.app-main-8:/layout/dialog_rateus.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable_circle_gray.xml.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\drawable\\circle_gray.xml"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/layout_activity_installing.xml.flat",
+        "source": "com.lutech.flashlight.app-main-8:/layout/activity_installing.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable-ldpi_ic_back.png.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-pngs-1:\\drawable-ldpi\\ic_back.png"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable-mdpi_ic_mail.png.flat",
+        "source": "com.lutech.flashlight.app-pngs-1:/drawable-mdpi/ic_mail.png"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\xml_remote_config_defaults.xml.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\xml\\remote_config_defaults.xml"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.lutech.flashlight.app-main-8:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable-anydpi-v24_ic_back.xml.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-pngs-1:\\drawable-anydpi-v24\\ic_back.xml"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/layout_layout_dialog_loading.xml.flat",
+        "source": "com.lutech.flashlight.app-main-8:/layout/layout_dialog_loading.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable-xxhdpi_ic_mail.png.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-pngs-1:\\drawable-xxhdpi\\ic_mail.png"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable-anydpi-v24_ic_call_coming.xml.flat",
+        "source": "com.lutech.flashlight.app-pngs-1:/drawable-anydpi-v24/ic_call_coming.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable_ic_bright.xml.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\drawable\\ic_bright.xml"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/xml_data_extraction_rules.xml.flat",
+        "source": "com.lutech.flashlight.app-main-8:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable_ic_person.xml.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\drawable\\ic_person.xml"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable_ic_go.xml.flat",
+        "source": "com.lutech.flashlight.app-main-8:/drawable/ic_go.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable_corner_16.xml.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\drawable\\corner_16.xml"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/raw_anim_center.json.flat",
+        "source": "com.lutech.flashlight.app-main-8:/raw/anim_center.json"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable-ldpi_ic_accept_call.png.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-pngs-1:\\drawable-ldpi\\ic_accept_call.png"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable-hdpi_ic_mail.png.flat",
+        "source": "com.lutech.flashlight.app-pngs-1:/drawable-hdpi/ic_mail.png"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable-anydpi-v24_ic_lock.xml.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-pngs-1:\\drawable-anydpi-v24\\ic_lock.xml"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable-anydpi-v24_ic_back.xml.flat",
+        "source": "com.lutech.flashlight.app-pngs-1:/drawable-anydpi-v24/ic_back.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\menu_menu_nav.xml.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\menu\\menu_nav.xml"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable-xxhdpi_ic_alert.png.flat",
+        "source": "com.lutech.flashlight.app-pngs-1:/drawable-xxhdpi/ic_alert.png"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable-hdpi_ic_mail.png.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-pngs-1:\\drawable-hdpi\\ic_mail.png"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable-ldpi_ic_call_coming.png.flat",
+        "source": "com.lutech.flashlight.app-pngs-1:/drawable-ldpi/ic_call_coming.png"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable-v24_bg_call_person.xml.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\drawable-v24\\bg_call_person.xml"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable-xxxhdpi_ic_lock.png.flat",
+        "source": "com.lutech.flashlight.app-pngs-1:/drawable-xxxhdpi/ic_lock.png"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable-xhdpi_ic_flash_flight.png.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-pngs-1:\\drawable-xhdpi\\ic_flash_flight.png"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable-xhdpi_ic_share.png.flat",
+        "source": "com.lutech.flashlight.app-pngs-1:/drawable-xhdpi/ic_share.png"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable_ic_flash_flight.xml.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\drawable\\ic_flash_flight.xml"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable_bg_text_ad.xml.flat",
+        "source": "com.lutech.flashlight.app-main-8:/drawable/bg_text_ad.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable_ic_flag_vietnam.png.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\drawable\\ic_flag_vietnam.png"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.lutech.flashlight.app-main-8:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable-ldpi_ic_alert.png.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-pngs-1:\\drawable-ldpi\\ic_alert.png"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/layout_fragment_flash_alert.xml.flat",
+        "source": "com.lutech.flashlight.app-main-8:/layout/fragment_flash_alert.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable-xxhdpi_ic_call_coming.png.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-pngs-1:\\drawable-xxhdpi\\ic_call_coming.png"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable_ic_guide.xml.flat",
+        "source": "com.lutech.flashlight.app-main-8:/drawable/ic_guide.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable-anydpi-v24_ic_share.xml.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-pngs-1:\\drawable-anydpi-v24\\ic_share.xml"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable_ic_question_guide.xml.flat",
+        "source": "com.lutech.flashlight.app-main-8:/drawable/ic_question_guide.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable_ic_speaker.xml.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\drawable\\ic_speaker.xml"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable-xhdpi_ic_back.png.flat",
+        "source": "com.lutech.flashlight.app-pngs-1:/drawable-xhdpi/ic_back.png"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable-xhdpi_ic_accept_call.png.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-pngs-1:\\drawable-xhdpi\\ic_accept_call.png"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable_corner_8.xml.flat",
+        "source": "com.lutech.flashlight.app-main-8:/drawable/corner_8.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-merged_res-6:\\drawable_ic_flag_english.png.flat",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-8:\\drawable\\ic_flag_english.png"
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable_ic_person.xml.flat",
+        "source": "com.lutech.flashlight.app-main-8:/drawable/ic_person.xml"
+    },
+    {
+        "merged": "com.lutech.flashlight.app-merged_res-6:/raw_sound_switch_on.mp3.flat",
+        "source": "com.lutech.flashlight.app-main-8:/raw/sound_switch_on.mp3"
+    },
+    {
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable_ic_vibrate.xml.flat",
+        "source": "com.lutech.flashlight.app-main-8:/drawable/ic_vibrate.xml"
+    },
+    {
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable_ic_baseline_clear_24.xml.flat",
+        "source": "com.lutech.flashlight.app-main-8:/drawable/ic_baseline_clear_24.xml"
+    },
+    {
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable_ic_tick_language.xml.flat",
+        "source": "com.lutech.flashlight.app-main-8:/drawable/ic_tick_language.xml"
+    },
+    {
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable_icon_turnon.png.flat",
+        "source": "com.lutech.flashlight.app-main-8:/drawable/icon_turnon.png"
+    },
+    {
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable_ic_flag_france.png.flat",
+        "source": "com.lutech.flashlight.app-main-8:/drawable/ic_flag_france.png"
+    },
+    {
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable-anydpi-v24_ic_alert.xml.flat",
+        "source": "com.lutech.flashlight.app-pngs-1:/drawable-anydpi-v24/ic_alert.xml"
+    },
+    {
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable-hdpi_ic_accept_call.png.flat",
+        "source": "com.lutech.flashlight.app-pngs-1:/drawable-hdpi/ic_accept_call.png"
+    },
+    {
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable_ic_battery.xml.flat",
+        "source": "com.lutech.flashlight.app-main-8:/drawable/ic_battery.xml"
+    },
+    {
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable_corner_16.xml.flat",
+        "source": "com.lutech.flashlight.app-main-8:/drawable/corner_16.xml"
+    },
+    {
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable_bg_btn_subscribe.xml.flat",
+        "source": "com.lutech.flashlight.app-main-8:/drawable/bg_btn_subscribe.xml"
+    },
+    {
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.lutech.flashlight.app-pngs-1:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.lutech.flashlight.app-merged_res-6:/drawable-mdpi_ic_share.png.flat",
+        "source": "com.lutech.flashlight.app-pngs-1:/drawable-mdpi/ic_share.png"
     }
 ]

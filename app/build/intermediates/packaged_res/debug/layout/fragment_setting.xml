@@ -1,14 +1,198 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/color_background_dark"
+    android:paddingHorizontal="@dimen/_10sdp"
+    android:paddingVertical="@dimen/_10sdp"
     tools:context=".screen.setting.SettingFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+    <LinearLayout
+        android:id="@+id/layoutAdvance"
+        style="@style/LayoutContainFeature"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
-</FrameLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_medium"
+            android:text="@string/txt_advanced"
+            android:textColor="@color/color_primary"
+
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp">
+
+            <ImageView
+                android:id="@+id/ivType1"
+                style="@style/IconColorPrimary24"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_bright" />
+
+            <TextView
+                android:id="@+id/tvContentType"
+                style="@style/CustomTextViewFeature12sp"
+                android:layout_centerVertical="true"
+                android:layout_marginHorizontal="@dimen/_5sdp"
+                android:layout_toStartOf="@id/swFlash"
+                android:layout_toEndOf="@id/ivType1"
+                android:gravity="center_vertical"
+                android:paddingHorizontal="@dimen/_5sdp"
+                android:text="@string/txt_do_not_flash_the_flash_while_the_screen_is_on" />
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/swFlash"
+                style="@style/CustomSmallSwitch"
+                android:layout_alignParentEnd="true"
+
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/ivType2"
+                style="@style/IconColorPrimary24"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_battery" />
+
+
+            <LinearLayout
+                android:id="@+id/tvContentType2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toStartOf="@id/swBattery"
+                android:layout_toEndOf="@id/ivType2"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:paddingHorizontal="@dimen/_5sdp"
+
+                >
+
+                <TextView
+                    style="@style/CustomTextViewFeature12sp"
+                    android:text="@string/txt_save_battery" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:fontFamily="@font/helvetica_regular"
+                    android:paddingHorizontal="@dimen/_5sdp"
+                    android:text="@string/txt_turn_off_flash_when_battery_is_low"
+                    android:textColor="@color/color_accent"
+                    android:textSize="@dimen/_8ssp" />
+            </LinearLayout>
+
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/swBattery"
+                style="@style/CustomSmallSwitch"
+                android:layout_alignParentEnd="true"
+
+                />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/LayoutContainFeature"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/layoutAdvance">
+
+        <RelativeLayout
+            android:id="@+id/rlPolicy"
+            android:foreground="?selectableItemBackground"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/ivType3"
+                style="@style/IconColorPrimary24"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_policy" />
+
+            <TextView
+                android:id="@+id/tvContentType3"
+                style="@style/CustomTextViewFeature12sp"
+                android:layout_centerVertical="true"
+                android:layout_marginHorizontal="@dimen/_5sdp"
+                android:layout_toStartOf="@id/ivGo1"
+                android:layout_toEndOf="@id/ivType3"
+                android:gravity="center_vertical"
+                android:paddingHorizontal="@dimen/_5sdp"
+                android:text="@string/txt_policy" />
+
+            <ImageView
+                android:id="@+id/ivGo1"
+                style="@style/IconColorPrimary24"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/ic_go"
+                app:tint="@color/white" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlShare"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:foreground="?selectableItemBackground"
+            >
+
+            <ImageView
+                android:id="@+id/ivType4"
+                style="@style/IconColorPrimary24"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_share" />
+
+
+            <LinearLayout
+                android:id="@+id/tvContentType4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toStartOf="@id/ivGo2"
+                android:layout_toEndOf="@id/ivType4"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:paddingHorizontal="@dimen/_5sdp">
+
+                <TextView
+                    style="@style/CustomTextViewFeature12sp"
+                    android:text="@string/txt_share" />
+            </LinearLayout>
+
+
+            <ImageView
+                android:id="@+id/ivGo2"
+                style="@style/IconColorPrimary24"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/ic_go"
+                app:tint="@color/white" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

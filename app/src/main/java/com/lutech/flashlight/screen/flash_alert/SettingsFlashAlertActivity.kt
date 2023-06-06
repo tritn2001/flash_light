@@ -1,26 +1,27 @@
 package com.lutech.flashlight.screen
 
 
+import android.app.ActivityManager
 import android.app.Dialog
+import android.content.ComponentName
+import android.content.Context
 import android.content.Intent
 import android.media.MediaPlayer
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
+import android.provider.Settings
+import android.text.TextUtils
 import android.util.Log
-import android.view.View
-import android.view.WindowManager
 import androidx.activity.result.ActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
-import androidx.core.view.isGone
-import androidx.core.view.isVisible
-import com.google.android.material.bottomsheet.BottomSheetDialog
+import androidx.appcompat.app.AppCompatActivity
 import com.lutech.flashlight.R
 import com.lutech.flashlight.ads.Constants
 import com.lutech.flashlight.ads.Utils
 import com.lutech.flashlight.camera.CameraTorchListener
 import com.lutech.flashlight.camera.MyCameraImpl
 import com.lutech.flashlight.data.FlashAlert
+import com.lutech.flashlight.receiver.PhoneCallService
 import com.lutech.flashlight.screen.flash_alert.AllowPermissionActivityActivity
 import com.lutech.flashlight.screen.flash_alert.InstallingActivity
 import com.lutech.flashlight.util.CustomDialog
@@ -31,9 +32,8 @@ import com.warkiz.widget.IndicatorSeekBar
 import com.warkiz.widget.OnSeekChangeListener
 import com.warkiz.widget.SeekParams
 import kotlinx.android.synthetic.main.activity_settings_flash_alert.*
-import kotlinx.android.synthetic.main.fragment_flash_light.*
-import kotlinx.android.synthetic.main.fragment_flash_light.view.*
 import org.greenrobot.eventbus.EventBus
+
 
 class SettingsFlashAlertActivity : AppCompatActivity() {
 
@@ -66,11 +66,12 @@ class SettingsFlashAlertActivity : AppCompatActivity() {
         ActivityResultContracts.StartActivityForResult()
     ) { result ->
         if (result.resultCode == RESULT_OK) {
-            mFlashAlert?.isStatusChecked = true
             mySharePreference.saveFlashAlert(mType, mFlashAlert!!)
             openDialogLoading()
+            mFlashAlert?.isStatusChecked = true
+
         }
-        swStatus.isChecked = mFlashAlert!!.isStatusChecked
+        initSwStatus()
 
     }
 
@@ -96,8 +97,7 @@ class SettingsFlashAlertActivity : AppCompatActivity() {
 
         dialogLoading = CustomDialog(this).dialogInstalling()
 
-        swStatus.isChecked = mFlashAlert!!.isStatusChecked
-
+        initSwStatus()
         var content: String? = null
         var imageStart: Int? = null
 
@@ -120,8 +120,42 @@ class SettingsFlashAlertActivity : AppCompatActivity() {
         ivType.setImageResource(imageStart!!)
     }
 
+    private fun initSwStatus() {
+        swStatus.isChecked = if (mType == Constants.ALERT_CALL_PHONE) {
+            isStartedService()
+        } else {
+            mFlashAlert!!.isStatusChecked
+        }
+    }
+
+    private fun isStartedService(): Boolean {
+        val activityManager = getSystemService(Context.ACTIVITY_SERVICE) as ActivityManager
+        val runningServices = activityManager.getRunningServices(Int.MAX_VALUE)
+
+        for (service in runningServices) {
+            if (service.service.className == PhoneCallService::class.java.name) {
+                Log.d("===>4354226", "service exits ")
+                return true
+                break
+            }
+        }
+        return false
+    }
+
+
     private fun handleEvent() {
         swStatus.setOnCheckedChangeListener { _, b ->
+
+            if (mType != Constants.ALERT_CALL_PHONE) {
+                if (b){
+                    CustomDialog(this).dialogInstallSuccess().show()
+                }
+                mFlashAlert?.isStatusChecked = b
+                mySharePreference.saveFlashAlert(mType, mFlashAlert!!)
+                Log.d("NotificationListener", "handleEvent2: "+mySharePreference.getFlashAlert(Constants.ALERT_SMS)?.isStatusChecked)
+                return@setOnCheckedChangeListener
+            }
+
             if (b) {
                 if (mIsFlashlightOn) {
                     handleFlash()
@@ -137,6 +171,7 @@ class SettingsFlashAlertActivity : AppCompatActivity() {
                 }
             } else {
                 mFlashAlert?.isStatusChecked = b
+                stopCallPhoneService()
             }
             mySharePreference.saveFlashAlert(mType, mFlashAlert!!)
         }
@@ -213,8 +248,7 @@ class SettingsFlashAlertActivity : AppCompatActivity() {
     }
 
     private fun openDialogLoading() {
-        if (mType != Constants.ALERT_CALL_PHONE) {
-            CustomDialog(this).dialogInstallSuccess().show()
+        if (isStartedService()) {
             return
         }
         dialogLoading?.show()
@@ -222,7 +256,19 @@ class SettingsFlashAlertActivity : AppCompatActivity() {
             mIntent = Intent(this, InstallingActivity::class.java)
             startActivityResult.launch(mIntent)
             dialogLoading?.dismiss()
+            playCallPhoneService()
         }, 1200)
+    }
+
+
+    private fun playCallPhoneService() {
+        val serviceIntent = Intent(this, PhoneCallService::class.java)
+        startService(serviceIntent)
+    }
+
+    private fun stopCallPhoneService() {
+        val serviceIntent = Intent(this, PhoneCallService::class.java)
+        stopService(serviceIntent)
     }
 
     private fun saveAlertFlash(flashAlert: FlashAlert) {
@@ -258,9 +304,7 @@ class SettingsFlashAlertActivity : AppCompatActivity() {
                 mCameraImpl!!.onCameraNotAvailable()
             }
         }, mType!!)
-//        if (config.turnFlashlightOn) {
-//            mCameraImpl!!.enableFlashlight()
-//        }
+
     }
 
     private fun releaseCamera() {

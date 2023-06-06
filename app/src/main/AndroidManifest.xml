@@ -9,10 +9,7 @@
     <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.CAMERA" />
-
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
-
-
 
     <application
         android:name=".ads.MyApplication"
@@ -26,6 +23,20 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BaseProject"
         tools:targetApi="31">
+        <activity
+            android:name=".screen.guide.GuideDetaildActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".screen.guide.GuideActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
         <activity
             android:name=".screen.flash_alert.AllowPermissionActivityActivity"
             android:exported="false">
@@ -70,20 +81,6 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
-        <activity
-            android:name=".SplashActivity"
-            android:exported="true"
-            android:screenOrientation="portrait">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
 
         <meta-data
             android:name="com.google.firebase.ml.vision.DEPENDENCIES"
@@ -107,10 +104,10 @@
             android:label="@string/notification_listener_service"
             android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE">
             <intent-filter>
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
                 <action android:name="android.service.notification.NotificationListenerService" />
             </intent-filter>
         </service>
-
         <service
             android:name=".receiver.PhoneCallService"
             android:exported="true"
@@ -123,7 +120,6 @@
                 <action android:name="android.telecom.InCallService" />
             </intent-filter>
         </service>
-
         <service
             android:name=".Notification.MyFirebaseMessageService"
             android:exported="false">

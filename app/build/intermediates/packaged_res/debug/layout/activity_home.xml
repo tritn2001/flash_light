@@ -26,6 +26,7 @@
         android:background="@color/black"
         app:itemIconTint="@color/custom_icon_tint"
         app:itemTextColor="@color/white"
+        app:itemPaddingBottom="@dimen/_5sdp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

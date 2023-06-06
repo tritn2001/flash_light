@@ -65,6 +65,20 @@
         android:testOnly="true"
         android:theme="@style/Theme.BaseProject" >
         <activity
+            android:name="com.lutech.flashlight.screen.guide.GuideDetaildActivity"
+            android:exported="false" >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.lutech.flashlight.screen.guide.GuideActivity"
+            android:exported="false" >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name="com.lutech.flashlight.screen.flash_alert.AllowPermissionActivityActivity"
             android:exported="false" >
             <meta-data
@@ -108,20 +122,6 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
-        <activity
-            android:name="com.lutech.flashlight.SplashActivity"
-            android:exported="true"
-            android:screenOrientation="portrait" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
 
         <meta-data
             android:name="com.google.firebase.ml.vision.DEPENDENCIES"
@@ -145,7 +145,20 @@
             android:label="@string/notification_listener_service"
             android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE" >
             <intent-filter>
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
                 <action android:name="android.service.notification.NotificationListenerService" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.lutech.flashlight.receiver.PhoneCallService"
+            android:exported="true"
+            android:permission="android.permission.BIND_INCALL_SERVICE" >
+            <meta-data
+                android:name="android.telecom.IN_CALL_SERVICE_UI"
+                android:value="true" />
+
+            <intent-filter android:priority="1001" >
+                <action android:name="android.telecom.InCallService" />
             </intent-filter>
         </service>
         <service

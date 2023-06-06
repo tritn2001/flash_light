@@ -6,13 +6,11 @@ import android.app.usage.UsageEvents
 import android.app.usage.UsageStatsManager
 import android.content.ActivityNotFoundException
 import android.content.Context
+import android.content.Context.BATTERY_SERVICE
 import android.content.Intent
 import android.media.MediaPlayer
 import android.net.Uri
-import android.os.Build
-import android.os.Bundle
-import android.os.VibrationEffect
-import android.os.Vibrator
+import android.os.*
 import android.text.InputFilter
 import android.text.TextUtils
 import android.util.Log
@@ -359,13 +357,13 @@ object Utils {
 
     }
 
-    fun initMediaPlayer(mContext: Context,resource:Int) :MediaPlayer{
-        var  mMedia = MediaPlayer.create(mContext, resource)
+    fun initMediaPlayer(mContext: Context, resource: Int): MediaPlayer {
+        var mMedia = MediaPlayer.create(mContext, resource)
         mMedia.isLooping = false
         return mMedia
     }
 
-    fun vibrate(mContext: Context){
+    fun vibrate(mContext: Context) {
         val v = mContext.getSystemService(Context.VIBRATOR_SERVICE) as Vibrator?
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             v!!.vibrate(VibrationEffect.createOneShot(500, VibrationEffect.DEFAULT_AMPLITUDE))
@@ -373,6 +371,18 @@ object Utils {
             //deprecated in API 26
             v!!.vibrate(500)
         }
+    }
+
+
+    fun isScreenOn(context: Context): Boolean {
+        val pm = context.getSystemService(Context.POWER_SERVICE) as PowerManager?
+        return pm!!.isInteractive
+    }
+
+    fun isLowBattery(context: Context): Boolean {
+        val bm = context.getSystemService(BATTERY_SERVICE) as BatteryManager
+        val percent = bm.getIntProperty(BatteryManager.BATTERY_PROPERTY_CAPACITY)
+        return percent <= 20
     }
 
 }

@@ -196,7 +196,6 @@ class FlashLightFragment : Fragment() {
     }
 
     private fun setupCameraImpl() {
-
         mCameraImpl = MyCameraImpl.newInstance(mContext!!, object : CameraTorchListener {
             override fun onTorchEnabled(isEnabled: Boolean) {
                 if (mCameraImpl!!.supportsBrightnessControl()) {
