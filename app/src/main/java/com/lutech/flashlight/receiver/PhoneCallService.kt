@@ -43,13 +43,9 @@ class PhoneCallService : InCallService() {
                             mIsFlashlightOn = mCameraImpl!!.toggleStroboscope()
                         }
                     TelephonyManager.CALL_STATE_OFFHOOK ->                         // Call answered
-                        if (mIsFlashlightOn) {
-                            mIsFlashlightOn = mCameraImpl!!.toggleStroboscope()
-                        }
+                        mCameraImpl!!.stopStroboscope()
                     TelephonyManager.CALL_STATE_IDLE ->                         // Call ended
-                        if (mIsFlashlightOn) {
-                            mIsFlashlightOn = mCameraImpl!!.toggleStroboscope()
-                        }
+                        mCameraImpl!!.stopStroboscope()
                 }
             }
         }
@@ -57,7 +53,7 @@ class PhoneCallService : InCallService() {
 
 
     private fun setupCameraImpl() {
-        mCameraImpl = MyCameraImpl.newInstance(this!!, object : CameraTorchListener {
+        mCameraImpl = MyCameraImpl.newInstance(this, object : CameraTorchListener {
             override fun onTorchEnabled(isEnabled: Boolean) {
                 if (mCameraImpl!!.supportsBrightnessControl()) {
                 }
@@ -66,7 +62,7 @@ class PhoneCallService : InCallService() {
             override fun onTorchUnavailable() {
                 mCameraImpl!!.onCameraNotAvailable()
             }
-        }, Constants.ALERT_CALL_PHONE)
+        }, Constants.ALERT_CALL_PHONE,false)
 
     }
 

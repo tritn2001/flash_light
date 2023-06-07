@@ -80,7 +80,7 @@ public class AppOpenManager implements LifecycleObserver, Application.ActivityLi
                     };
             AdRequest request = getAdRequest();
             AppOpenAd.load(
-                    myApplication, myApplication.getResources().getString(R.string.phone_tracker_open_id), request,
+                    myApplication, myApplication.getResources().getString(R.string.flash_open_id), request,
                     AppOpenAd.APP_OPEN_AD_ORIENTATION_PORTRAIT, loadCallback);
 
         } catch (Exception e) {
@@ -151,14 +151,14 @@ public class AppOpenManager implements LifecycleObserver, Application.ActivityLi
 
     @Override
     public void onActivityCreated(@NonNull Activity activity, @Nullable Bundle bundle) {
-        Log.d("TAG", "onActivityCreated: " + activity.toString());
+        Log.d("TAG", "onActivityCreated: " + activity);
         currentActivity = activity;
 
     }
 
     @Override
     public void onActivityStarted(@NonNull Activity activity) {
-        Log.d("TAG", "onActivityStarted: " + activity.toString());
+        Log.d("TAG", "onActivityStarted: " + activity);
     }
 
     @Override
@@ -178,18 +178,18 @@ public class AppOpenManager implements LifecycleObserver, Application.ActivityLi
 
     @Override
     public void onActivityStopped(@NonNull Activity activity) {
-        Log.d("TAG", "onActivityStopped: " + activity.toString());
+        Log.d("TAG", "onActivityStopped: " + activity);
     }
 
     @Override
     public void onActivitySaveInstanceState(@NonNull Activity activity, @NonNull Bundle bundle) {
-        Log.d("TAG", "onActivitySaveInstanceState: " + activity.toString());
+        Log.d("TAG", "onActivitySaveInstanceState: " + activity);
     }
 
     @Override
     public void onActivityDestroyed(@NonNull Activity activity) {
         currentActivity = null;
-        Log.d("TAG", "onActivityDestroyed: " + activity.toString());
+        Log.d("TAG", "onActivityDestroyed: " + activity);
     }
 
     @Override

@@ -37,10 +37,7 @@ public class BillingClientSetup {
         SharedPreferences sharedPreferences = context.getSharedPreferences(NAME_APP, Context.MODE_PRIVATE);
         long time = sharedPreferences.getLong("Time", 0);
         long timeCurrent = System.currentTimeMillis()/1000;
-        if(timeCurrent<=time) {
-            return true;
-        }
-        return false;
+        return timeCurrent <= time;
     }
 
     public static void updateTimeUpgrade(Context context, long time) {

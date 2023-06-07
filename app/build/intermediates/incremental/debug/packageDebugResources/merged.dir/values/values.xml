@@ -23,7 +23,7 @@
     <color name="black">#000000</color>
     <color name="color_accent">#00BCD4</color>
     <color name="color_background_dark">#15181F</color>
-    <color name="color_background_light">#48525C6B</color>
+    <color name="color_background_light">#272A33</color>
     <color name="color_blue_dark">#154FC3</color>
     <color name="color_dark_blue">#4D7CA5</color>
     <color name="color_dark_orange">#EC5155</color>
@@ -92,17 +92,26 @@
     <string name="app_name">FlashLight</string>
     <string name="chinese" translatable="false">中国人</string>
     <string name="com.google.firebase.crashlytics.mapping_file_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">00000000000000000000000000000000</string>
+    <string name="default_web_client_id" translatable="false">28374177481-qjg8t6n6vjlcp3cl350rrtelcr900qrn.apps.googleusercontent.com</string>
     <string name="english" translatable="false">English</string>
     <string name="facebook_app_id" translatable="false">facebook_app_id</string>
     <string name="fb_login_protocol_scheme" translatable="false">fb852472952774405</string>
+    <string name="flash_alert_native_id" translatable="false">ca-app-pub-3940256099942544/2247696110</string>
+    <string name="flash_inters_id" translatable="false">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="flash_light_native_id" translatable="false">ca-app-pub-3940256099942544/2247696110</string>
+    <string name="flash_open_id" translatable="false">ca-app-pub-3940256099942544/3419835294</string>
     <string name="french" translatable="false">Français</string>
+    <string name="gcm_defaultSenderId" translatable="false">28374177481</string>
     <string name="georgian" translatable="false">Georgian</string>
     <string name="germany" translatable="false">Deutsch</string>
-    <string name="gps_location_banner_id" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="google_api_key" translatable="false">AIzaSyA9gSE98gcq7IN61mLtf3zNz0ivHsGRCsA</string>
+    <string name="google_app_id" translatable="false">1:28374177481:android:bc28cd1d2729e669855f18</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyA9gSE98gcq7IN61mLtf3zNz0ivHsGRCsA</string>
+    <string name="google_storage_bucket" translatable="false">flashlight-825db.appspot.com</string>
     <string name="hausa" translatable="false">Hausa</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="home_native_id" translatable="false">ca-app-pub-3940256099942544/2247696110</string>
     <string name="india" translatable="false">हिन्दी</string>
+    <string name="intro_native_id" translatable="false">ca-app-pub-3940256099942544/2247696110</string>
     <string name="israel" translatable="false">עִברִית</string>
     <string name="italy" translatable="false">Italiano</string>
     <string name="japan" translatable="false">日本</string>
@@ -111,16 +120,17 @@
     <string name="link_privacy_policy" translatable="false">https://pages.flycricket.io/blood-pressure-track/privacy.html</string>
     <string name="nederland" translatable="false">Nederlands</string>
     <string name="notification_listener_service">FlashLight Notification Rules</string>
-    <string name="phone_tracker_inters_id" translatable="false">ca-app-pub-3940256099942544/1033173712</string>
-    <string name="phone_tracker_open_id" translatable="false">ca-app-pub-3940256099942544/2247696110</string>
     <string name="polish" translatable="false">Polish</string>
     <string name="portugal" translatable="false">Português</string>
+    <string name="project_id" translatable="false">flashlight-825db</string>
     <string name="sounth_african" translatable="false">Afrikaans</string>
     <string name="spain" translatable="false">Español</string>
     <string name="title_warning_version">Your application version too low. Please update newest version to experience our app. Thanks</string>
     <string name="turkish" translatable="false">Turkish</string>
+    <string name="turn_on_flash_native_id" translatable="false">ca-app-pub-3940256099942544/2247696110</string>
     <string name="txt_accept">Accept</string>
     <string name="txt_advanced">ADVANCED</string>
+    <string name="txt_alarm_flash_blinks_on_call_flashlight">Alarm flash blinks on Call, flashlight</string>
     <string name="txt_answer_how_to_avoid_accidentally">
         Locking this app on the multitasking manager can make this app work better, keep it active all the time, avoid this app being closed accidentally (disabled and inoperable).
     </string>
@@ -135,7 +145,7 @@
     <string name="txt_do_later">Ask me later</string>
     <string name="txt_do_not_flash_the_flash_while_the_screen_is_on">Do not flash the flash while the screen is on</string>
     <string name="txt_email_feedback" translatable="false">teammarketing@lutech.ltd</string>
-    <string name="txt_enjoying_the_app">Enjoying The App</string>
+    <string name="txt_enjoying_the_app">DO YOU LIKE OUR APP?</string>
     <string name="txt_feedback">Feedback</string>
     <string name="txt_feedback_app">"Feedback App : "</string>
     <string name="txt_flash_alert">Flash Alert</string>
@@ -152,6 +162,7 @@
     <string name="txt_language">Language</string>
     <string name="txt_loading_ads">loading ads</string>
     <string name="txt_maybe_later">Maybe Later</string>
+    <string name="txt_next">NEXT</string>
     <string name="txt_no_internet_connection">No Internet Connection</string>
     <string name="txt_normal">Normal</string>
     <string name="txt_off_time">Off time</string>
@@ -270,7 +281,7 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:lines">1</item>
         <item name="android:ellipsize">end</item>
-        <item name="fontFamily">@font/helvetica_regular</item>
+        <item name="fontFamily">@font/roboto_medium_numbers</item>
         <item name="android:paddingHorizontal" ns1:ignore="NewApi">@dimen/_5sdp</item>
     </style>
     <style name="IconColorPrimary24">

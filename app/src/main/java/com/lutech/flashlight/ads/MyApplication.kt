@@ -32,7 +32,7 @@ class MyApplication : Application() {
                 AdjustConfig.ENVIRONMENT_PRODUCTION
             }
             val config = AdjustConfig(this, appToken, environment)
-            config.setLogLevel(LogLevel.VERBOSE);
+            config.setLogLevel(LogLevel.VERBOSE)
             config.setPreinstallTrackingEnabled(true)
 
             Adjust.onCreate(config)

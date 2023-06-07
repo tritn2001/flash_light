@@ -5,6 +5,8 @@ import android.os.Bundle
 import android.util.Log
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.content.ContextCompat
+import com.lutech.flashlight.HomeActivity
 import com.lutech.flashlight.R
 import com.lutech.flashlight.ads.AdsListener
 import com.lutech.flashlight.ads.AdsManager
@@ -34,6 +36,9 @@ class LanguageActivity : AppCompatActivity(), LanguageAdapter.OnItemLanguageList
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_language)
+
+        window.statusBarColor =
+            ContextCompat.getColor(applicationContext, R.color.color_primary)
 //        Utils.IsReadyShowOpenAds = true
         loadAds()
         initData()
@@ -177,9 +182,9 @@ class LanguageActivity : AppCompatActivity(), LanguageAdapter.OnItemLanguageList
 
             val checkLoginFirst = CheckLoginFirst(this)
             checkLoginFirst.setFistSetLanguage(true)
+            mIntent = Intent(this, HomeActivity::class.java)
+            AdsManager.showAds(this, this)
 
-
-//            AdsManager.showAds(this, this)
         }
     }
 

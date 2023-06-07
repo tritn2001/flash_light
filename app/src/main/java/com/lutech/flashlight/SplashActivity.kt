@@ -12,12 +12,12 @@ import android.view.ViewGroup
 import androidx.annotation.RequiresApi
 import androidx.core.content.ContextCompat
 import com.google.android.gms.ads.MobileAds
-import com.google.firebase.remoteconfig.BuildConfig
 import com.google.firebase.remoteconfig.FirebaseRemoteConfig
 import com.google.firebase.remoteconfig.FirebaseRemoteConfigSettings
 import com.lutech.flashlight.ads.*
 import com.lutech.flashlight.buy_premium.BillingClientSetup
 import com.lutech.flashlight.language.activity.LanguageActivity
+import com.lutech.flashlight.screen.intro.IntroActivity
 import com.lutech.flashlight.util.ChangeLanguage
 import com.lutech.flashlight.util.CheckLoginFirst
 import kotlinx.android.synthetic.main.dialog_update_version.*
@@ -144,6 +144,8 @@ class SplashActivity : BaseActivity(), AdsListener, OnDismissTimerListener {
         Constants.IS_SHOW_RATE_FIRST_BACK =
             mFirebaseRemoteConfig.getBoolean("is_show_rate_first_back")
 
+        Log.d("========>333333333333333333", "loadDataRemoteConfig: "+Constants.CURERENT_VERSION_CODE)
+
         if (BuildConfig.VERSION_CODE >= Constants.MINIMUM_VERSION_CODE) {
             if (BuildConfig.VERSION_CODE < Constants.CURERENT_VERSION_CODE) {
                 mWarningDialog?.btnDoLater?.visibility = View.VISIBLE
@@ -194,12 +196,12 @@ class SplashActivity : BaseActivity(), AdsListener, OnDismissTimerListener {
     }
 
     private fun showAds() {
-            val checkLoginFirst: CheckLoginFirst =
-                CheckLoginFirst(this)
+        val checkLoginFirst: CheckLoginFirst =
+            CheckLoginFirst(this)
         mIntent = null
         mIntent = if (checkLoginFirst.isFirsSetLanguage == false) {
             Log.d("====>@34234", "gotoNextScreen false: ")
-            Intent(this, LanguageActivity::class.java)
+            Intent(this, IntroActivity::class.java)
 
         } else {
             Log.d("====>@34234", "gotoNextScreen:true ")
@@ -222,12 +224,11 @@ class SplashActivity : BaseActivity(), AdsListener, OnDismissTimerListener {
 
     private fun gotoNextScreen() {
         if (mIntent == null) {
-            val checkLoginFirst: CheckLoginFirst =
+            val checkLoginFirst =
                 CheckLoginFirst(this)
             mIntent = if (checkLoginFirst.isFirsSetLanguage == false) {
                 Log.d("====>@34234", "gotoNextScreen false: ")
-                Intent(this, LanguageActivity::class.java)
-
+                Intent(this, IntroActivity::class.java)
             } else {
                 Log.d("====>@34234", "gotoNextScreen:true ")
                 Intent(this, HomeActivity::class.java)
@@ -244,11 +245,6 @@ class SplashActivity : BaseActivity(), AdsListener, OnDismissTimerListener {
     }
 
     override fun onWaitAds() {
-
-    }
-
-    override fun onDestroy() {
-        super.onDestroy()
 
     }
 

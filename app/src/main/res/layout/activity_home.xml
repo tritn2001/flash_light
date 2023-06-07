@@ -32,4 +32,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:menu="@menu/menu_nav" />
 
+    <include layout="@layout/content_ads_loading"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -12,12 +12,16 @@ import android.os.Handler
 import android.provider.Settings
 import android.text.TextUtils
 import android.util.Log
+import android.view.View
 import androidx.activity.result.ActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
 import com.lutech.flashlight.R
+import com.lutech.flashlight.ads.AdsListener
+import com.lutech.flashlight.ads.AdsManager
 import com.lutech.flashlight.ads.Constants
 import com.lutech.flashlight.ads.Utils
+import com.lutech.flashlight.buy_premium.BillingClientSetup
 import com.lutech.flashlight.camera.CameraTorchListener
 import com.lutech.flashlight.camera.MyCameraImpl
 import com.lutech.flashlight.data.FlashAlert
@@ -31,11 +35,15 @@ import com.lutech.phonetracker.util.settings
 import com.warkiz.widget.IndicatorSeekBar
 import com.warkiz.widget.OnSeekChangeListener
 import com.warkiz.widget.SeekParams
+import kotlinx.android.synthetic.main.activity_intro.*
 import kotlinx.android.synthetic.main.activity_settings_flash_alert.*
+import kotlinx.android.synthetic.main.activity_settings_flash_alert.myTemplate
+import kotlinx.android.synthetic.main.content_ads_loading.*
+import kotlinx.android.synthetic.main.fragment_flash_alert.*
 import org.greenrobot.eventbus.EventBus
 
 
-class SettingsFlashAlertActivity : AppCompatActivity() {
+class SettingsFlashAlertActivity : AppCompatActivity(), AdsListener {
 
     private var mType: String? = null
 
@@ -65,11 +73,10 @@ class SettingsFlashAlertActivity : AppCompatActivity() {
     private var startActivityResult = registerForActivityResult<Intent, ActivityResult>(
         ActivityResultContracts.StartActivityForResult()
     ) { result ->
-        if (result.resultCode == RESULT_OK) {
+        if (result.resultCode == RESULT_OK && mType == Constants.ALERT_CALL_PHONE) {
             mySharePreference.saveFlashAlert(mType, mFlashAlert!!)
             openDialogLoading()
             mFlashAlert?.isStatusChecked = true
-
         }
         initSwStatus()
 
@@ -78,6 +85,8 @@ class SettingsFlashAlertActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_settings_flash_alert)
+
+        loadNativeAds()
 
         mySharePreference = MySharePreference(this)
         permissionManager = PermissionManager(this)
@@ -92,6 +101,15 @@ class SettingsFlashAlertActivity : AppCompatActivity() {
 
         handleEvent()
     }
+
+    private fun loadNativeAds() {
+        if (!BillingClientSetup.isUpgraded(this) && AdsManager.IsShowNativeAds) {
+            Utils.loadNativeAds(this, myTemplate, getString(R.string.turn_on_flash_native_id))
+        } else {
+            myTemplate.visibility = View.GONE
+        }
+    }
+
 
     private fun initView() {
 
@@ -147,12 +165,19 @@ class SettingsFlashAlertActivity : AppCompatActivity() {
         swStatus.setOnCheckedChangeListener { _, b ->
 
             if (mType != Constants.ALERT_CALL_PHONE) {
-                if (b){
+                if (b) {
                     CustomDialog(this).dialogInstallSuccess().show()
+                    if (!permissionManager.isNotificationServiceRunning) {
+                        mIntent = Intent(this, AllowPermissionActivityActivity::class.java)
+                        showAds()
+                    }
                 }
                 mFlashAlert?.isStatusChecked = b
                 mySharePreference.saveFlashAlert(mType, mFlashAlert!!)
-                Log.d("NotificationListener", "handleEvent2: "+mySharePreference.getFlashAlert(Constants.ALERT_SMS)?.isStatusChecked)
+                Log.d(
+                    "NotificationListener",
+                    "handleEvent2: " + mySharePreference.getFlashAlert(Constants.ALERT_SMS)?.isStatusChecked
+                )
                 return@setOnCheckedChangeListener
             }
 
@@ -162,12 +187,12 @@ class SettingsFlashAlertActivity : AppCompatActivity() {
                     btnTest.text = getString(R.string.txt_test)
                 }
                 mIntent = null
-                if (permissionManager!!.isNotificationServiceRunning) {
+                if (permissionManager.isNotificationServiceRunning) {
                     openDialogLoading()
                     mFlashAlert!!.isStatusChecked = b
                 } else {
                     mIntent = Intent(this, AllowPermissionActivityActivity::class.java)
-                    startActivityResult.launch(mIntent)
+                    showAds()
                 }
             } else {
                 mFlashAlert?.isStatusChecked = b
@@ -175,8 +200,6 @@ class SettingsFlashAlertActivity : AppCompatActivity() {
             }
             mySharePreference.saveFlashAlert(mType, mFlashAlert!!)
         }
-
-
 
         sbAlertOnTime.max = (MAX_STROBO_DELAY - MIN_STROBO_DELAY + 10).toFloat()
         val mProgressOn = mFlashAlert!!.stroboscopeProgressOn.toFloat()
@@ -254,7 +277,7 @@ class SettingsFlashAlertActivity : AppCompatActivity() {
         dialogLoading?.show()
         Handler().postDelayed({
             mIntent = Intent(this, InstallingActivity::class.java)
-            startActivityResult.launch(mIntent)
+            showAds()
             dialogLoading?.dismiss()
             playCallPhoneService()
         }, 1200)
@@ -272,18 +295,18 @@ class SettingsFlashAlertActivity : AppCompatActivity() {
     }
 
     private fun saveAlertFlash(flashAlert: FlashAlert) {
-        mySharePreference!!.saveFlashAlert(mType, flashAlert!!)
+        mySharePreference.saveFlashAlert(mType, flashAlert)
     }
 
     private fun handleFlash() {
 
-        if (settings!!.silent) {
+        if (settings.silent) {
             if (mMedia.isPlaying) {
                 mMedia.stop()
             }
             mMedia.start()
         }
-        if (settings!!.vibrate) {
+        if (settings.vibrate) {
             Utils.vibrate(this)
         }
         mIsFlashlightOn = mCameraImpl!!.toggleStroboscope()
@@ -294,7 +317,7 @@ class SettingsFlashAlertActivity : AppCompatActivity() {
         if (mType == null) {
             mType = intent.getStringExtra(Constants.TYPE_ALERT)
         }
-        mCameraImpl = MyCameraImpl.newInstance(this!!, object : CameraTorchListener {
+        mCameraImpl = MyCameraImpl.newInstance(this, object : CameraTorchListener {
             override fun onTorchEnabled(isEnabled: Boolean) {
                 if (mCameraImpl!!.supportsBrightnessControl()) {
                 }
@@ -303,14 +326,41 @@ class SettingsFlashAlertActivity : AppCompatActivity() {
             override fun onTorchUnavailable() {
                 mCameraImpl!!.onCameraNotAvailable()
             }
-        }, mType!!)
-
+        }, mType!!, true)
     }
 
     private fun releaseCamera() {
         mCameraImpl?.releaseCamera()
         mCameraImpl = null
     }
+
+    private fun gotoNextScreen() {
+        layoutLoadingAds.visibility = View.GONE
+        if (mIntent != null) {
+            startActivityResult.launch(mIntent)
+            mIntent = null
+        } else {
+            finish()
+        }
+    }
+
+
+    private fun showAds() {
+        if (!BillingClientSetup.isUpgraded(this) && AdsManager.IsShowInterAds) {
+            AdsManager.showAds(this, this)
+        } else {
+            gotoNextScreen()
+        }
+    }
+
+    override fun onAdDismissed() {
+        gotoNextScreen()
+    }
+
+    override fun onWaitAds() {
+        layoutLoadingAds.visibility = View.VISIBLE
+    }
+
 
     override fun onResume() {
         super.onResume()

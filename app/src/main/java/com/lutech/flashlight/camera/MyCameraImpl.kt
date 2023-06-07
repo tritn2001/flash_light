@@ -6,6 +6,7 @@ import android.util.Log
 import com.lutech.flashlight.ads.Constants
 import com.lutech.flashlight.ads.Utils
 import com.lutech.flashlight.data.FlashAlert
+import com.lutech.flashlight.screen.flash_light.FlashLightFragment
 import com.lutech.flashlight.util.Events
 import com.lutech.flashlight.util.MySharePreference
 import com.lutech.flashlight.util.config
@@ -17,7 +18,8 @@ import org.greenrobot.eventbus.EventBus
 class MyCameraImpl private constructor(
     val context: Context,
     private var cameraTorchListener: CameraTorchListener? = null,
-    mType: String
+    mType: String,
+    private var isFlashLightFragment: Boolean
 ) {
     var stroboFrequencyOn = 1000L
     var stroboFrequencyOff = 1000L
@@ -66,15 +68,15 @@ class MyCameraImpl private constructor(
         fun newInstance(
             context: Context,
             cameraTorchListener: CameraTorchListener? = null,
-            mType: String
-        ) = MyCameraImpl(context, cameraTorchListener, mType)
+            mType: String, isFlashLightFragment: Boolean
+        ) = MyCameraImpl(context, cameraTorchListener, mType, isFlashLightFragment)
     }
 
     init {
         handleCameraSetup()
         val flashAlert = MySharePreference(context).getFlashAlert(mType)
         stroboFrequencyOn = flashAlert!!.stroboscopeOn
-        stroboFrequencyOff = flashAlert!!.stroboscopeOff
+        stroboFrequencyOff = flashAlert.stroboscopeOff
 
     }
 
@@ -84,14 +86,16 @@ class MyCameraImpl private constructor(
     }
 
     fun toggleStroboscope(): Boolean {
-        if (context.settings.notFlashWhileTheScreenOn) {
-            if (Utils.isScreenOn(context)) {
-                return false
+        if (!isFlashLightFragment) {
+            if (context.settings.notFlashWhileTheScreenOn) {
+                if (Utils.isScreenOn(context)) {
+                    return false
+                }
             }
-        }
-        if (context.settings.saveBattery) {
-            if (Utils.isLowBattery(context)) {
-                return false
+            if (context.settings.saveBattery) {
+                if (Utils.isLowBattery(context)) {
+                    return false
+                }
             }
         }
         handleCameraSetup()
@@ -273,6 +277,9 @@ class MyCameraImpl private constructor(
                 Thread.sleep(offDuration)
             } catch (e: Exception) {
                 shouldStroboscopeStop = true
+
+                Log.d("=======>31211111111111", ": " + e.message)
+
             }
         }
 

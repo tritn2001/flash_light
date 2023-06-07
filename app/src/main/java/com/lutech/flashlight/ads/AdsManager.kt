@@ -53,7 +53,7 @@ object AdsManager {
 
         InterstitialAd.load(
             context,
-            context.getString(R.string.phone_tracker_inters_id),
+            context.getString(R.string.flash_inters_id),
             adRequest,
             object : InterstitialAdLoadCallback() {
 
@@ -113,16 +113,16 @@ object AdsManager {
         val timeCurrent = System.currentTimeMillis() / 1000
         val timeShow = getDistanceTimeShowAds(true)
         if (timeCurrent - LastTimeShowAds < timeShow) {
-            adsListener?.onAdDismissed()
+            adsListener.onAdDismissed()
         } else {
             mAdsListener = null
             mAdsListener = adsListener
             if (mLoadFail || !IsShowInterAds) {
-                adsListener?.onAdDismissed()
+                adsListener.onAdDismissed()
 
             } else {
                 if (mInterstitialAd != null) {
-                    adsListener?.onWaitAds()
+                    adsListener.onWaitAds()
 //                    Handler(Looper.getMainLooper()).postDelayed({
                     mInterstitialAd?.show(activity)
                     mInterstitialAd?.setOnPaidEventListener {
@@ -158,7 +158,7 @@ object AdsManager {
                         }
 //                    }, 1000)
                 } else {
-                    adsListener?.onAdDismissed()
+                    adsListener.onAdDismissed()
                     Log.d("99999999999999", "3: ")
 
                 }

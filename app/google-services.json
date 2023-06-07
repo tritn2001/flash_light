@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "28374177481",
+    "project_id": "flashlight-825db",
+    "storage_bucket": "flashlight-825db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:28374177481:android:bc28cd1d2729e669855f18",
+        "android_client_info": {
+          "package_name": "com.lutech.flashlight"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "28374177481-qjg8t6n6vjlcp3cl350rrtelcr900qrn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9gSE98gcq7IN61mLtf3zNz0ivHsGRCsA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "28374177481-qjg8t6n6vjlcp3cl350rrtelcr900qrn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

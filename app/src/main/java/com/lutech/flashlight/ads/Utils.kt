@@ -72,7 +72,7 @@ object Utils {
             context.startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(url)))
         } catch (anfe: ActivityNotFoundException) {
             val intent: Intent = Intent(Intent(Intent.ACTION_VIEW, Uri.parse(url)))
-            if (intent.resolveActivity(context.getPackageManager()) != null) {
+            if (intent.resolveActivity(context.packageManager) != null) {
                 context.startActivity(intent)
             }
         }
@@ -307,16 +307,16 @@ object Utils {
 
     fun openDialogRate(context: Context, isShowWhenBack: Boolean) {
         val dialog = CustomDialog(context).setDialog(R.layout.dialog_rateus)
-        dialog.btnMaybeLater.setOnClickListener(View.OnClickListener { view: View? -> dialog.dismiss() })
+        dialog.btnMaybeLater.setOnClickListener{dialog.dismiss() }
 
         dialog.btnFeedback.setOnClickListener {
             if (isShowWhenBack) {
                 val mySharePreference = MySharePreference(context)
-                mySharePreference!!.setValueBoolean(Constants.FIRST_RATE, true)
+                mySharePreference.setValueBoolean(Constants.FIRST_RATE, true)
             }
-            if (dialog.rateus.getRating() == 0f) {
+            if (dialog.rateus.rating == 0f) {
 
-            } else if (dialog.rateus.getRating() >= 4) {
+            } else if (dialog.rateus.rating >= 4) {
                 goToCHPlay(context)
             } else {
                 sendEmail(context)
@@ -382,6 +382,7 @@ object Utils {
     fun isLowBattery(context: Context): Boolean {
         val bm = context.getSystemService(BATTERY_SERVICE) as BatteryManager
         val percent = bm.getIntProperty(BatteryManager.BATTERY_PROPERTY_CAPACITY)
+        Log.d("=====>3333333333333333", "isLowBattery: "+percent)
         return percent <= 20
     }
 

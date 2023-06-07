@@ -9,6 +9,7 @@ import android.view.ViewGroup
 import com.lutech.flashlight.R
 import com.lutech.flashlight.ads.Utils
 import com.lutech.phonetracker.util.settings
+import kotlinx.android.synthetic.main.fragment_flash_alert.*
 import kotlinx.android.synthetic.main.fragment_setting.view.*
 
 
@@ -52,6 +53,8 @@ class SettingFragment : Fragment() {
 
     private fun initView(view: View) {
         view.apply {
+
+
             swBattery.isChecked = mContext?.settings?.saveBattery!!
             swFlash.isChecked = mContext?.settings?.notFlashWhileTheScreenOn!!
         }

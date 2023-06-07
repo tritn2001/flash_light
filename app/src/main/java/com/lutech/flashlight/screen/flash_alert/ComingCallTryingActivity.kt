@@ -1,25 +1,19 @@
 package com.lutech.flashlight.screen.flash_alert
 
-import android.content.Context
-import android.media.MediaPlayer
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
-import android.view.View
-import android.view.WindowManager
-import androidx.core.view.isGone
-import androidx.core.view.isVisible
+import android.view.animation.Animation
+import android.view.animation.AnimationUtils
+import androidx.appcompat.app.AppCompatActivity
 import com.lutech.flashlight.R
 import com.lutech.flashlight.ads.Constants
-import com.lutech.flashlight.ads.Utils
 import com.lutech.flashlight.camera.CameraTorchListener
 import com.lutech.flashlight.camera.MyCameraImpl
 import com.lutech.flashlight.data.FlashAlert
 import com.lutech.flashlight.util.MySharePreference
-import com.lutech.phonetracker.util.settings
 import kotlinx.android.synthetic.main.activity_coming_call_trying.*
 import kotlinx.android.synthetic.main.fragment_flash_light.*
 import org.greenrobot.eventbus.EventBus
+
 
 class ComingCallTryingActivity : AppCompatActivity() {
 
@@ -46,6 +40,36 @@ class ComingCallTryingActivity : AppCompatActivity() {
         mySharePreference = MySharePreference(this)
         mFlashAlert = mySharePreference!!.getFlashAlert(Constants.ALERT_NORMAL)
         mBus = EventBus.getDefault()
+
+        val zoomIn = AnimationUtils.loadAnimation(this, R.anim.zoom_in)
+        val zoomOut = AnimationUtils.loadAnimation(this, R.anim.zoom_out)
+
+        ivAcceptCall.startAnimation(zoomIn)
+
+        zoomIn.setAnimationListener(object : Animation.AnimationListener {
+            override fun onAnimationStart(arg0: Animation?) {
+            }
+
+            override fun onAnimationRepeat(arg0: Animation?) {
+            }
+
+            override fun onAnimationEnd(arg0: Animation?) {
+                ivAcceptCall.startAnimation(zoomOut)
+            }
+        })
+
+        zoomOut.setAnimationListener(object : Animation.AnimationListener {
+            override fun onAnimationStart(arg0: Animation?) {
+            }
+
+            override fun onAnimationRepeat(arg0: Animation?) {
+            }
+
+            override fun onAnimationEnd(arg0: Animation?) {
+                ivAcceptCall.startAnimation(zoomIn)
+            }
+        })
+
     }
 
     private fun handleEvent() {
@@ -55,10 +79,9 @@ class ComingCallTryingActivity : AppCompatActivity() {
     }
 
 
-
     private fun setupCameraImpl() {
 
-        mCameraImpl = MyCameraImpl.newInstance(this!!, object : CameraTorchListener {
+        mCameraImpl = MyCameraImpl.newInstance(this, object : CameraTorchListener {
             override fun onTorchEnabled(isEnabled: Boolean) {
                 if (mCameraImpl!!.supportsBrightnessControl()) {
                 }
@@ -67,7 +90,7 @@ class ComingCallTryingActivity : AppCompatActivity() {
             override fun onTorchUnavailable() {
                 mCameraImpl!!.onCameraNotAvailable()
             }
-        }, Constants.ALERT_CALL_PHONE)
+        }, Constants.ALERT_CALL_PHONE,false)
 
         mIsFlashlightOn = mCameraImpl!!.toggleStroboscope()
 
@@ -86,7 +109,8 @@ class ComingCallTryingActivity : AppCompatActivity() {
 
     override fun onDestroy() {
         super.onDestroy()
-        releaseCamera() }
+        releaseCamera()
+    }
 
     override fun onStart() {
         super.onStart()

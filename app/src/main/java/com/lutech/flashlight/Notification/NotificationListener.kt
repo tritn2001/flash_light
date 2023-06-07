@@ -74,16 +74,11 @@ class NotificationListener : NotificationListenerService() {
                 mCameraImpl!!.onCameraNotAvailable()
                 Log.d(TAG, "onTorchUnavailable: ")
             }
-        }, type)
+        }, type,false)
         mCameraImpl!!.handleCameraSetup()
         mIsFlashlightOn = mCameraImpl!!.toggleStroboscope()
         Handler().postDelayed({
-            if (mIsFlashlightOn) {
-                mIsFlashlightOn = mCameraImpl!!.toggleStroboscope()
-                if (mIsFlashlightOn) {
-                    mCameraImpl!!.toggleStroboscope()
-                }
-            }
+            mCameraImpl?.stopStroboscope()
         }, 5000)
 
     }

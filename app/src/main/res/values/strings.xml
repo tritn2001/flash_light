@@ -15,15 +15,37 @@
 
     <string name="ads_app_id" translatable="false">ca-app-pub-3940256099942544~3347511713</string>
 
-    <string name="phone_tracker_inters_id" translatable="false">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="flash_inters_id" translatable="false">ca-app-pub-3940256099942544/1033173712</string>
 
-    <string name="phone_tracker_open_id" translatable="false">ca-app-pub-3940256099942544/2247696110</string>
+    <string name="flash_open_id" translatable="false">ca-app-pub-3940256099942544/3419835294</string>
 
-    <string name="gps_location_banner_id" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
-
-    <string name="home_native_id" translatable="false">ca-app-pub-3940256099942544/2247696110</string>
+    <string name="intro_native_id" translatable="false">ca-app-pub-3940256099942544/2247696110</string>
 
     <string name="language_native_id" translatable="false">ca-app-pub-3940256099942544/2247696110</string>
+
+    <string name="flash_alert_native_id" translatable="false">ca-app-pub-3940256099942544/2247696110</string>
+
+    <string name="flash_light_native_id" translatable="false">ca-app-pub-3940256099942544/2247696110</string>
+
+    <string name="turn_on_flash_native_id" translatable="false">ca-app-pub-3940256099942544/2247696110</string>
+
+
+    //key Real
+<!--        <string name="ads_app_id" translatable="false">ca-app-pub-3940256099942544~3347511713</string>-->
+
+<!--        <string name="flash_inters_id" translatable="false">ca-app-pub-9135490917790331/5872015765</string>-->
+
+<!--        <string name="flash_open_id" translatable="false">ca-app-pub-9135490917790331/6554542041</string>-->
+
+<!--        <string name="intro_native_id" translatable="false">ca-app-pub-9135490917790331/8654107680</string>-->
+
+<!--        <string name="language_native_id" translatable="false">ca-app-pub-9135490917790331/3928378702</string>-->
+
+<!--        <string name="flash_alert_native_id" translatable="false">ca-app-pub-9135490917790331/2615297032</string>-->
+
+<!--        <string name="flash_light_native_id" translatable="false">ca-app-pub-9135490917790331/6466874149</string>-->
+
+<!--        <string name="turn_on_flash_native_id" translatable="false">ca-app-pub-9135490917790331/3130302359</string>-->
 
 
     //Language
@@ -64,7 +86,7 @@
     <string name="txt_please_check_internet_connection">Please check internet connection</string>
     <string name="txt_retry">Retry</string>
     <string name="txt_no_internet_connection">No Internet Connection</string>
-    <string name="txt_enjoying_the_app">Enjoying The App</string>
+    <string name="txt_enjoying_the_app">DO YOU LIKE OUR APP?</string>
     <string name="txt_maybe_later">Maybe Later</string>
     <string name="txt_press_again_to_exit">Press again to exit</string>
     <string name="txt_settings">Setting</string>
@@ -128,6 +150,8 @@
     <string name="txt_answer_what_permissions_does_this_app_require"><b>Call management:</b> Enable this permission, when you having incoming calls, we can flash to notify you \n\n<b>Notifications:</b> Enable this permission so that we can notify battery status Background running: Enable this permission to keep the flash of incoming call and battery detection working stably \n\n<b>Notification Access:</b> Enable this permission so that we can flash when you receive messages from other applications \n\n<b>Display Permission:</b> Enable this permission so that we can show notifications appear on the top of screen \n\n<b>Camera Access: </b> Enable this permission so that flashlight can work normally.
 
    </string>
+    <string name="txt_alarm_flash_blinks_on_call_flashlight">Alarm flash blinks on Call, flashlight</string>
+    <string name="txt_next">NEXT</string>
 
 
 </resources>

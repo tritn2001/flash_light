@@ -10,7 +10,7 @@ import com.lutech.flashlight.R;
 import com.lutech.flashlight.callback.HandleEventCheckPermissionListener;
 
 public class CustomDialog {
-    private Context context;
+    private final Context context;
 
     public static final int TYPE_PERMISSION_LOCATION = 0;
     public static final int TYPE_PERMISSION_CAMERA = 1;

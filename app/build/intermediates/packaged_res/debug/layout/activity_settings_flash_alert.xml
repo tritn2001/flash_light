@@ -8,149 +8,183 @@
     android:paddingVertical="@dimen/_10sdp"
     tools:context=".screen.SettingsFlashAlertActivity">
 
-
-    <LinearLayout
-        android:id="@+id/layoutStatus"
-        style="@style/LayoutContainFeature"
-        android:orientation="vertical"
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/helvetica_regular"
-            android:text="@string/txt_status"
-            android:textColor="@color/color_primary"
-
-            />
-
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/_10sdp"
-
-            >
-
-            <ImageView
-                android:id="@+id/ivType"
-                style="@style/IconColorPrimary24"
-                android:layout_alignParentStart="true"
-                android:layout_centerVertical="true"
-                tools:src="@drawable/ic_call_coming" />
-
-            <TextView
-                android:id="@+id/tvContentType"
-                style="@style/CustomTextViewFeature12sp"
-                android:layout_centerVertical="true"
-                android:layout_toStartOf="@id/swStatus"
-                android:layout_toEndOf="@id/ivType"
-                android:paddingHorizontal="@dimen/_5sdp"
-                android:text="@string/txt_turn_on_for_incoming_calls" />
-
-            <androidx.appcompat.widget.SwitchCompat
-                android:id="@+id/swStatus"
-                style="@style/CustomSmallSwitch"
-                android:layout_alignParentEnd="true"
-
-                />
-
-        </RelativeLayout>
-    </LinearLayout>
-
-    <LinearLayout
-        style="@style/LayoutContainFeature"
-        android:layout_marginTop="@dimen/_15sdp"
-        android:orientation="vertical"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/layoutStatus"
-
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/myTemplate"
+        android:layout_marginBottom="@dimen/_5sdp"
         >
 
-        <TextView
+        <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/helvetica_regular"
-            android:text="@string/txt_speed"
-            android:textColor="@color/color_primary"
-
-            />
-
-
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_marginTop="@dimen/_10sdp">
 
-            <TextView
-                style="@style/CustomTextViewFeature12sp"
-                android:layout_toStartOf="@id/secondAlertOnTime"
-                android:text="@string/txt_on_time"
-                android:textColor="@color/color_accent" />
+            <LinearLayout
+                android:id="@+id/layoutStatus"
+                style="@style/LayoutContainFeature"
+                android:orientation="vertical"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
 
-            <TextView
-                android:id="@+id/secondAlertOnTime"
-                style="@style/CustomTextViewFeature12sp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentEnd="true"
-                android:textColor="@color/color_primary"
-                tools:text="0,124 second" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/helvetica_regular"
+                    android:text="@string/txt_status"
+                    android:textColor="@color/color_primary"
 
-            <com.warkiz.widget.IndicatorSeekBar
-                android:id="@+id/sbAlertOnTime"
-                style="@style/CustomSeekbar"
-                android:layout_below="@id/secondAlertOnTime" />
-        </RelativeLayout>
+                    />
 
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/_10sdp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
 
-            <TextView
-                style="@style/CustomTextViewFeature12sp"
-                android:layout_toStartOf="@id/secondAlertOffTime"
-                android:text="@string/txt_off_time"
-                android:textColor="@color/color_accent" />
+                    >
 
-            <TextView
-                android:id="@+id/secondAlertOffTime"
-                style="@style/CustomTextViewFeature12sp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentEnd="true"
-                android:textColor="@color/color_primary"
-                tools:text="0,124 second"
+                    <ImageView
+                        android:id="@+id/ivType"
+                        style="@style/IconColorPrimary24"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        tools:src="@drawable/ic_call_coming" />
 
-                />
+                    <TextView
+                        android:id="@+id/tvContentType"
+                        style="@style/CustomTextViewFeature12sp"
+                        android:layout_centerVertical="true"
+                        android:layout_toStartOf="@id/swStatus"
+                        android:layout_toEndOf="@id/ivType"
+                        android:paddingHorizontal="@dimen/_5sdp"
+                        android:text="@string/txt_turn_on_for_incoming_calls" />
 
-            <com.warkiz.widget.IndicatorSeekBar
-                android:id="@+id/sbAlertOffTime"
-                style="@style/CustomSeekbar"
-                android:layout_below="@id/secondAlertOffTime" />
-        </RelativeLayout>
+                    <androidx.appcompat.widget.SwitchCompat
+                        android:id="@+id/swStatus"
+                        style="@style/CustomSmallSwitch"
+                        android:layout_alignParentEnd="true"
 
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:layout_marginTop="@dimen/_5sdp"
-            android:background="#403D3D" />
+                        />
 
-        <TextView
-            android:id="@+id/btnTest"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="@dimen/_10sdp"
-            android:fontFamily="@font/helvetica_regular"
-            android:foreground="?selectableItemBackground"
-            android:text="@string/txt_test"
-            android:paddingVertical="@dimen/_5sdp"
-            android:gravity="center_horizontal"
-            android:textColor="@color/color_accent"
-            android:textSize="@dimen/_14ssp" />
-    </LinearLayout>
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/LayoutContainFeature"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:orientation="vertical"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/layoutStatus"
+
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/helvetica_regular"
+                    android:text="@string/txt_speed"
+                    android:textColor="@color/color_primary"
+
+                    />
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp">
+
+                    <TextView
+                        style="@style/CustomTextViewFeature12sp"
+                        android:layout_toStartOf="@id/secondAlertOnTime"
+                        android:text="@string/txt_on_time"
+                        android:textColor="@color/color_accent" />
+
+                    <TextView
+                        android:id="@+id/secondAlertOnTime"
+                        style="@style/CustomTextViewFeature12sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:textColor="@color/color_primary"
+                        tools:text="0,124 second" />
+
+                    <com.warkiz.widget.IndicatorSeekBar
+                        android:id="@+id/sbAlertOnTime"
+                        style="@style/CustomSeekbar"
+                        android:layout_below="@id/secondAlertOnTime" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp">
+
+                    <TextView
+                        style="@style/CustomTextViewFeature12sp"
+                        android:layout_toStartOf="@id/secondAlertOffTime"
+                        android:text="@string/txt_off_time"
+                        android:textColor="@color/color_accent" />
+
+                    <TextView
+                        android:id="@+id/secondAlertOffTime"
+                        style="@style/CustomTextViewFeature12sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:textColor="@color/color_primary"
+                        tools:text="0,124 second"
+
+                        />
+
+                    <com.warkiz.widget.IndicatorSeekBar
+                        android:id="@+id/sbAlertOffTime"
+                        style="@style/CustomSeekbar"
+                        android:layout_below="@id/secondAlertOffTime" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:background="#403D3D" />
+
+                <TextView
+                    android:id="@+id/btnTest"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:fontFamily="@font/helvetica_regular"
+                    android:foreground="?selectableItemBackground"
+                    android:gravity="center_horizontal"
+                    android:paddingVertical="@dimen/_5sdp"
+                    android:text="@string/txt_test"
+                    android:textColor="@color/color_accent"
+                    android:textSize="@dimen/_14ssp" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+
+    <com.lutech.flashlight.ads.TemplateView
+        android:id="@+id/myTemplate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginEnd="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:minHeight="@dimen/_110sdp"
+        app:gnt_template_type="@layout/gnt_small_template_view"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <include layout="@layout/content_ads_loading"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">28374177481-qjg8t6n6vjlcp3cl350rrtelcr900qrn.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">28374177481</string>
+    <string name="google_api_key" translatable="false">AIzaSyA9gSE98gcq7IN61mLtf3zNz0ivHsGRCsA</string>
+    <string name="google_app_id" translatable="false">1:28374177481:android:bc28cd1d2729e669855f18</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyA9gSE98gcq7IN61mLtf3zNz0ivHsGRCsA</string>
+    <string name="google_storage_bucket" translatable="false">flashlight-825db.appspot.com</string>
+    <string name="project_id" translatable="false">flashlight-825db</string>
+</resources>

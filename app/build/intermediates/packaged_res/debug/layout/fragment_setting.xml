@@ -194,5 +194,15 @@
         </RelativeLayout>
     </LinearLayout>
 
+<!--    <com.lutech.flashlight.ads.TemplateView-->
+<!--        android:id="@+id/myTemplate"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentBottom="true"-->
 
+<!--        android:minHeight="@dimen/_110sdp"-->
+<!--        app:gnt_template_type="@layout/gnt_small_template_view"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent" />-->
 </androidx.constraintlayout.widget.ConstraintLayout>

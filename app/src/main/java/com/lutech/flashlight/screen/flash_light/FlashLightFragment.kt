@@ -12,8 +12,10 @@ import androidx.core.view.isGone
 import androidx.core.view.isVisible
 import androidx.fragment.app.Fragment
 import com.lutech.flashlight.R
+import com.lutech.flashlight.ads.AdsManager
 import com.lutech.flashlight.ads.Constants
 import com.lutech.flashlight.ads.Utils
+import com.lutech.flashlight.buy_premium.BillingClientSetup
 import com.lutech.flashlight.camera.CameraTorchListener
 import com.lutech.flashlight.camera.MyCameraImpl
 import com.lutech.flashlight.data.FlashAlert
@@ -22,6 +24,8 @@ import com.lutech.phonetracker.util.settings
 import com.warkiz.widget.IndicatorSeekBar
 import com.warkiz.widget.OnSeekChangeListener
 import com.warkiz.widget.SeekParams
+import kotlinx.android.synthetic.main.activity_settings_flash_alert.*
+import kotlinx.android.synthetic.main.fragment_flash_alert.*
 import kotlinx.android.synthetic.main.fragment_flash_light.*
 import kotlinx.android.synthetic.main.fragment_flash_light.view.*
 import org.greenrobot.eventbus.EventBus
@@ -66,12 +70,21 @@ class FlashLightFragment : Fragment() {
         return v
     }
 
+
+
+
     private fun initView(view: View) {
 
         view.apply {
-            sw_normal.isChecked = mContext!!.settings.normal
-            sw_silent.isChecked = mContext!!.settings.silent
-            sw_vibrate.isChecked = mContext!!.settings.vibrate
+            if (!BillingClientSetup.isUpgraded(mContext) && AdsManager.IsShowNativeAds) {
+                Utils.loadNativeAds(mContext, myTemplate, getString(R.string.flash_light_native_id))
+            } else {
+                myTemplate.visibility = View.GONE
+            }
+
+            sw_normal.isChecked = mContext.settings.normal
+            sw_silent.isChecked = mContext.settings.silent
+            sw_vibrate.isChecked = mContext.settings.vibrate
 
         }
 
@@ -148,27 +161,27 @@ class FlashLightFragment : Fragment() {
                 override fun onStopTrackingTouch(seekBar: IndicatorSeekBar) {}
             }
 
-            sw_normal.setOnCheckedChangeListener { _, b -> mContext!!.settings!!.normal = b }
-            sw_vibrate.setOnCheckedChangeListener { _, b -> mContext!!.settings!!.vibrate = b }
-            sw_silent.setOnCheckedChangeListener { _, b -> mContext!!.settings!!.silent = b }
+            sw_normal.setOnCheckedChangeListener { _, b -> mContext.settings.normal = b }
+            sw_vibrate.setOnCheckedChangeListener { _, b -> mContext.settings.vibrate = b }
+            sw_silent.setOnCheckedChangeListener { _, b -> mContext.settings.silent = b }
 
         }
     }
 
     private fun saveAlertFlash(flashAlert: FlashAlert) {
-        mySharePreference!!.saveFlashAlert(Constants.ALERT_NORMAL, flashAlert!!)
+        mySharePreference!!.saveFlashAlert(Constants.ALERT_NORMAL, flashAlert)
     }
 
     private fun handleFlash() {
-        Log.d("=====>333333333333", "handleFlash: " + mContext!!.settings.silent)
+        Log.d("=====>333333333333", "handleFlash: " + mContext.settings.silent)
 
-        if (!mContext!!.settings!!.silent) {
+        if (!mContext.settings.silent) {
             if (mMedia.isPlaying) {
                 mMedia.stop()
             }
             mMedia.start()
         }
-        if (mContext!!.settings!!.vibrate) {
+        if (mContext.settings.vibrate) {
             Utils.vibrate(mContext)
         }
         mIsFlashlightOn = mCameraImpl!!.toggleStroboscope()
@@ -196,7 +209,7 @@ class FlashLightFragment : Fragment() {
     }
 
     private fun setupCameraImpl() {
-        mCameraImpl = MyCameraImpl.newInstance(mContext!!, object : CameraTorchListener {
+        mCameraImpl = MyCameraImpl.newInstance(mContext, object : CameraTorchListener {
             override fun onTorchEnabled(isEnabled: Boolean) {
                 if (mCameraImpl!!.supportsBrightnessControl()) {
                 }
@@ -205,7 +218,7 @@ class FlashLightFragment : Fragment() {
             override fun onTorchUnavailable() {
                 mCameraImpl!!.onCameraNotAvailable()
             }
-        }, Constants.ALERT_NORMAL)
+        }, Constants.ALERT_NORMAL,true)
 //        if (config.turnFlashlightOn) {
 //            mCameraImpl!!.enableFlashlight()
 //        }

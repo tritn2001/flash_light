@@ -64,7 +64,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/_5sdp"
             android:elevation="5dp"
-            app:gnt_template_type="@layout/gnt_medium_template_view"
+            app:gnt_template_type="@layout/gnt_medium_language_template_view"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />

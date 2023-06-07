@@ -2,11 +2,11 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutContainer"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bg_call"
     android:padding="@dimen/_10sdp"
-    android:id="@+id/layoutContainer"
     tools:context=".screen.flash_alert.ComingCallTryingActivity">
 
     <ImageView
@@ -44,7 +44,8 @@
         <com.airbnb.lottie.LottieAnimationView
             android:layout_width="@dimen/_250sdp"
             android:layout_height="@dimen/_250sdp"
-            android:scaleType="centerInside"
+            android:importantForAutofill="auto"
+            android:scaleType="fitXY"
             app:lottie_autoPlay="true"
             app:lottie_loop="true"
             app:lottie_rawRes="@raw/anim_center"
@@ -63,24 +64,26 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginHorizontal="@dimen/_30sdp"
+        android:layout_marginHorizontal="@dimen/_25sdp"
         android:layout_marginVertical="@dimen/_10sdp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
 
         <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_100sdp"
             android:layout_alignParentStart="true"
+            android:gravity="center"
             android:orientation="vertical">
 
             <ImageView
+                android:id="@+id/ivAcceptCall"
                 android:layout_width="@dimen/_50sdp"
                 android:layout_height="@dimen/_50sdp"
-                android:background="@drawable/circle_red"
+                android:background="@drawable/circle_green"
                 android:padding="@dimen/_10sdp"
-                android:src="@drawable/ic_accept_call"
+                android:src="@drawable/ic_call_coming"
                 app:tint="@color/white" />
 
             <TextView
@@ -95,17 +98,18 @@
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_100sdp"
             android:layout_alignParentEnd="true"
+            android:gravity="center"
             android:orientation="vertical">
 
             <ImageView
                 android:layout_width="@dimen/_50sdp"
                 android:layout_height="@dimen/_50sdp"
-                android:background="@drawable/circle_green"
+                android:background="@drawable/circle_red"
                 android:padding="@dimen/_13sdp"
-                android:src="@drawable/ic_call_coming"
+                android:src="@drawable/ic_accept_call"
                 app:tint="@color/white" />
 
             <TextView

@@ -26,8 +26,8 @@ object Constants {
 
     var MAX_TIME_AT_SPLASH: Long = 8000
 
-    var CURERENT_VERSION_CODE: Long = 10
-    var MINIMUM_VERSION_CODE: Long = 9
+    var CURERENT_VERSION_CODE: Long = 1
+    var MINIMUM_VERSION_CODE: Long = 1
 
     var IS_SHOW_RATE_FIRST_BACK = true
 

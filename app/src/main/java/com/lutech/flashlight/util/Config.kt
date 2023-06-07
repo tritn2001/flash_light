@@ -32,14 +32,14 @@ class Config(context: Context) {
 
     var stroboscopeFrequencyOn: Long
         get() = prefs.getValueLong(STROBOSCOPE_FREQUENCY_ON, 1000L)
-        set(stroboscopeFrequencyOn) = prefs?.setValueLong(
+        set(stroboscopeFrequencyOn) = prefs.setValueLong(
             STROBOSCOPE_FREQUENCY_ON,
             stroboscopeFrequencyOn
         )
 
     var stroboscopeFrequencyOff: Long
         get() = prefs.getValueLong(STROBOSCOPE_FREQUENCY_OFF, 1000L)
-        set(stroboscopeFrequencyOff) = prefs?.setValueLong(
+        set(stroboscopeFrequencyOff) = prefs.setValueLong(
             STROBOSCOPE_FREQUENCY_OFF,
             stroboscopeFrequencyOff
         )
@@ -47,14 +47,14 @@ class Config(context: Context) {
 
     var stroboscopeOnProgress: Int
         get() = prefs.getValueInt(STROBOSCOPE_PROGRESS_ON, 1000)
-        set(stroboscopeOnFrequency) = prefs?.setValueInt(
+        set(stroboscopeOnFrequency) = prefs.setValueInt(
             STROBOSCOPE_PROGRESS_ON,
             stroboscopeOnFrequency
         )
 
     var stroboscopeOffProgress: Int
         get() = prefs.getValueInt(STROBOSCOPE_PROGRESS_OFF, 1000)
-        set(stroboscopeOffFrequency) = prefs?.setValueInt(
+        set(stroboscopeOffFrequency) = prefs.setValueInt(
             STROBOSCOPE_PROGRESS_OFF,
             stroboscopeOffFrequency
         )
@@ -62,7 +62,7 @@ class Config(context: Context) {
 
     var brightnessLevel: Int
         get() = prefs.getValueInt(BRIGHTNESS_LEVEL, DEFAULT_BRIGHTNESS_LEVEL)
-        set(brightnessLevel) = prefs?.setValueInt(BRIGHTNESS_LEVEL, brightnessLevel)
+        set(brightnessLevel) = prefs.setValueInt(BRIGHTNESS_LEVEL, brightnessLevel)
 
 
 }

@@ -53,7 +53,7 @@ public class BuyPremiumActivity extends AppCompatActivity implements PurchasesUp
     private static final String SUB_YEAR = BillingClientSetup.ITEM_BUY_SUB_YEAR;
     private SkuDetailsParams mSkuDetailsParamsSubApp;
 
-    private int mIndexSelected = 1;
+    private final int mIndexSelected = 1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

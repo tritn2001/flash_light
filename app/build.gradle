@@ -4,8 +4,8 @@ plugins {
     id 'org.jetbrains.kotlin.android'
     id 'org.jetbrains.kotlin.android.extensions'
     id 'kotlin-kapt'
-//    id 'com.google.gms.google-services'
-}
+    id 'com.google.gms.google-services'
+   }
 
 android {
     namespace 'com.lutech.flashlight'
@@ -41,6 +41,11 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+    buildFeatures {
+        viewBinding true
+    }
+    buildToolsVersion '32.0.0'
+
 }
 
 dependencies {
@@ -49,6 +54,7 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.6.1'
     implementation 'com.google.android.material:material:1.9.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'com.google.firebase:firebase-config-ktx:21.4.0'
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
@@ -131,5 +137,8 @@ dependencies {
 
     implementation 'org.greenrobot:eventbus:3.3.1'
 
+    implementation 'me.relex:circleindicator:2.1.6'
+
+    implementation 'io.github.elye:loaderviewlibrary:3.0.0'
 
 }

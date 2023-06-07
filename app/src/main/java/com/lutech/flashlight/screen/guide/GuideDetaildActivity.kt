@@ -32,7 +32,7 @@ class GuideDetaildActivity : AppCompatActivity() {
             WindowManager.LayoutParams.FLAG_FULLSCREEN
         )
         tvQuestion.text = getString(mGuide!!.questions)
-        tvAnswer.text = getString(mGuide!!.answers)
+        tvAnswer.text = getString(mGuide.answers)
 
 
 
