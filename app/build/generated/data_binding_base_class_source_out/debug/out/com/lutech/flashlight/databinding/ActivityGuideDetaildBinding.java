@@ -25,9 +25,6 @@ public final class ActivityGuideDetaildBinding implements ViewBinding {
   public final ImageView ivBack;
 
   @NonNull
-  public final ImageView ivGuide;
-
-  @NonNull
   public final RelativeLayout rlHead;
 
   @NonNull
@@ -37,11 +34,9 @@ public final class ActivityGuideDetaildBinding implements ViewBinding {
   public final TextView tvQuestion;
 
   private ActivityGuideDetaildBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView ivBack,
-      @NonNull ImageView ivGuide, @NonNull RelativeLayout rlHead, @NonNull TextView tvAnswer,
-      @NonNull TextView tvQuestion) {
+      @NonNull RelativeLayout rlHead, @NonNull TextView tvAnswer, @NonNull TextView tvQuestion) {
     this.rootView = rootView;
     this.ivBack = ivBack;
-    this.ivGuide = ivGuide;
     this.rlHead = rlHead;
     this.tvAnswer = tvAnswer;
     this.tvQuestion = tvQuestion;
@@ -80,12 +75,6 @@ public final class ActivityGuideDetaildBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.ivGuide;
-      ImageView ivGuide = ViewBindings.findChildViewById(rootView, id);
-      if (ivGuide == null) {
-        break missingId;
-      }
-
       id = R.id.rlHead;
       RelativeLayout rlHead = ViewBindings.findChildViewById(rootView, id);
       if (rlHead == null) {
@@ -104,8 +93,8 @@ public final class ActivityGuideDetaildBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityGuideDetaildBinding((ConstraintLayout) rootView, ivBack, ivGuide, rlHead,
-          tvAnswer, tvQuestion);
+      return new ActivityGuideDetaildBinding((ConstraintLayout) rootView, ivBack, rlHead, tvAnswer,
+          tvQuestion);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

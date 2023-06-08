@@ -25,13 +25,19 @@
         android:theme="@style/Theme.BaseProject"
         tools:targetApi="31">
         <activity
+            android:name=".screen.FirstFinishActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".screen.intro.IntroActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
-
         <activity
             android:name=".screen.guide.GuideDetaildActivity"
             android:exported="false">
@@ -55,9 +61,7 @@
         </activity>
         <activity
             android:name=".HomeActivity"
-            android:exported="false"
-
-            >
+            android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />

@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.util.Log
 import android.view.View
 import androidx.core.view.size
+import androidx.viewpager.widget.ViewPager
 import com.lutech.flashlight.HomeActivity
 import com.lutech.flashlight.R
 import com.lutech.flashlight.adapter.ImageIntroViewPager
@@ -14,6 +15,7 @@ import com.lutech.flashlight.ads.AdsManager
 import com.lutech.flashlight.ads.Utils
 import com.lutech.flashlight.buy_premium.BillingClientSetup
 import com.lutech.flashlight.language.activity.LanguageActivity
+import com.lutech.flashlight.util.ChangeLanguage
 import kotlinx.android.synthetic.main.activity_intro.*
 import kotlinx.android.synthetic.main.activity_intro.myTemplate
 import kotlinx.android.synthetic.main.activity_settings_flash_alert.*
@@ -25,12 +27,16 @@ class IntroActivity : AppCompatActivity(), AdsListener {
 
     private lateinit var imageIntroViewPager: ImageIntroViewPager
 
-    private lateinit var mListImage: ArrayList<Int>
+    private lateinit var mListImageIntro: ArrayList<Int>
+
+    private lateinit var mListImageBgIntro: ArrayList<Int>
 
     private var mIntent: Intent? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        ChangeLanguage.setLanguageForApp(this)
+
         setContentView(R.layout.activity_intro)
 
         initView()
@@ -38,10 +44,12 @@ class IntroActivity : AppCompatActivity(), AdsListener {
     }
 
     private fun handleEvent() {
+
+
         btnNext.setOnClickListener {
             if (vpImageIntro.currentItem == vpImageIntro.size) {
                 mIntent = null
-                mIntent = Intent(this, LanguageActivity::class.java)
+                mIntent = Intent(this, HomeActivity::class.java)
                 showAds()
                 Log.d("=====>444444444444444", "next: ")
 
@@ -65,6 +73,7 @@ class IntroActivity : AppCompatActivity(), AdsListener {
         if (mIntent != null) {
             startActivity(mIntent)
             mIntent = null
+            finish()
         } else {
             finish()
         }
@@ -90,13 +99,17 @@ class IntroActivity : AppCompatActivity(), AdsListener {
 
     private fun initView() {
         loadNativeAds()
-        mListImage = ArrayList()
+        mListImageIntro = ArrayList()
+        mListImageIntro.add(R.drawable.intro_1)
+        mListImageIntro.add(R.drawable.intro_2)
+        mListImageIntro.add(R.drawable.intro_3)
 
-        mListImage.add(0)
-        mListImage.add(0)
-        mListImage.add(0)
+        mListImageBgIntro = ArrayList()
+        mListImageBgIntro.add(R.drawable.bg_intro_1)
+        mListImageBgIntro.add(R.drawable.bg_intro_2)
+        mListImageBgIntro.add(R.drawable.bg_intro_3)
 
-        imageIntroViewPager = ImageIntroViewPager(mListImage, this)
+        imageIntroViewPager = ImageIntroViewPager(mListImageIntro, this)
 
         vpImageIntro.adapter = imageIntroViewPager
         vpImageIntro.currentItem = 0
@@ -104,6 +117,30 @@ class IntroActivity : AppCompatActivity(), AdsListener {
         myIndicator.setViewPager(vpImageIntro)
 
         imageIntroViewPager.registerDataSetObserver(myIndicator.dataSetObserver)
+
+        val mListTitleIntro: ArrayList<Int> = ArrayList()
+        mListTitleIntro.add(R.string.txt_alarm_flash_blinks_on_call_flashlight)
+        mListTitleIntro.add(R.string.txt_turn_on_the_camera_and_flash_light)
+        mListTitleIntro.add(R.string.txt_turn_on_the_flash_light_creen)
+
+        vpImageIntro.addOnPageChangeListener(object : ViewPager.OnPageChangeListener {
+            override fun onPageScrolled(
+                position: Int,
+                positionOffset: Float,
+                positionOffsetPixels: Int
+            ) {
+            }
+
+            override fun onPageSelected(position: Int) {
+                tvTitleIntro.text = getString(mListTitleIntro[position])
+                container.background = getDrawable(mListImageBgIntro[position])
+
+            }
+
+            override fun onPageScrollStateChanged(state: Int) {
+            }
+
+        })
 
 
     }

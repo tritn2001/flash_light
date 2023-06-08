@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="txt_share_app">शेयर ऐप</string>
+    <string name="txt_rate_us">हमें रेट करें</string>
+    <string name="txt_feedback">प्रतिक्रिया</string>
+    <string name="txt_feedback_app">"फ़ीडबैक ऐप:"</string>
+    <string name="txt_write_your_feedback_here">अपना फ़ीडबैक यहां लिखें</string>
+    <string name="txt_language">भाषा</string>
+    <string name="txt_toast_ads">इस क्रिया में विज्ञापन हो सकते हैं</string>
+    <string name="txt_loading_ads">विज्ञापन लोड हो रहे हैं</string>
+    <string name="title_warning_version">आपका एप्लिकेशन संस्करण बहुत कम है। कृपया हमारे ऐप का अनुभव करने के लिए नवीनतम संस्करण को अपडेट करें। धन्यवाद </string>
+    <string name="txt_goto_store">मैं सहमत हूं और अपडेट के लिए जाता हूं</string>
+    <string name="txt_do_later">मुझसे बाद में पूछें</string>
+    <string name="txt_please_check_internet_connection">कृपया इंटरनेट कनेक्शन जांचें</string>
+    <string name="txt_retry">पुनः प्रयास करें</string>
+    <string name="txt_no_internet_connection">कोई इंटरनेट कनेक्शन नहीं</string>
+    <string name="txt_enjoying_the_app">क्या आपको हमारा ऐप पसंद है?</string>
+    <string name="txt_maybe_later">शायद बाद में</string>
+    <string name="txt_press_again_to_exit">बाहर निकलने के लिए दोबारा दबाएं</string>
+    <string name="txt_settings">सेटिंग</string>
+    <string name="txt_welcome_to_back">वापस स्वागत है</string>
+    <string name="txt_update">अपडेट करें</string>
+    <string name="txt_flash_alert">फ्लैश अलर्ट</string>
+    <string name="txt_flash_light">फ़्लैश लाइट</string>
+    <string name="txt_guide">गाइड</string>
+    <string name="txt_setting">सेटिंग</string>
+    <!-- TODO: इस प्लेसहोल्डर टेक्स्ट को हटाएं या बदलें -->
+    <string name="hello_blank_fragment">नमस्कार खाली टुकड़ा</string>
+    <string name="txt_status_on">स्थिति: चालू</string>
+    <string name="txt_turn_on_for_incoming_calls">इनकमिंग कॉल के लिए चालू करें</string>
+    <string name="txt_turn_on_for_sms">SMS के लिए चालू करें</string>
+    <string name="txt_turn_on_for_amp_notification"><![CDATA[चालू करें और अधिसूचना]]></string>
+    <string name="txt_on_time">समय पर</string>
+    <string name="txt_off_time">बंद होने का समय</string>
+    <string name="txt_normal">सामान्य</string>
+    <string name="txt_vibrate">कंपन</string>
+    <string name="txt_silent">साइलेंट</string>
+    <string name="txt_second">सेकंड</string>
+    <string name="txt_flash_is_on_press_the_off_button_to_stop">फ़्लैश चालू है। रोकने के लिए \'\'OFF\'\' बटन दबाएँ</string>
+    <string name="txt_status">STATUS</string>
+    <string name="txt_speed">गति</string>
+    <string name="txt_test">परीक्षण</string>
+    <string name="txt_request_permissions">अनुमतियों का अनुरोध करें</string>
+    <string name="txt_content_permission">फ़्लैश के काम करने के लिए आपको कैमरा और फ़ोन का एक्सेस देना होगा। यह अनुमति फ़ोन को बिल्कुल भी प्रभावित नहीं करती है इसलिए कृपया निश्चिंत रहें</string>
+    <string name="txt_ok">ठीक है</string>
+    <string name="txt_stop">बंद करें</string>
+    <string name="txt_installing">इंस्टॉल हो रहा है...</string>
+    <string name="txt_flash_call_ntallation_successful">फ़्लैश कॉल इंस्टॉलेशन सफल!</string>
+    <string name="txt_try_it">इसे आज़माएं</string>
+    <string name="txt_incoming_call">इनकमिंग कॉल...</string>
+    <string name="txt_accept">स्वीकार करें</string>
+    <string name="txt_delince">अस्वीकार करें</string>
+    <string name="txt_install_successfully">सफलतापूर्वक इंस्‍टॉल करें</string>
+    <string name="txt_please_allow_notification_access"> कृपया नोटिफिकेशन एक्सेस की अनुमति दें।</string>
+    <string name="txt_you_need_to_grant_notification_access_to_enalble_this_feature"> आपको इस सुविधा को सक्षम करने के लिए अधिसूचना पहुंच प्रदान करने की आवश्यकता है।</string>
+    <string name="notification_listener_service">FlashLight अधिसूचना नियम</string>
+    <string name="txt_status_off">स्थिति: बंद</string>
+    <string name="txt_advanced">उन्नत</string>
+    <string name="txt_do_not_flash_the_flash_while_the_screen_is_on"> स्क्रीन चालू होने पर फ़्लैश न करें </string>
+    <string name="txt_save_battery">बैटरी बचाएं</string>
+    <string name="txt_turn_off_flash_when_battery_is_low">बैटरी कम होने पर फ्लैश बंद करें</string>
+    <string name="txt_policy">नीति</string>
+    <string name="txt_share">साझा करें</string>
+    <string name="txt_how_to_remove_this_application_from_the_restricted_list_of_power">इस एप्लिकेशन को शक्ति की प्रतिबंधित सूची से कैसे निकालें</string>
+    <string name="txt_why_this_app_not_flashing"> यह ऐप क्यों नहीं चमकता या कभी-कभी नहीं चमकता </string>
+    <string name="txt_how_to_avoid_accidentally">इस ऐप को गलती से बंद करने से कैसे बचें?</string>
+    <string name="txt_what_permissions_does_this_app_require">इस ऐप को किन अनुमतियों की आवश्यकता है?</string>
+    <string name="txt_quest_how_to_remove_this_application_from_the_restricted_list_of_power">फोन पर पावर सेविंग सुविधाओं की प्रतिबंधित सूची से इस एप्लिकेशन को कैसे हटाएं?</string>
+    <string name="txt_quest_why_this_app_not_flashing"> यह ऐप क्यों नहीं चमकता या कभी-कभी नहीं चमकता?</string>
+    <string name="txt_quest_what_permissions_does_this_app_require">इस ऐप को किन अनुमतियों की आवश्यकता है?</string>
+    <string name="txt_answer_how_to_remove_this_application_from_the_restricted_list_of_power">सामान्य गाइड:</string>
+
+    <string name="txt_answer_why_this_app_not_flashing"><![CDATA[ 1. यह एप्लिकेशन गलती से <br/> <br/>2 हो गया था। कुछ फोन पर, फोन के बैटरी ऑप्टिमाइज़र ने ऐप को पृष्ठभूमि में नहीं चलने दिया, जिससे यह ऐप काम करना बंद कर दिया। <br/> <br/>3. जब फोन कम बैटरी स्तर का संकेत देता है और आप पावर सेविंग फीचर को सक्रिय करते हैं, तो यह एप्लिकेशन काम करना बंद कर सकता है। \n4. जब आप अपने फ़ोन को शटडाउन और रीस्टार्ट करते हैं, तो हो सकता है कि कुछ डिवाइस पर यह ऐप खुद को रीस्टार्ट न कर पाए। <br/> <br/>5. किसी भी स्थिति में, जब यह एप्लिकेशन बंद हो जाता है और काम नहीं कर रहा है, तो आपको बस इस एप्लिकेशन को फिर से खोलना होगा।]]></string>
+    <string name="txt_answer_how_to_avoid_accidentally">
+        इस ऐप को मल्टीटास्किंग मैनेजर पर लॉक करने से यह ऐप बेहतर काम कर सकता है, इसे हर समय सक्रिय रख सकता है, इस ऐप को गलती से बंद होने से बचा सकता है (अक्षम और निष्क्रिय)।
+    </string>
+    <string name="txt_answer_what_permissions_does_this_app_require"><![CDATA[<b> कॉल प्रबंधन: </b> इस अनुमति को सक्षम करें, जब आपके पास इनकमिंग कॉल हों, तो हम आपको सूचित करने के लिए फ्लैश कर सकते हैं <br/> <br/> <b> सूचनाएं:</b> इस अनुमति को सक्षम करें ताकि हम बैटरी की स्थिति को सूचित कर सकें। b> इस अनुमति को सक्षम करें ताकि जब आप अन्य एप्लिकेशन से संदेश प्राप्त करें तो हम फ्लैश कर सकें <br/><br/><b>प्रदर्शन अनुमति:</b> इस अनुमति को सक्षम करें ताकि हम स्क्रीन के शीर्ष पर दिखाई देने वाली सूचनाएं दिखा सकें <br/><br/> <b>कैमरा एक्सेस: </b> इस अनुमति को सक्षम करें ताकि टॉर्च सामान्य रूप से काम कर सके।]]></string>
+    <string name="txt_alarm_flash_blinks_on_call_flashlight">कॉल पर अलार्म फ्लैश झपकता है, फ्लैशलाइट</string>
+    <string name="txt_next">NEXT</string>
+    <string name="txt_thank_you">धन्यवाद!</string>
+    <string name="txt_content_thank"> हमारे ऐप का उपयोग करने के लिए धन्यवाद। क्या आप स्टोर पर अपनी समीक्षा पोस्ट करेंगे। इससे हमें काफी मदद और प्रेरणा मिलेगी। जल्द ही मिलेंगे!</string>
+    <string name="txt_turn_on_the_camera_and_flash_light">कैमरा और फ्लैश लाइट एक साथ चालू करें</string>
+    <string name="txt_turn_on_the_flash_light_creen">ऑफ स्क्रीन मोड में टॉर्च चालू करें</string>
+
+    <string name="txt_background_restriction"><![CDATA[> पृष्ठभूमि प्रतिबंध]]></string>
+    <string name="txt_battery"><![CDATA[> बैटरी]]></string>
+    <string name="txt_go_to_phone_setting">- यहां जाएं: फोन सेटिंग</string>
+    <string name="txt_select_off_or_unrestricted">->बंद या अप्रतिबंधित चुनें</string>
+</resources>

@@ -2,29 +2,33 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg_intro"
-    tools:context=".screen.intro.IntroActivity">
+    tools:context=".screen.intro.IntroActivity"
+    android:background="@drawable/bg_intro_1"
+    >
 
 
-    <RelativeLayout
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/vpImageIntro"
         android:layout_width="match_parent"
         android:layout_height="0dp"
+        android:layout_marginTop="@dimen/_10sdp"
+        app:layout_constraintBottom_toTopOf="@id/layout_indicator"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layout_indicator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         app:layout_constraintBottom_toTopOf="@id/myTemplate"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-
-        <androidx.viewpager.widget.ViewPager
-            android:id="@+id/vpImageIntro"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_above="@id/tvTitleIntro"
-
-            />
-
+       >
         <TextView
             android:id="@+id/tvTitleIntro"
             android:layout_width="match_parent"
@@ -37,13 +41,19 @@
             android:text="@string/txt_alarm_flash_blinks_on_call_flashlight"
             android:textColor="@color/white"
             android:textSize="@dimen/_16ssp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@id/rlIndicator"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
 
         <RelativeLayout
             android:id="@+id/rlIndicator"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true">
+            android:layout_alignParentBottom="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
 
             <me.relex.circleindicator.CircleIndicator
                 android:id="@+id/myIndicator"
@@ -69,7 +79,7 @@
                 android:textColor="@color/white" />
 
         </RelativeLayout>
-    </RelativeLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
     <com.lutech.flashlight.ads.TemplateView
         android:id="@+id/myTemplate"
@@ -84,5 +94,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <include layout="@layout/content_ads_loading"/>
+    <include layout="@layout/content_ads_loading" />
 </androidx.constraintlayout.widget.ConstraintLayout>

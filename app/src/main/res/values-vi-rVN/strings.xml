@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="txt_share_app">Chia sẻ ứng dụng</string>
+    <string name="txt_rate_us">Xếp hạng chúng tôi</string>
+    <string name="txt_feedback">Phản hồi</string>
+    <string name="txt_feedback_app">"Ứng dụng phản hồi : "</string>
+    <string name="txt_write_your_feedback_here">Viết phản hồi của bạn tại đây</string>
+    <string name="txt_language">Ngôn ngữ</string>
+    <string name="txt_toast_ads">Hành động này có thể chứa quảng cáo</string>
+    <string name="txt_loading_ads">đang tải quảng cáo</string>
+    <string name="title_warning_version">Phiên bản ứng dụng của bạn quá thấp. Vui lòng cập nhật phiên bản mới nhất để trải nghiệm ứng dụng của chúng tôi. Cảm ơn</string>
+    <string name="txt_goto_store">Tôi đồng ý và cập nhật</string>
+    <string name="txt_do_later">Hỏi tôi sau</string>
+    <string name="txt_please_check_internet_connection">Vui lòng kiểm tra kết nối internet</string>
+    <string name="txt_retry">Thử lại</string>
+    <string name="txt_no_internet_connection">Không có kết nối Internet</string>
+    <string name="txt_enjoying_the_app">BẠN CÓ THÍCH ỨNG DỤNG CỦA CHÚNG TÔI KHÔNG?</string>
+    <string name="txt_maybe_later">Có thể để sau</string>
+    <string name="txt_press_again_to_exit">Nhấn lần nữa để thoát</string>
+    <string name="txt_settings">Cài đặt</string>
+    <string name="txt_welcome_to_back">Chào mừng trở lại</string>
+    <string name="txt_update">Cập nhật</string>
+    <string name="txt_flash_alert">Cảnh báo flash</string>
+    <string name="txt_flash_light">Đèn nháy</string>
+    <string name="txt_guide">Hướng dẫn</string>
+    <string name="txt_setting">Cài đặt</string>
+    <!-- VIỆC CẦN LÀM: Xóa hoặc thay đổi văn bản giữ chỗ này -->
+    <string name="hello_blank_fragment">Xin chào đoạn trống</string>
+    <string name="txt_status_on">Trạng thái: Bật</string>
+    <string name="txt_turn_on_for_incoming_calls">Bật khi có cuộc gọi đến</string>
+    <string name="txt_turn_on_for_sms">Bật SMS</string>
+    <string name="txt_turn_on_for_amp_notification"> Bật &amp; Thông báo</string>
+    <string name="txt_on_time">Đúng giờ</string>
+    <string name="txt_off_time">Hết giờ</string>
+    <string name="txt_normal">Bình thường</string>
+    <string name="txt_vibrate">Rung</string>
+    <string name="txt_silent">Im lặng</string>
+    <string name="txt_second">giây</string>
+    <string name="txt_flash_is_on_press_the_off_button_to_stop">Đèn flash đang bật. Nhấn nút \'\'OFF\'\' để dừng</string>
+    <string name="txt_status">TRẠNG THÁI</string>
+    <string name="txt_speed">TỐC ĐỘ</string>
+    <string name="txt_test">Kiểm tra</string>
+    <string name="txt_request_permissions">Yêu cầu quyền</string>
+    <string name="txt_content_permission">Để đèn flash hoạt động, bạn cần cấp cho máy ảnh và điện thoại quyền truy cập. Sự cho phép này hoàn toàn không ảnh hưởng đến điện thoại nên các bạn cứ yên tâm</string>
+    <string name="txt_ok">Được</string>
+    <string name="txt_stop">Dừng</string>
+    <string name="txt_installing">Đang cài đặt...</string>
+    <string name="txt_flash_call_ntallation_successful">Cài đặt flash call thành công!</string>
+    <string name="txt_try_it">HÃY THỬ</string>
+    <string name="txt_incoming_call">Cuộc gọi đến....</string>
+    <string name="txt_accept">Chấp nhận</string>
+    <string name="txt_delince">Từ chối</string>
+    <string name="txt_install_successfully">Cài đặt thành công</string>
+    <string name="txt_please_allow_notification_access">Vui lòng cho phép truy cập thông báo.</string>
+    <string name="txt_you_need_to_grant_notification_access_to_enalble_this_feature">Bạn cần cấp Quyền truy cập thông báo để kích hoạt tính năng này.</string>
+    <string name="notification_listener_service">Quy tắc thông báo FlashLight</string>
+    <string name="txt_status_off">Trạng thái: Tắt</string>
+    <string name="txt_advanced">N NG CAO</string>
+    <string name="txt_do_not_flash_the_flash_while_the_screen_is_on">Không nháy flash khi màn hình đang bật</string>
+    <string name="txt_save_battery">Tiết kiệm Pin</string>
+    <string name="txt_turn_off_flash_when_battery_is_low">Tắt flash khi pin yếu</string>
+    <string name="txt_policy">Chính sách</string>
+    <string name="txt_share">Chia sẻ</string>
+    <string name="txt_how_to_remove_this_application_from_the_restricted_list_of_power">Cách xóa ứng dụng này khỏi danh sách hạn chế quyền lực</string>
+    <string name="txt_why_this_app_not_flashing">Tại sao ứng dụng này không nhấp nháy hoặc thỉnh thoảng không nhấp nháy</string>
+    <string name="txt_how_to_avoid_accidentally">Làm cách nào để tránh vô tình đóng ứng dụng này?</string>
+    <string name="txt_what_permissions_does_this_app_require">Ứng dụng này yêu cầu những quyền gì?</string>
+    <string name="txt_quest_how_to_remove_this_application_from_the_restricted_list_of_power">Làm cách nào để xóa ứng dụng này khỏi danh sách hạn chế các tính năng tiết kiệm pin trên điện thoại?</string>
+    <string name="txt_quest_why_this_app_not_flashing">Tại sao ứng dụng này không nhấp nháy hoặc thỉnh thoảng không nhấp nháy?</string>
+    <string name="txt_quest_what_permissions_does_this_app_require">Ứng dụng này yêu cầu những quyền gì?</string>
+    <string name="txt_answer_how_to_remove_this_application_from_the_restricted_list_of_power">Hướng dẫn chung:</string>
+
+    <string name="txt_answer_why_this_app_not_flashing"><![CDATA[ 1. Ứng dụng này vô tình <br/> <br/>2. Trên một số điện thoại, trình tối ưu hóa pin của điện thoại không cho phép ứng dụng chạy ẩn, khiến ứng dụng này ngừng hoạt động. <br/> <br/>3. Khi điện thoại báo mức pin yếu và bạn kích hoạt tính năng tiết kiệm pin, ứng dụng này có thể ngừng hoạt động. \n4. Khi bạn tắt và khởi động lại điện thoại, trên một số thiết bị, ứng dụng này có thể không tự khởi động lại được. <br/> <br/>5. Trong mọi trường hợp, khi ứng dụng này bị đóng và không hoạt động, bạn chỉ cần mở lại ứng dụng này.]]></string>
+    <string name="txt_answer_how_to_avoid_accidentally">
+        Khóa ứng dụng này trên trình quản lý đa nhiệm có thể giúp ứng dụng này hoạt động tốt hơn, giúp ứng dụng luôn hoạt động, tránh ứng dụng này vô tình bị đóng (bị vô hiệu hóa và không thể hoạt động).
+    </string>
+    <string name="txt_answer_what_permissions_does_this_app_require"><![CDATA[<b> Quản lý cuộc gọi: </b> Bật quyền này, khi bạn có cuộc gọi đến, chúng tôi có thể nhấp nháy để thông báo cho bạn <br/> <br/> <b> Thông báo:</b> Bật quyền này để chúng tôi có thể thông báo trạng thái pin Chạy trong nền: Bật quyền này để đèn flash của cuộc gọi đến và tính năng phát hiện pin hoạt động ổn định <br/><br/> <b>Quyền truy cập thông báo:</b> b> Bật quyền này để chúng tôi có thể nhấp nháy khi bạn nhận được tin nhắn từ các ứng dụng khác <br/><br/><b>Quyền hiển thị:</b> Bật quyền này để chúng tôi có thể hiển thị thông báo xuất hiện trên đầu màn hình <br/><br/> <b>Quyền truy cập máy ảnh: </b> Bật quyền này để đèn pin có thể hoạt động bình thường.]]></string>
+    <string name="txt_alarm_flash_blinks_on_call_flashlight">Đèn nháy báo thức nhấp nháy khi có cuộc gọi, đèn pin</string>
+    <string name="txt_next">TIẾP THEO</string>
+    <string name="txt_thank_you">CÁM ƠN BẠN!</string>
+    <string name="txt_content_thank">Cảm ơn bạn đã sử dụng Ứng dụng của chúng tôi. Bạn sẽ đăng đánh giá của bạn trên cửa hàng. Điều này sẽ giúp đỡ và động viên chúng tôi rất nhiều. Hẹn gặp lại!</string>
+    <string name="txt_turn_on_the_camera_and_flash_light">Bật máy ảnh và đèn flash đồng thời</string>
+    <string name="txt_turn_on_the_flash_light_creen">Bật đèn pin ở chế độ tắt màn hình</string>
+
+    <string name="txt_background_restriction"><![CDATA[> Giới hạn nền]]></string>
+    <string name="txt_battery"><![CDATA[>Pin]]></string>
+    <string name="txt_go_to_phone_setting">- Đi tới:Cài đặt điện thoại</string>
+    <string name="txt_select_off_or_unrestricted">->Chọn TẮT hoặc Không hạn chế</string>
+
+</resources>

@@ -47,12 +47,12 @@ class GuideActivity : AppCompatActivity(), OnItemClickListener {
         val arrayAnswer: TypedArray = resources.obtainTypedArray(R.array.lsAnswerGuide)
 
         for (i in 0 until 4) {
+            var isGuideSetting = i == 0
             mList.add(
                 Guide(
                     arrayTitle.getResourceId(i, 0),
                     arrayQuestion.getResourceId(i, 0),
-                    arrayAnswer.getResourceId(i, 0),
-                    0
+                    arrayAnswer.getResourceId(i, 0), isGuideSetting
                 )
             )
         }

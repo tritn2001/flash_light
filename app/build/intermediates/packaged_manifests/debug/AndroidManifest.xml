@@ -62,8 +62,14 @@
         android:networkSecurityConfig="@xml/network_security_config"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/Theme.BaseProject" >
+        <activity
+            android:name="com.lutech.flashlight.screen.FirstFinishActivity"
+            android:exported="false" >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
         <activity
             android:name="com.lutech.flashlight.screen.intro.IntroActivity"
             android:exported="false" >

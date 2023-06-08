@@ -17,7 +17,6 @@ import com.google.firebase.remoteconfig.FirebaseRemoteConfigSettings
 import com.lutech.flashlight.ads.*
 import com.lutech.flashlight.buy_premium.BillingClientSetup
 import com.lutech.flashlight.language.activity.LanguageActivity
-import com.lutech.flashlight.screen.intro.IntroActivity
 import com.lutech.flashlight.util.ChangeLanguage
 import com.lutech.flashlight.util.CheckLoginFirst
 import kotlinx.android.synthetic.main.dialog_update_version.*
@@ -201,7 +200,7 @@ class SplashActivity : BaseActivity(), AdsListener, OnDismissTimerListener {
         mIntent = null
         mIntent = if (checkLoginFirst.isFirsSetLanguage == false) {
             Log.d("====>@34234", "gotoNextScreen false: ")
-            Intent(this, IntroActivity::class.java)
+            Intent(this, LanguageActivity::class.java)
 
         } else {
             Log.d("====>@34234", "gotoNextScreen:true ")
@@ -228,7 +227,7 @@ class SplashActivity : BaseActivity(), AdsListener, OnDismissTimerListener {
                 CheckLoginFirst(this)
             mIntent = if (checkLoginFirst.isFirsSetLanguage == false) {
                 Log.d("====>@34234", "gotoNextScreen false: ")
-                Intent(this, IntroActivity::class.java)
+                Intent(this, LanguageActivity::class.java)
             } else {
                 Log.d("====>@34234", "gotoNextScreen:true ")
                 Intent(this, HomeActivity::class.java)

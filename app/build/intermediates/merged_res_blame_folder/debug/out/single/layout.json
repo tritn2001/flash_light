@@ -1,130 +1,134 @@
 [
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-mergeDebugResources-6:\\layout\\activity_guide_detaild.xml",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-9:\\layout\\activity_guide_detaild.xml"
+        "merged": "com.lutech.flashlight.app-mergeDebugResources-6:/layout/gnt_medium_template_view.xml",
+        "source": "com.lutech.flashlight.app-main-9:/layout/gnt_medium_template_view.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-mergeDebugResources-6:\\layout\\gnt_small_template_view_intro.xml",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-9:\\layout\\gnt_small_template_view_intro.xml"
+        "merged": "com.lutech.flashlight.app-mergeDebugResources-6:/layout/fragment_setting.xml",
+        "source": "com.lutech.flashlight.app-main-9:/layout/fragment_setting.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-mergeDebugResources-6:\\layout\\activity_splash.xml",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-9:\\layout\\activity_splash.xml"
+        "merged": "com.lutech.flashlight.app-mergeDebugResources-6:/layout/fragment_flash_light.xml",
+        "source": "com.lutech.flashlight.app-main-9:/layout/fragment_flash_light.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-mergeDebugResources-6:\\layout\\activity_language.xml",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-9:\\layout\\activity_language.xml"
+        "merged": "com.lutech.flashlight.app-mergeDebugResources-6:/layout/activity_language.xml",
+        "source": "com.lutech.flashlight.app-main-9:/layout/activity_language.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-mergeDebugResources-6:\\layout\\layout_test.xml",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-9:\\layout\\layout_test.xml"
+        "merged": "com.lutech.flashlight.app-mergeDebugResources-6:/layout/dialog_update_version.xml",
+        "source": "com.lutech.flashlight.app-main-9:/layout/dialog_update_version.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-mergeDebugResources-6:\\layout\\activity_home.xml",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-9:\\layout\\activity_home.xml"
+        "merged": "com.lutech.flashlight.app-mergeDebugResources-6:/layout/layout_lock.xml",
+        "source": "com.lutech.flashlight.app-main-9:/layout/layout_lock.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-mergeDebugResources-6:\\layout\\gnt_medium_language_template_view.xml",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-9:\\layout\\gnt_medium_language_template_view.xml"
+        "merged": "com.lutech.flashlight.app-mergeDebugResources-6:/layout/layout_dialog_install_success.xml",
+        "source": "com.lutech.flashlight.app-main-9:/layout/layout_dialog_install_success.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-mergeDebugResources-6:\\layout\\dialog_rateus.xml",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-9:\\layout\\dialog_rateus.xml"
+        "merged": "com.lutech.flashlight.app-mergeDebugResources-6:/layout/activity_settings_flash_alert.xml",
+        "source": "com.lutech.flashlight.app-main-9:/layout/activity_settings_flash_alert.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-mergeDebugResources-6:\\layout\\layout_check_permission.xml",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-9:\\layout\\layout_check_permission.xml"
+        "merged": "com.lutech.flashlight.app-mergeDebugResources-6:/layout/dialog_rateus.xml",
+        "source": "com.lutech.flashlight.app-main-9:/layout/dialog_rateus.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-mergeDebugResources-6:\\layout\\layout_item_intro.xml",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-9:\\layout\\layout_item_intro.xml"
+        "merged": "com.lutech.flashlight.app-mergeDebugResources-6:/layout/layout_item_intro.xml",
+        "source": "com.lutech.flashlight.app-main-9:/layout/layout_item_intro.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-mergeDebugResources-6:\\layout\\activity_intro.xml",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-9:\\layout\\activity_intro.xml"
+        "merged": "com.lutech.flashlight.app-mergeDebugResources-6:/layout/layout_check_permission.xml",
+        "source": "com.lutech.flashlight.app-main-9:/layout/layout_check_permission.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-mergeDebugResources-6:\\layout\\activity_installing.xml",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-9:\\layout\\activity_installing.xml"
+        "merged": "com.lutech.flashlight.app-mergeDebugResources-6:/layout/layout_guide_how_to_remove.xml",
+        "source": "com.lutech.flashlight.app-main-9:/layout/layout_guide_how_to_remove.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-mergeDebugResources-6:\\layout\\fragment_flash_alert.xml",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-9:\\layout\\fragment_flash_alert.xml"
+        "merged": "com.lutech.flashlight.app-mergeDebugResources-6:/layout/activity_welcome_back.xml",
+        "source": "com.lutech.flashlight.app-main-9:/layout/activity_welcome_back.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-mergeDebugResources-6:\\layout\\layout_item_language.xml",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-9:\\layout\\layout_item_language.xml"
+        "merged": "com.lutech.flashlight.app-mergeDebugResources-6:/layout/activity_coming_call_trying.xml",
+        "source": "com.lutech.flashlight.app-main-9:/layout/activity_coming_call_trying.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-mergeDebugResources-6:\\layout\\activity_guide.xml",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-9:\\layout\\activity_guide.xml"
+        "merged": "com.lutech.flashlight.app-mergeDebugResources-6:/layout/item_guide.xml",
+        "source": "com.lutech.flashlight.app-main-9:/layout/item_guide.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-mergeDebugResources-6:\\layout\\activity_welcome_back.xml",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-9:\\layout\\activity_welcome_back.xml"
+        "merged": "com.lutech.flashlight.app-mergeDebugResources-6:/layout/activity_home.xml",
+        "source": "com.lutech.flashlight.app-main-9:/layout/activity_home.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-mergeDebugResources-6:\\layout\\fragment_guide.xml",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-9:\\layout\\fragment_guide.xml"
+        "merged": "com.lutech.flashlight.app-mergeDebugResources-6:/layout/fragment_guide.xml",
+        "source": "com.lutech.flashlight.app-main-9:/layout/fragment_guide.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-mergeDebugResources-6:\\layout\\notification.xml",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-9:\\layout\\notification.xml"
+        "merged": "com.lutech.flashlight.app-mergeDebugResources-6:/layout/activity_alow_permission_activity.xml",
+        "source": "com.lutech.flashlight.app-main-9:/layout/activity_alow_permission_activity.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-mergeDebugResources-6:\\layout\\content_ads_loading.xml",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-9:\\layout\\content_ads_loading.xml"
+        "merged": "com.lutech.flashlight.app-mergeDebugResources-6:/layout/gnt_medium_language_template_view.xml",
+        "source": "com.lutech.flashlight.app-main-9:/layout/gnt_medium_language_template_view.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-mergeDebugResources-6:\\layout\\activity_coming_call_trying.xml",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-9:\\layout\\activity_coming_call_trying.xml"
+        "merged": "com.lutech.flashlight.app-mergeDebugResources-6:/layout/layout_test.xml",
+        "source": "com.lutech.flashlight.app-main-9:/layout/layout_test.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-mergeDebugResources-6:\\layout\\layout_dialog_loading.xml",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-9:\\layout\\layout_dialog_loading.xml"
+        "merged": "com.lutech.flashlight.app-mergeDebugResources-6:/layout/activity_guide.xml",
+        "source": "com.lutech.flashlight.app-main-9:/layout/activity_guide.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-mergeDebugResources-6:\\layout\\gnt_small_template_view.xml",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-9:\\layout\\gnt_small_template_view.xml"
+        "merged": "com.lutech.flashlight.app-mergeDebugResources-6:/layout/content_ads_loading.xml",
+        "source": "com.lutech.flashlight.app-main-9:/layout/content_ads_loading.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-mergeDebugResources-6:\\layout\\gnt_medium_template_view.xml",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-9:\\layout\\gnt_medium_template_view.xml"
+        "merged": "com.lutech.flashlight.app-mergeDebugResources-6:/layout/activity_guide_detaild.xml",
+        "source": "com.lutech.flashlight.app-main-9:/layout/activity_guide_detaild.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-mergeDebugResources-6:\\layout\\fragment_flash_light.xml",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-9:\\layout\\fragment_flash_light.xml"
+        "merged": "com.lutech.flashlight.app-mergeDebugResources-6:/layout/gnt_small_template_view_intro.xml",
+        "source": "com.lutech.flashlight.app-main-9:/layout/gnt_small_template_view_intro.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-mergeDebugResources-6:\\layout\\fragment_setting.xml",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-9:\\layout\\fragment_setting.xml"
+        "merged": "com.lutech.flashlight.app-mergeDebugResources-6:/layout/activity_intro.xml",
+        "source": "com.lutech.flashlight.app-main-9:/layout/activity_intro.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-mergeDebugResources-6:\\layout\\activity_alow_permission_activity.xml",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-9:\\layout\\activity_alow_permission_activity.xml"
+        "merged": "com.lutech.flashlight.app-mergeDebugResources-6:/layout/layout_dialog_loading.xml",
+        "source": "com.lutech.flashlight.app-main-9:/layout/layout_dialog_loading.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-mergeDebugResources-6:\\layout\\activity_settings_flash_alert.xml",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-9:\\layout\\activity_settings_flash_alert.xml"
+        "merged": "com.lutech.flashlight.app-mergeDebugResources-6:/layout/activity_fisrt_finish.xml",
+        "source": "com.lutech.flashlight.app-main-9:/layout/activity_fisrt_finish.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-mergeDebugResources-6:\\layout\\item_guide.xml",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-9:\\layout\\item_guide.xml"
+        "merged": "com.lutech.flashlight.app-mergeDebugResources-6:/layout/notification.xml",
+        "source": "com.lutech.flashlight.app-main-9:/layout/notification.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-mergeDebugResources-6:\\layout\\dialog_update_version.xml",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-9:\\layout\\dialog_update_version.xml"
-    },
-    {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-mergeDebugResources-6:\\layout\\layout_dialog_install_success.xml",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-9:\\layout\\layout_dialog_install_success.xml"
-    },
-    {
-        "merged": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-mergeDebugResources-6:\\layout\\layout_lock.xml",
-        "source": "C:\\Users\\Admin\\Downloads\\File Tri\\VoiceChanger\\daemon\\7.4\\com.lutech.flashlight.app-main-9:\\layout\\layout_lock.xml"
+        "merged": "com.lutech.flashlight.app-mergeDebugResources-6:/layout/layout_item_language.xml",
+        "source": "com.lutech.flashlight.app-main-9:/layout/layout_item_language.xml"
     },
     {
         "merged": "com.lutech.flashlight.app-mergeDebugResources-6:/layout/fragment_flash_alert.xml",
         "source": "com.lutech.flashlight.app-main-9:/layout/fragment_flash_alert.xml"
+    },
+    {
+        "merged": "com.lutech.flashlight.app-mergeDebugResources-6:/layout/gnt_small_template_view.xml",
+        "source": "com.lutech.flashlight.app-main-9:/layout/gnt_small_template_view.xml"
+    },
+    {
+        "merged": "com.lutech.flashlight.app-mergeDebugResources-6:/layout/activity_installing.xml",
+        "source": "com.lutech.flashlight.app-main-9:/layout/activity_installing.xml"
+    },
+    {
+        "merged": "com.lutech.flashlight.app-mergeDebugResources-6:/layout/activity_splash.xml",
+        "source": "com.lutech.flashlight.app-main-9:/layout/activity_splash.xml"
     }
 ]

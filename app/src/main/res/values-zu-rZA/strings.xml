@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="txt_share_app" msgid="434434365000008888">"Yabelana ngohlelo lokusebenza"</string>
+    <string name="txt_rate_us" msgid="4434343434444444433">"Silinganisele"</string>
+    <string name="txt_feedback">Impendulo</string>
+    <string name="txt_feedback_app" msgid="40087765658585888">"Uhlelo lokusebenza lwempendulo : "</string>
+    <string name="txt_write_your_feedback_here">Bhala impendulo yakho lapha</string>
+    <string name="txt_language">Ulimi</string>
+    <string name="txt_toast_ads" msgid="483434355554558888">"Lesi senzo singaqukatha izikhangiso"</string>
+    <string name="txt_loading_ads">ilayisha izikhangiso</string>
+    <string name="title_warning_version" msgid="400343500000088888">"Inguqulo yohlelo lwakho lokusebenza iphansi kakhulu. Sicela ubuyekeze inguqulo entsha ukuze ujabulele uhlelo lwethu lokusebenza. Ngiyabonga</string>
+    <string name="txt_goto_store" msgid="483434365545458888">"Ngiyavuma futhi ngiya ekubuyekezeni"</string>
+    <string name="txt_do_later" msgid="494434354545443888">"Ngibuze ngokuhamba kwesikhathi"</string>
+    <string name="txt_please_check_internet_connection" msgid="401434365000888888">"Sicela uhlole uxhumano lwe-inthanethi"</string>
+    <string name="txt_retry" msgid="434334376545444438">"Zama futhi"</string>
+    <string name="txt_no_internet_connection" msgid="493433500000088888">"Alukho uxhumano lwe-inthanethi"</string>
+    <string name="txt_enjoying_the_app" msgid="434343656555588888">"UYALUTHANDA UHLELO LWETHU LOKUSEBENZA?</string>
+    <string name="txt_maybe_later" msgid="498333559500008888">"Mhlawumbe kamuva"</string>
+    <string name="txt_press_again_to_exit">Cindezela futhi ukuze uphume</string>
+    <string name="txt_settings">Izilungiselelo</string>
+    <string name="txt_welcome_to_back">Siyakwamukela Futhi</string>
+    <string name="txt_update">Buyekeza</string>
+    <string name="txt_flash_alert" msgid="434343759595958888">"Isexwayiso se-Flash"</string>
+    <string name="txt_flash_light" msgid="434343435444444433">"Ukukhanya kwe-Flash"</string>
+    <string name="txt_guide">Umhlahlandlela</string>
+    <string name="txt_setting" msgid="4434344364444444443">"Isilungiselelo"</string>
+    <!-- OKUMELE UKWENZE: Susa noma shintsha lo mbhalo wesibambi -->
+    <string name="hello_blank_fragment" msgid="649999500000888888">"Sawubona isiqephu esingenalutho"</string>
+    <string name="txt_status_on" msgid="493434375455558888">"Isimo: Vuliwe"</string>
+    <string name="txt_turn_on_for_incoming_calls" msgid="493434365959598888">"Vula Izingcingo Ezingenayo"</string>
+    <string name="txt_turn_on_for_sms" msgid="498399755999599888">"Vula i-SMS"</string>
+    <string name="txt_turn_on_for_amp_notification"><![CDATA[Vula Futhi Isaziso]]></string>
+    <string name="txt_on_time">Ngesikhathi</string>
+    <string name="txt_off_time" msgid="4343335543544444443">"Isikhathi sokungasebenzi"</string>
+    <string name="txt_normal">Okuvamile</string>
+    <string name="txt_vibrate" msgid="633333555565585898">"Dlidliza"</string>
+    <string name="txt_silent" msgid="6499335950000000">"Thula"</string>
+    <string name="txt_second">amasekhondi</string>
+    <string name="txt_flash_is_on_press_the_off_button_to_stop">I-Flash ivuliwe.Cindezela inkinobho ethi \'\'OFF\'\' ukuze umise</string>
+    <string name="txt_status">ISIMO</string>
+    <string name="txt_speed">SPEED</string>
+    <string name="txt_test">Test</string>
+    <string name="txt_request_permissions" msgid="444437765654585888">"Cela izimvume"</string>
+    <string name="txt_content_permission" msgid="498397759588885888">"Ukuze iflash isebenze udinga ukunika ikhamera nefoni ukufinyelela. Le mvume ayithinti nhlobo ifoni ngakho sicela uqiniseke</string>
+    <string name="txt_ok">KULUNGILE</string>
+    <string name="txt_stop">Misa</string>
+    <string name="txt_installing" msgid="40034000000000000">"Iyafaka...</string>
+    <string name="txt_flash_call_ntallation_successful" msgid="400387595999999888">"Ukufakwa kwekholi ekhanyayo kuphumelele!</string>
+    <string name="txt_try_it" msgid="434333433543558888">"YAZAMA"</string>
+    <string name="txt_incoming_call" msgid="4000000000000000">"Ucingo olungenayo....</string>
+    <string name="txt_accept">Yamukela</string>
+    <string name="txt_delince">Yenqaba</string>
+    <string name="txt_install_successfully">Faka ngempumelelo</string>
+    <string name="txt_please_allow_notification_access" msgid="494439776598588898">"Sicela uvumele ukufinyelela kwesaziso.</string>
+    <string name="txt_you_need_to_grant_notification_access_to_enalble_this_feature" msgid="483439987598885888">"Kudingeka unikeze Ukufinyelela Kwesaziso ukuze unike lesi sici amandla.</string>
+    <string name="notification_listener_service" msgid="498393559959985888">"Imithetho Yesaziso Esikhanyayo"</string>
+    <string name="txt_status_off" msgid="649343545455444438">"Isimo: Valiwe"</string>
+    <string name="txt_advanced" msgid="649333555955958888">"ITHUTHUKILE"</string>
+    <string name="txt_do_not_flash_the_flash_while_the_screen_is_on" msgid="400887585000000388">"Ungawabanisi i-flash ngenkathi isikrini sivuliwe"</string>
+    <string name="txt_save_battery" msgid="40034365000008888">"Londoloza ibhethri"</string>
+    <string name="txt_turn_off_flash_when_battery_is_low" msgid="439334345959988888">"Vala i-flash uma ibhethri liphansi"</string>
+    <string name="txt_policy">Inqubomgomo</string>
+    <string name="txt_share">Yabelana</string>
+    <string name="txt_how_to_remove_this_application_from_the_restricted_list_of_power" msgid="400383655995999888">"Ulususa kanjani lolu hlelo lokusebenza ohlwini lwamandla olukhawulelwe"</string>
+    <string name="txt_why_this_app_not_flashing" msgid="4834343755885888588">"Kungani lolu hlelo lokusebenza lungakhanyi noma lungakhanyi kwesinye isikhathi"</string>
+    <string name="txt_how_to_avoid_accidentally" msgid="4343237565655585888">"Ungakugwema kanjani ukuvala lolu hlelo lokusebenza ngephutha?</string>
+    <string name="txt_what_permissions_does_this_app_require" msgid="640343765658588888">"Iziphi izimvume ezidingwa lolu hlelo lokusebenza?</string>
+    <string name="txt_quest_how_to_remove_this_application_from_the_restricted_list_of_power" msgid="400388639999995998">"Ulususa kanjani lolu hlelo lokusebenza ohlwini olukhawulelwe lezici zokonga amandla ocingweni?</string>
+    <string name="txt_quest_why_this_app_not_flashing" msgid="644397577585888888">"Kungani lolu hlelo lokusebenza lungabanizi noma lungabanizi ngezinye izikhathi?</string>
+    <string name="txt_quest_what_permissions_does_this_app_require" msgid="400388886595888888">"Iziphi izimvume ezidingwa lolu hlelo lokusebenza?</string>
+    <string name="txt_answer_how_to_remove_this_application_from_the_restricted_list_of_power">Umhlahlandlela ojwayelekile:</string>
+
+    <string name="txt_answer_why_this_app_not_flashing"><![CDATA[ 1. Lolu hlelo lokusebenza lube <br/> <br/>2 ngephutha. Kwamanye amafoni, isikhuthazi sebhethri sefoni asizange sivumele uhlelo lokusebenza ukuthi lusebenze ngemuva, okubangele ukuthi lolu hlelo luyeke ukusebenza. <br/> <br/>3. Uma ifoni ikhombisa izinga eliphansi lebhethri futhi wenza kusebenze isici sokulondoloza amandla, lolu hlelo lokusebenza lungase luyeke ukusebenza. \n4. Uma ucisha futhi uqala kabusha ifoni yakho, kwamanye amadivaysi lolu hlelo lokusebenza lungase lungakwazi ukuziqalisa kabusha. <br/> <br/>5. Kunoma ikuphi, uma lolu hlelo lokusebenza luvaliwe futhi lungasebenzi, udinga nje ukuvula lolu hlelo lokusebenza.]]></string>
+    <string name="txt_answer_how_to_avoid_accidentally">
+        Ukukhiya lolu hlelo lokusebenza kusiphathi semisebenzi eminingi kungenza lolu hlelo lokusebenza lusebenze kangcono, lugcine lusebenza ngaso sonke isikhathi, gwema ukuthi lolu hlelo lokusebenza luvalwe ngephutha (lukhutshaziwe futhi lungasebenzi).
+    </string>
+    <string name="txt_answer_what_permissions_does_this_app_require"><![CDATA[<b> Ukuphathwa kwekholi: </b> Nika amandla le mvume, uma unamakholi angenayo, singakhanyisa ukuze sikwazise <br/> <br/> <b> Izaziso:</b> Nika amandla le mvume ukuze sikwazi ukwazisa isimo sebhethri Isendlalelo esisebenzayo: Nika amandla le mvume ukuze ugcine ukukhanya kwekholi engenayo nokutholwa kwebhethri kusebenza ngokuzinzile <br/><br/> <b>Ukufinyelela Isaziso:</ b> Nika amandla le mvume ukuze sikwazi ukukhanya lapho uthola imilayezo evela kwezinye izinhlelo zokusebenza <br/><br/><b>Imvume Yokubonisa:</b> Nika amandla le mvume ukuze sikwazi ukubonisa izaziso ezivela phezulu kwesikrini. <br/><br/> <b>Ukufinyelela Kwekhamera: </b> Nika amandla le mvume ukuze ithoshi lisebenze ngokujwayelekile.]]></string>
+    <string name="txt_alarm_flash_blinks_on_call_flashlight">I-alamu icwayiza ocingweni, ithoshi</string>
+    <string name="txt_next">OKULANDELAYO</string>
+    <string name="txt_thank_you">NGIYABONGA!</string>
+    <string name="txt_content_thank" msgid="498397558585858888">"Siyabonga ngokusebenzisa uhlelo lwethu lokusebenza. Ungathanda ukuthumela isibuyekezo sakho esitolo. Lokhu kuzosisiza futhi kusikhuthaze kakhulu. Sizokubona maduze!</string>
+    <string name="txt_turn_on_the_camera_and_flash_light" msgid="434323230000008888">"Vula ikhamera nokukhanya kwe-flash kanyekanye"</string>
+    <string name="txt_turn_on_the_flash_light_creen" msgid="434324350000008888">"Vula ithoshi kumodi yokuvala isikrini"</string>
+
+    <string name="txt_background_restriction"><![CDATA[> Ukuvinjelwa kwangemuva]]></string>
+    <string name="txt_battery"><![CDATA[> Ibhethri]]></string>
+    <string name="txt_go_to_phone_setting" msgid="404434350000088888">- Iya ku:Izilungiselelo zefoni</string>
+    <string name="txt_select_off_or_unrestricted">->Khetha VALIWE noma Akukhawulelwe</string>
+</resources>

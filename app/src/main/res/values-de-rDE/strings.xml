@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="txt_share_app">App teilen</string>
+    <string name="txt_rate_us">Bewerten Sie uns</string>
+    <string name="txt_feedback">Feedback</string>
+    <string name="txt_feedback_app">"Feedback-App: "</string>
+    <string name="txt_write_your_feedback_here">Schreiben Sie hier Ihr Feedback</string>
+    <string name="txt_language">Sprache</string>
+    <string name="txt_toast_ads">Diese Aktion kann Werbung enthalten</string>
+    <string name="txt_loading_ads">Anzeigen werden geladen</string>
+    <string name="title_warning_version">Ihre Anwendungsversion ist zu niedrig. Bitte aktualisieren Sie die neueste Version, um unsere App nutzen zu können. Danke</string>
+    <string name="txt_goto_store">Ich stimme zu und gehe zur Aktualisierung</string>
+    <string name="txt_do_later">Fragen Sie mich später</string>
+    <string name="txt_please_check_internet_connection">Bitte überprüfen Sie die Internetverbindung</string>
+    <string name="txt_retry">Wiederholen</string>
+    <string name="txt_no_internet_connection">Keine Internetverbindung</string>
+    <string name="txt_enjoying_the_app">GEFÄLLT IHNEN UNSERE APP?</string>
+    <string name="txt_maybe_later">Vielleicht später</string>
+    <string name="txt_press_again_to_exit">Drücken Sie erneut, um den Vorgang zu beenden</string>
+    <string name="txt_settings">Einstellung</string>
+    <string name="txt_welcome_to_back">Willkommen zurück</string>
+    <string name="txt_update">Update</string>
+    <string name="txt_flash_alert">Flash-Alarm</string>
+    <string name="txt_flash_light">Blitzlicht</string>
+    <string name="txt_guide">Anleitung</string>
+    <string name="txt_setting">Einstellung</string>
+    <!-- TODO: Entfernen oder ändern Sie diesen Platzhaltertext -->
+    <string name="hello_blank_fragment">Hallo leeres Fragment</string>
+    <string name="txt_status_on">Status: Ein</string>
+    <string name="txt_turn_on_for_incoming_calls">Für eingehende Anrufe einschalten</string>
+    <string name="txt_turn_on_for_sms">Für SMS aktivieren</string>
+    <string name="txt_turn_on_for_amp_notification"><![CDATA[Einschalten für & Benachrichtigung]]></string>
+    <string name="txt_on_time">Pünktlich</string>
+    <string name="txt_off_time">Auszeit</string>
+    <string name="txt_normal">Normal</string>
+    <string name="txt_vibrate">Vibrieren</string>
+    <string name="txt_silent">Still</string>
+    <string name="txt_second">Sekunden</string>
+    <string name="txt_flash_is_on_press_the_off_button_to_stop">Der Blitz ist eingeschaltet. Drücken Sie zum Stoppen die Taste \'\'OFF\'\'.</string>
+    <string name="txt_status">STATUS</string>
+    <string name="txt_speed">GESCHWINDIGKEIT</string>
+    <string name="txt_test">Test</string>
+    <string name="txt_request_permissions">Berechtigungen anfordern</string>
+    <string name="txt_content_permission">Damit der Blitz funktioniert, müssen Sie Kamera und Telefon Zugriff gewähren. Diese Berechtigung wirkt sich überhaupt nicht auf das Telefon aus. Seien Sie also versichert</string>
+    <string name="txt_ok">OK</string>
+    <string name="txt_stop">Stopp</string>
+    <string name="txt_installing">Installieren...</string>
+    <string name="txt_flash_call_ntallation_successful">Flash-Call-Installation erfolgreich!</string>
+    <string name="txt_try_it">VERSUCHEN SIE ES</string>
+    <string name="txt_incoming_call">Eingehender Anruf....</string>
+    <string name="txt_accept">Akzeptieren</string>
+    <string name="txt_delince">Ablehnen</string>
+    <string name="txt_install_successfully">Erfolgreich installiert</string>
+    <string name="txt_please_allow_notification_access">Bitte erlauben Sie den Benachrichtigungszugriff.</string>
+    <string name="txt_you_need_to_grant_notification_access_to_enalble_this_feature">Sie müssen Benachrichtigungszugriff gewähren, um diese Funktion zu aktivieren.</string>
+    <string name="notification_listener_service">FlashLight-Benachrichtigungsregeln</string>
+    <string name="txt_status_off">Status: Aus</string>
+    <string name="txt_advanced">ERWEITERT</string>
+    <string name="txt_do_not_flash_the_flash_while_the_screen_is_on">Blitzen Sie nicht mit dem Blitz, während der Bildschirm eingeschaltet ist</string>
+    <string name="txt_save_battery">Akku sparen</string>
+    <string name="txt_turn_off_flash_when_battery_is_low">Blitz ausschalten, wenn der Akku fast leer ist</string>
+    <string name="txt_policy">Richtlinie</string>
+    <string name="txt_share">Teilen</string>
+    <string name="txt_how_to_remove_this_application_from_the_restricted_list_of_power">So entfernen Sie diese Anwendung aus der eingeschränkten Leistungsliste</string>
+    <string name="txt_why_this_app_not_flashing">Warum diese App nicht oder manchmal nicht blinkt</string>
+    <string name="txt_how_to_avoid_accidentally">Wie kann ich verhindern, dass diese App versehentlich geschlossen wird?</string>
+    <string name="txt_what_permissions_does_this_app_require">Welche Berechtigungen benötigt diese App?</string>
+    <string name="txt_quest_how_to_remove_this_application_from_the_restricted_list_of_power">Wie entferne ich diese Anwendung aus der eingeschränkten Liste der Energiesparfunktionen auf dem Telefon?</string>
+    <string name="txt_quest_why_this_app_not_flashing">Warum blinkt diese App nicht oder manchmal nicht?</string>
+    <string name="txt_quest_what_permissions_does_this_app_require">Welche Berechtigungen benötigt diese App?</string>
+    <string name="txt_answer_how_to_remove_this_application_from_the_restricted_list_of_power">Allgemeine Anleitung:</string>
+
+    <string name="txt_answer_why_this_app_not_flashing"><![CDATA[ 1. Diese Anwendung wurde versehentlich <br/> <br/>2. Auf einigen Telefonen ließ der Batterieoptimierer des Telefons nicht zu, dass die App im Hintergrund ausgeführt wurde, was dazu führte, dass diese App nicht mehr funktionierte. <br/> <br/>3. Wenn das Telefon einen niedrigen Akkustand anzeigt und Sie die Energiesparfunktion aktivieren, funktioniert diese Anwendung möglicherweise nicht mehr. \n4. Wenn Sie Ihr Telefon herunterfahren und neu starten, kann es sein, dass diese App auf einigen Geräten nicht selbst neu gestartet werden kann. <br/> <br/>5. Wenn diese Anwendung geschlossen ist und nicht funktioniert, müssen Sie sie auf jeden Fall nur erneut öffnen.]]></string>
+    <string name="txt_answer_how_to_avoid_accidentally">
+        Durch das Sperren dieser App im Multitasking-Manager kann die Funktion dieser App verbessert werden, sie ständig aktiv bleiben und verhindert werden, dass diese App versehentlich geschlossen wird (deaktiviert und nicht funktionsfähig).
+    </string>
+    <string name="txt_answer_what_permissions_does_this_app_require"><![CDATA[<b> Anrufverwaltung: </b> Aktivieren Sie diese Berechtigung, wenn Sie eingehende Anrufe erhalten, können wir blinken, um Sie zu benachrichtigen <br/> <br/> <b> Benachrichtigungen:</b> Aktivieren Sie diese Berechtigung, damit wir den Batteriestatus benachrichtigen können. Hintergrund läuft: Aktivieren Sie diese Berechtigung, damit das Blinken eingehender Anrufe und die Batterieerkennung stabil funktionieren. <br/><br/> <b>Benachrichtigungszugriff:</ b> Aktivieren Sie diese Berechtigung, damit wir blinken können, wenn Sie Nachrichten von anderen Anwendungen erhalten. <br/><br/><b>Anzeigeberechtigung:</b> Aktivieren Sie diese Berechtigung, damit wir Benachrichtigungen oben auf dem Bildschirm anzeigen können <br/><br/> <b>Kamerazugriff: </b> Aktivieren Sie diese Berechtigung, damit die Taschenlampe normal funktionieren kann.]]></string>
+    <string name="txt_alarm_flash_blinks_on_call_flashlight">Alarmblitz blinkt bei Anruf, Taschenlampe</string>
+    <string name="txt_next">WEITER</string>
+    <string name="txt_thank_you">DANKE!</string>
+    <string name="txt_content_thank">Vielen Dank, dass Sie unsere App nutzen. Würden Sie Ihre Bewertung im Geschäft veröffentlichen? Das wird uns sehr helfen und motivieren. Bis bald!</string>
+    <string name="txt_turn_on_the_camera_and_flash_light">Kamera und Blitzlicht gleichzeitig einschalten</string>
+    <string name="txt_turn_on_the_flash_light_creen">Taschenlampe im Off-Screen-Modus einschalten</string>
+
+    <string name="txt_background_restriction"><![CDATA[> Hintergrundeinschränkung]]></string>
+    <string name="txt_battery"><![CDATA[> Battery]]></string>
+    <string name="txt_go_to_phone_setting">- Gehen Sie zu:Telefoneinstellung</string>
+    <string name="txt_select_off_or_unrestricted">->Wählen Sie AUS oder Uneingeschränkt</string>
+</resources>

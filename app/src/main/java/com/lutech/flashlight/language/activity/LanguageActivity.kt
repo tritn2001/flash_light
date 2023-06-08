@@ -14,6 +14,7 @@ import com.lutech.flashlight.ads.TemplateView
 import com.lutech.flashlight.ads.Utils
 import com.lutech.flashlight.language.adapter.LanguageAdapter
 import com.lutech.flashlight.language.model.Country
+import com.lutech.flashlight.screen.intro.IntroActivity
 import com.lutech.flashlight.util.ChangeLanguage
 import com.lutech.flashlight.util.CheckLoginFirst
 import kotlinx.android.synthetic.main.activity_language.*
@@ -182,7 +183,7 @@ class LanguageActivity : AppCompatActivity(), LanguageAdapter.OnItemLanguageList
 
             val checkLoginFirst = CheckLoginFirst(this)
             checkLoginFirst.setFistSetLanguage(true)
-            mIntent = Intent(this, HomeActivity::class.java)
+            mIntent = Intent(this, IntroActivity::class.java)
             AdsManager.showAds(this, this)
 
         }

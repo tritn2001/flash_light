@@ -3942,6 +3942,9 @@ drawable bg_btn_subscribe
 drawable bg_call
 drawable bg_call_person
 drawable bg_intro
+drawable bg_intro_1
+drawable bg_intro_2
+drawable bg_intro_3
 drawable bg_text_ad
 drawable bg_white_rounded
 drawable btn_checkbox_checked_mtrl
@@ -4081,6 +4084,17 @@ drawable ic_warning_yellow
 drawable icon_flag_hausa
 drawable icon_turnoff
 drawable icon_turnon
+drawable img_background_restriction
+drawable img_battery
+drawable img_battery_saver
+drawable img_flash_alert
+drawable img_phone_setting
+drawable img_restric_app
+drawable img_setting_battery
+drawable img_thank_you_jm
+drawable intro_1
+drawable intro_2
+drawable intro_3
 drawable isb_indicator_rounded_corners
 drawable isb_indicator_square_corners
 drawable light
@@ -4165,7 +4179,6 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable seekbar_custom_thumb
-drawable test
 drawable test_level_drawable
 drawable thumb
 drawable toast_round_background
@@ -4515,7 +4528,6 @@ id ivEnd
 id ivFlash
 id ivGo1
 id ivGo2
-id ivGuide
 id ivIntro
 id ivSilent
 id ivSpeaker
@@ -4538,6 +4550,8 @@ id layoutLoadingAds
 id layoutLock
 id layoutStatus
 id layout_head
+id layout_how_to_remove_in_setting
+id layout_indicator
 id left
 id leftToRight
 id legacy
@@ -4988,6 +5002,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_alow_permission_activity
 layout activity_coming_call_trying
+layout activity_fisrt_finish
 layout activity_guide
 layout activity_guide_detaild
 layout activity_home
@@ -5039,6 +5054,7 @@ layout item_guide
 layout layout_check_permission
 layout layout_dialog_install_success
 layout layout_dialog_loading
+layout layout_guide_how_to_remove
 layout layout_item_intro
 layout layout_item_language
 layout layout_lock
@@ -5413,7 +5429,10 @@ string txt_answer_how_to_avoid_accidentally
 string txt_answer_how_to_remove_this_application_from_the_restricted_list_of_power
 string txt_answer_what_permissions_does_this_app_require
 string txt_answer_why_this_app_not_flashing
+string txt_background_restriction
+string txt_battery
 string txt_content_permission
+string txt_content_thank
 string txt_delince
 string txt_do_later
 string txt_do_not_flash_the_flash_while_the_screen_is_on
@@ -5425,6 +5444,7 @@ string txt_flash_alert
 string txt_flash_call_ntallation_successful
 string txt_flash_is_on_press_the_off_button_to_stop
 string txt_flash_light
+string txt_go_to_phone_setting
 string txt_goto_store
 string txt_guide
 string txt_how_to_avoid_accidentally
@@ -5453,6 +5473,7 @@ string txt_request_permissions
 string txt_retry
 string txt_save_battery
 string txt_second
+string txt_select_off_or_unrestricted
 string txt_setting
 string txt_settings
 string txt_share
@@ -5464,12 +5485,15 @@ string txt_status_off
 string txt_status_on
 string txt_stop
 string txt_test
+string txt_thank_you
 string txt_toast_ads
 string txt_try_it
 string txt_turn_off_flash_when_battery_is_low
 string txt_turn_on_for_amp_notification
 string txt_turn_on_for_incoming_calls
 string txt_turn_on_for_sms
+string txt_turn_on_the_camera_and_flash_light
+string txt_turn_on_the_flash_light_creen
 string txt_update
 string txt_vibrate
 string txt_welcome_to_back
@@ -5768,6 +5792,7 @@ style CardView_Light
 style CustomBigSwitch
 style CustomSeekbar
 style CustomSmallSwitch
+style CustomTextView13sp
 style CustomTextViewAds
 style CustomTextViewFeature12sp
 style CustomTextViewFeature14sp

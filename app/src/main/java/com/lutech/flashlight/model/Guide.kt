@@ -6,5 +6,5 @@ data class Guide(
     val title: Int,
     val questions: Int,
     val answers: Int,
-    val lsImage: Int,
+    val isGuidSetting: Boolean
 ) : Serializable

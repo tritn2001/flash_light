@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="txt_share_app">分享应用</string>
+    <string name="txt_rate_us">评价我们</string>
+    <string name="txt_feedback">反馈</string>
+    <string name="txt_feedback_app">"反馈应用："</string>
+    <string name="txt_write_your_feedback_here">在这里写下你的反馈</string>
+    <string name="txt_language">语言</string>
+    <string name="txt_toast_ads">此操作可以包含广告</string>
+    <string name="txt_loading_ads">加载广告</string>
+    <string name="title_warning_version">您的应用程序版本太低。请更新最新版本以体验我们的应用程序。谢谢</string>
+    <string name="txt_goto_store">我同意并去更新</string>
+    <string name="txt_do_later">稍后再问我</string>
+    <string name="txt_please_check_internet_connection">请检查网络连接</string>
+    <string name="txt_retry">重试</string>
+    <string name="txt_no_internet_connection">没有互联网连接</string>
+    <string name="txt_enjoying_the_app">你喜欢我们的应用吗？</string>
+    <string name="txt_maybe_later">也许稍后</string>
+    <string name="txt_press_again_to_exit">再按一次退出</string>
+    <string name="txt_settings">设置</string>
+    <string name="txt_welcome_to_back">欢迎回来</string>
+    <string name="txt_update">更新</string>
+    <string name="txt_flash_alert">闪光警报</string>
+    <string name="txt_flash_light">闪光灯</string>
+    <string name="txt_guide">指南</string>
+    <string name="txt_setting">设置</string>
+    <!-- TODO：删除或更改此占位符文本 -->
+    <string name="hello_blank_fragment">你好空白片段</string>
+    <string name="txt_status_on">状态：打开</string>
+    <string name="txt_turn_on_for_incoming_calls">打开来电</string>
+    <string name="txt_turn_on_for_sms">打开短信</string>
+    <string name="txt_turn_on_for_amp_notification"><![CDATA[开启并通知]]></string>
+    <string name="txt_on_time">准时</string>
+    <string name="txt_off_time">关闭时间</string>
+    <string name="txt_normal">正常</string>
+    <string name="txt_vibrate">振动</string>
+    <string name="txt_silent">静音</string>
+    <string name="txt_second">秒数</string>
+    <string name="txt_flash_is_on_press_the_off_button_to_stop">闪光灯开启。按\'\'OFF\'\'按钮停止</string>
+    <string name="txt_status">状态</string>
+    <string name="txt_speed">速度</string>
+    <string name="txt_test">测试</string>
+    <string name="txt_request_permissions">请求权限</string>
+    <string name="txt_content_permission">要让闪光灯工作，您需要授予相机和手机访问权限。此权限完全不影响手机，请放心</string>
+    <string name="txt_ok">确定</string>
+    <string name="txt_stop">停止</string>
+    <string name="txt_installing">正在安装...</string>
+    <string name="txt_flash_call_ntallation_successful">Flash 调用安装成功！</string>
+    <string name="txt_try_it">试一试</string>
+    <string name="txt_incoming_call">来电....</string>
+    <string name="txt_accept">接受</string>
+    <string name="txt_delince">拒绝</string>
+    <string name="txt_install_successfully">安装成功</string>
+    <string name="txt_please_allow_notification_access">请允许通知访问。</string>
+    <string name="txt_you_need_to_grant_notification_access_to_enalble_this_feature">您需要授予通知访问权限才能启用此功能。</string>
+    <string name="notification_listener_service">FlashLight 通知规则</string>
+    <string name="txt_status_off">状态：关闭</string>
+    <string name="txt_advanced">高级</string>
+    <string name="txt_do_not_flash_the_flash_while_the_screen_is_on">屏幕打开时不要闪光</string>
+    <string name="txt_save_battery">节省电量</string>
+    <string name="txt_turn_off_flash_when_battery_is_low">电池电量低时关闭闪光灯</string>
+    <string name="txt_policy">政策</string>
+    <string name="txt_share">分享</string>
+    <string name="txt_how_to_remove_this_application_from_the_restricted_list_of_power">如何从权限限制列表中删除此应用</string>
+    <string name="txt_why_this_app_not_flashing">为什么这个应用不闪或有时不闪</string>
+    <string name="txt_how_to_avoid_accidentally">如何避免意外关闭这个应用程序？</string>
+    <string name="txt_what_permissions_does_this_app_require">这个应用需要什么权限？</string>
+    <string name="txt_quest_how_to_remove_this_application_from_the_restricted_list_of_power">如何从手机节电功能限制列表中删除此应用程序？</string>
+    <string name="txt_quest_why_this_app_not_flashing">为什么这个应用程序不闪烁或有时不闪烁？</string>
+    <string name="txt_quest_what_permissions_does_this_app_require">这个应用需要什么权限？</string>
+    <string name="txt_answer_how_to_remove_this_application_from_the_restricted_list_of_power">一般指南：</string>
+
+    <string name="txt_answer_why_this_app_not_flashing"><![CDATA[ 1. 此应用程序是意外<br/> <br/>2.在某些手机上，手机的电池优化器不允许该应用程序在后台运行，导致该应用程序停止工作。 <br/> <br/>3．当手机指示电池电量低并且您激活省电功能时，此应用程序可能会停止工作。 \n4.当您关闭并重新启动手机时，在某些设备上，此应用程序可能无法自行重启。 <br/> <br/>5．在任何情况下，当此应用程序关闭且无法运行时，您只需重新打开此应用程序即可。]]></string>
+    <string name="txt_answer_how_to_avoid_accidentally">
+        将此应用锁定在多任务管理器上可以使此应用更好地工作，使其始终处于活动状态，避免此应用被意外关闭（禁用和无法运行）。
+    </string>
+    <string name="txt_answer_what_permissions_does_this_app_require"><![CDATA[<b>通话管理：</b>启用此权限，当您有来电时，我们会闪烁通知您<br/> <br/> <b>通知：</b>启用此权限以便我们可以通知电池状态后台运行：启用此权限以保持来电闪烁和电池检测稳定工作<br/><br/><b>通知访问：</ b> 启用此权限，以便我们可以在您收到来自其他应用程序的消息时闪烁 <br/><br/><b>显示权限：</b> 启用此权限，以便我们可以在屏幕顶部显示通知<br/><br/> <b>Camera Access: </b>启用此权限，手电筒才能正常工作。]]></string>
+    <string name="txt_alarm_flash_blinks_on_call_flashlight">来电时报警闪光灯闪烁，手电筒</string>
+    <string name="txt_next">下一个</string>
+    <string name="txt_thank_you">谢谢你！</string>
+    <string name="txt_content_thank">感谢您使用我们的应用程序。你会在商店发表你的评论吗？这将对我们有很大的帮助和激励。再见！</string>
+    <string name="txt_turn_on_the_camera_and_flash_light">同时打开相机和闪光灯</string>
+    <string name="txt_turn_on_the_flash_light_creen">在熄屏模式下打开手电筒</string>
+    <string name="txt_background_restriction"><![CDATA[> 背景限制]]></string>
+    <string name="txt_battery"><![CDATA[> Battery]]></string>
+    <string name="txt_go_to_phone_setting">- 转到：电话设置</string>
+    <string name="txt_select_off_or_unrestricted">->选择关闭或无限制</string>
+
+</resources>

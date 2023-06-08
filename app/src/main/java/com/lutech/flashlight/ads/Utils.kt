@@ -20,6 +20,7 @@ import android.view.inputmethod.InputMethodManager
 import android.widget.Toast
 import androidx.core.content.ContextCompat
 import androidx.core.content.ContextCompat.getSystemService
+import androidx.core.content.ContextCompat.startActivity
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleEventObserver
 import androidx.lifecycle.ProcessLifecycleOwner
@@ -34,6 +35,7 @@ import com.google.firebase.analytics.FirebaseAnalytics
 import com.lutech.flashlight.R
 import com.lutech.flashlight.ads.welcome.WelcomeBackActivity
 import com.lutech.flashlight.buy_premium.BillingClientSetup
+import com.lutech.flashlight.screen.FirstFinishActivity
 import com.lutech.flashlight.util.CustomDialog
 import com.lutech.flashlight.util.MySharePreference
 import kotlinx.android.synthetic.main.dialog_rateus.*
@@ -307,7 +309,11 @@ object Utils {
 
     fun openDialogRate(context: Context, isShowWhenBack: Boolean) {
         val dialog = CustomDialog(context).setDialog(R.layout.dialog_rateus)
-        dialog.btnMaybeLater.setOnClickListener{dialog.dismiss() }
+        dialog.btnMaybeLater.setOnClickListener {
+            context.startActivity(Intent(context, FirstFinishActivity::class.java))
+
+            dialog.dismiss()
+        }
 
         dialog.btnFeedback.setOnClickListener {
             if (isShowWhenBack) {
@@ -382,7 +388,7 @@ object Utils {
     fun isLowBattery(context: Context): Boolean {
         val bm = context.getSystemService(BATTERY_SERVICE) as BatteryManager
         val percent = bm.getIntProperty(BatteryManager.BATTERY_PROPERTY_CAPACITY)
-        Log.d("=====>3333333333333333", "isLowBattery: "+percent)
+        Log.d("=====>3333333333333333", "isLowBattery: " + percent)
         return percent <= 20
     }
 

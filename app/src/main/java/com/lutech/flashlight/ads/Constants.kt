@@ -3,7 +3,7 @@ package com.lutech.flashlight.ads
 object Constants {
 
 
-    const val APP_NAME = "GPS Locator App"
+    const val APP_NAME = "Flash Alert"
     const val KEY_LANG = "keyLang"
     const val IS_SET_LANG = "isSetLang"
     const val KEY_FLAG = "KEY_FLAG"

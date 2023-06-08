@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">FlashLight</string>
+    <string name="app_name" translatable="false">Flash Alert</string>
 
 
     <string name="facebook_app_id" translatable="false">facebook_app_id</string>
@@ -31,21 +31,21 @@
 
 
     //key Real
-<!--        <string name="ads_app_id" translatable="false">ca-app-pub-3940256099942544~3347511713</string>-->
+    <!--        <string name="ads_app_id" translatable="false">ca-app-pub-3940256099942544~3347511713</string>-->
 
-<!--        <string name="flash_inters_id" translatable="false">ca-app-pub-9135490917790331/5872015765</string>-->
+    <!--        <string name="flash_inters_id" translatable="false">ca-app-pub-9135490917790331/5872015765</string>-->
 
-<!--        <string name="flash_open_id" translatable="false">ca-app-pub-9135490917790331/6554542041</string>-->
+    <!--        <string name="flash_open_id" translatable="false">ca-app-pub-9135490917790331/6554542041</string>-->
 
-<!--        <string name="intro_native_id" translatable="false">ca-app-pub-9135490917790331/8654107680</string>-->
+    <!--        <string name="intro_native_id" translatable="false">ca-app-pub-9135490917790331/8654107680</string>-->
 
-<!--        <string name="language_native_id" translatable="false">ca-app-pub-9135490917790331/3928378702</string>-->
+    <!--        <string name="language_native_id" translatable="false">ca-app-pub-9135490917790331/3928378702</string>-->
 
-<!--        <string name="flash_alert_native_id" translatable="false">ca-app-pub-9135490917790331/2615297032</string>-->
+    <!--        <string name="flash_alert_native_id" translatable="false">ca-app-pub-9135490917790331/2615297032</string>-->
 
-<!--        <string name="flash_light_native_id" translatable="false">ca-app-pub-9135490917790331/6466874149</string>-->
+    <!--        <string name="flash_light_native_id" translatable="false">ca-app-pub-9135490917790331/6466874149</string>-->
 
-<!--        <string name="turn_on_flash_native_id" translatable="false">ca-app-pub-9135490917790331/3130302359</string>-->
+    <!--        <string name="turn_on_flash_native_id" translatable="false">ca-app-pub-9135490917790331/3130302359</string>-->
 
 
     //Language
@@ -90,7 +90,7 @@
     <string name="txt_maybe_later">Maybe Later</string>
     <string name="txt_press_again_to_exit">Press again to exit</string>
     <string name="txt_settings">Setting</string>
-    <string name="txt_welcome_to_back">Welcome To Back</string>
+    <string name="txt_welcome_to_back">Welcome Back</string>
     <string name="txt_update">Update</string>
     <string name="txt_flash_alert">Flash Alert</string>
     <string name="txt_flash_light">Flash Light</string>
@@ -142,16 +142,21 @@
     <string name="txt_quest_what_permissions_does_this_app_require">What permissions does this app require?</string>
     <string name="txt_answer_how_to_remove_this_application_from_the_restricted_list_of_power">General guide:</string>
 
-    <string name="txt_answer_why_this_app_not_flashing">1. This application was accidentally \n\n2. On some phones, the phone\'s battery optimizer did not allow the app to run in the background, causing this app to stop working. \n\n3. When the phone indicats low battery level and you activate the power saving feature, this application may stop working. \n4. When you shutdown and restart your phone, on some devices this app may not be able to restart itself. \n\n5. In any case, when this application is closed and not working, you just need to reopen this application.
-    </string>
+    <string name="txt_answer_why_this_app_not_flashing"><![CDATA[ 1. This application was accidentally <br/> <br/>2. On some phones, the phone\'s battery optimizer did not allow the app to run in the background, causing this app to stop working. <br/> <br/>3. When the phone indicats low battery level and you activate the power saving feature, this application may stop working. \n4. When you shutdown and restart your phone, on some devices this app may not be able to restart itself. <br/> <br/>5. In any case, when this application is closed and not working, you just need to reopen this application.]]></string>
     <string name="txt_answer_how_to_avoid_accidentally">
         Locking this app on the multitasking manager can make this app work better, keep it active all the time, avoid this app being closed accidentally (disabled and inoperable).
     </string>
-    <string name="txt_answer_what_permissions_does_this_app_require"><b>Call management:</b> Enable this permission, when you having incoming calls, we can flash to notify you \n\n<b>Notifications:</b> Enable this permission so that we can notify battery status Background running: Enable this permission to keep the flash of incoming call and battery detection working stably \n\n<b>Notification Access:</b> Enable this permission so that we can flash when you receive messages from other applications \n\n<b>Display Permission:</b> Enable this permission so that we can show notifications appear on the top of screen \n\n<b>Camera Access: </b> Enable this permission so that flashlight can work normally.
-
-   </string>
-    <string name="txt_alarm_flash_blinks_on_call_flashlight">Alarm flash blinks on Call, flashlight</string>
+    <string name="txt_answer_what_permissions_does_this_app_require"><![CDATA[<b> Call management: </b> Enable this permission, when you having incoming calls, we can flash to notify you <br/> <br/> <b>Notifications:</b> Enable this permission so that we can notify battery status Background running: Enable this permission to keep the flash of incoming call and battery detection working stably <br/><br/> <b>Notification Access:</b> Enable this permission so that we can flash when you receive messages from other applications <br/><br/><b>Display Permission:</b> Enable this permission so that we can show notifications appear on the top of screen <br/><br/> <b>Camera Access: </b> Enable this permission so that flashlight can work normally.]]></string>
+    <string name="txt_alarm_flash_blinks_on_call_flashlight">Alarm flash blinks on call, flashlight</string>
     <string name="txt_next">NEXT</string>
+    <string name="txt_thank_you">THANK YOU!</string>
+    <string name="txt_content_thank">Thank you for using our App. Would you to post your review on store. This will help and motivate us a lot. See you soon!</string>
+    <string name="txt_turn_on_the_camera_and_flash_light">Turn on the camera and flash light simultaneously</string>
+    <string name="txt_turn_on_the_flash_light_creen">Turn on flashlight in off screen mode</string>
+    <string name="txt_background_restriction"><![CDATA[> Background restriction]]></string>
+    <string name="txt_battery"><![CDATA[> Battery]]></string>
+    <string name="txt_go_to_phone_setting">- Go to:Phone setting</string>
+    <string name="txt_select_off_or_unrestricted">->Select OFF or Unrestricted</string>
 
 
 </resources>

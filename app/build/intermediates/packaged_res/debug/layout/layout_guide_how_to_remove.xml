@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_background_dark"
+    android:paddingVertical="@dimen/_5sdp"
+    android:visibility="visible"
+    android:id="@+id/layout_how_to_remove_in_setting"
+    android:orientation="vertical"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/CustomTextView13sp"
+                android:text="@string/txt_go_to_phone_setting"
+                android:layout_margin="@dimen/_5sdp"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_170sdp"
+                android:src="@drawable/img_phone_setting"
+                android:layout_margin="@dimen/_10sdp"
+                />
+
+            <TextView
+                style="@style/CustomTextView13sp"
+                android:text="@string/txt_battery"
+                android:layout_margin="@dimen/_5sdp"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_170sdp"
+                android:src="@drawable/img_setting_battery"
+                android:layout_margin="@dimen/_10sdp"
+                />
+            <TextView
+                style="@style/CustomTextView13sp"
+                android:text="> Application Battery Saver (or Battery Protection/ Battery Usage)"
+                android:layout_margin="@dimen/_5sdp"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_170sdp"
+                android:src="@drawable/img_battery_saver"
+                android:layout_margin="@dimen/_10sdp"
+                />
+            <TextView
+                style="@style/CustomTextView13sp"
+                android:text="> Flash Alert" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_170sdp"
+                android:src="@drawable/img_flash_alert"
+                android:layout_margin="@dimen/_10sdp"
+                />
+
+            <TextView
+                style="@style/CustomTextView13sp"
+                    android:text="> Background restriction" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_170sdp"
+                android:src="@drawable/img_background_restriction"
+                android:layout_margin="@dimen/_10sdp"
+                />
+
+
+            <TextView
+                style="@style/CustomTextView13sp"
+                android:text="@string/txt_select_off_or_unrestricted"
+                android:layout_margin="@dimen/_5sdp"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_170sdp"
+                android:src="@drawable/img_restric_app"
+                android:layout_margin="@dimen/_10sdp"
+                />
+
+            <TextView
+                style="@style/CustomTextView13sp"
+                android:text="> Or: Phone setting -> Manage applications -> Name of applicatin -> Battery protection -> Allow background running"
+                android:layout_margin="@dimen/_5sdp"
+                />
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

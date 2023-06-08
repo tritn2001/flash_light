@@ -27,6 +27,12 @@ public final class ActivityIntroBinding implements ViewBinding {
   public final TextView btnNext;
 
   @NonNull
+  public final ConstraintLayout container;
+
+  @NonNull
+  public final ConstraintLayout layoutIndicator;
+
+  @NonNull
   public final CircleIndicator myIndicator;
 
   @NonNull
@@ -42,11 +48,14 @@ public final class ActivityIntroBinding implements ViewBinding {
   public final ViewPager vpImageIntro;
 
   private ActivityIntroBinding(@NonNull ConstraintLayout rootView, @NonNull TextView btnNext,
+      @NonNull ConstraintLayout container, @NonNull ConstraintLayout layoutIndicator,
       @NonNull CircleIndicator myIndicator, @NonNull TemplateView myTemplate,
       @NonNull RelativeLayout rlIndicator, @NonNull TextView tvTitleIntro,
       @NonNull ViewPager vpImageIntro) {
     this.rootView = rootView;
     this.btnNext = btnNext;
+    this.container = container;
+    this.layoutIndicator = layoutIndicator;
     this.myIndicator = myIndicator;
     this.myTemplate = myTemplate;
     this.rlIndicator = rlIndicator;
@@ -87,6 +96,14 @@ public final class ActivityIntroBinding implements ViewBinding {
         break missingId;
       }
 
+      ConstraintLayout container = (ConstraintLayout) rootView;
+
+      id = R.id.layout_indicator;
+      ConstraintLayout layoutIndicator = ViewBindings.findChildViewById(rootView, id);
+      if (layoutIndicator == null) {
+        break missingId;
+      }
+
       id = R.id.myIndicator;
       CircleIndicator myIndicator = ViewBindings.findChildViewById(rootView, id);
       if (myIndicator == null) {
@@ -117,8 +134,8 @@ public final class ActivityIntroBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityIntroBinding((ConstraintLayout) rootView, btnNext, myIndicator, myTemplate,
-          rlIndicator, tvTitleIntro, vpImageIntro);
+      return new ActivityIntroBinding((ConstraintLayout) rootView, btnNext, container,
+          layoutIndicator, myIndicator, myTemplate, rlIndicator, tvTitleIntro, vpImageIntro);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="txt_share_app">Share App</string>
+    <string name="txt_rate_us">Rate us</string>
+    <string name="txt_feedback"> amsawa</string>
+    <string name="txt_feedback_app"> "Apps Feedback:" </string>
+    <string name="txt_write_your_feedback_here">Rubuta ra\'ayoyin ku anan</string>
+    <string name="txt_language">Harshe</string>
+    <string name="txt_toast_ads">Wannan aikin na iya ƙunsar tallace-tallace</string>
+    <string name="txt_loading_ads">ana loda talla</string>
+    <string name="title_warning_version">Sigar aikace-aikacen ku yayi ƙasa sosai. Da fatan za a sabunta sabon sigar don dandana app ɗin mu. Na gode</string>
+    <string name="txt_goto_store">Na yarda kuma je zuwa sabuntawa</string>
+    <string name="txt_do_later">Tambaye ni daga baya</string>
+    <string name="txt_please_check_internet_connection">Da fatan za a duba haɗin intanet</string>
+    <string name="txt_retry">Sake gwadawa</string>
+    <string name="txt_no_internet_connection">Babu ​​Haɗin Intanet</string>
+    <string name="txt_enjoying_the_app"> KANA SON APPLICATION DINMU?</string>
+    <string name="txt_maybe_later">Wataƙila daga baya </string>
+    <string name="txt_press_again_to_exit"> Danna sake don fita</string>
+    <string name="txt_settings">Saitawa</string>
+    <string name="txt_welcome_to_back">Barka da Dawo</string>
+    <string name="txt_update">Sabunta</string>
+    <string name="txt_flash_alert"> Faɗakarwar Fita </string>
+    <string name="txt_flash_light">Flash Light</string>
+    <string name="txt_guide">Jagora </string>
+    <string name="txt_setting">Saitawa</string>
+    <!-- TODO: Cire ko canza wannan rubutun mai riƙe wuri -->
+    <string name="hello_blank_fragment">Sannu gutsuttsura </string>
+    <string name="txt_status_on"> Matsayi: Kunna </string>
+    <string name="txt_turn_on_for_incoming_calls"> Kunna Don Kira mai shigowa</string>
+    <string name="txt_turn_on_for_sms"> Kunna Domin SMS</string>
+    <string name="txt_turn_on_for_amp_notification"><![CDATA[Kunna Don & Fadakarwa]]></string>
+    <string name="txt_on_time">Akan lokaci</string>
+    <string name="txt_off_time">Kashe lokaci</string>
+    <string name="txt_normal">Na al\'ada</string>
+    <string name="txt_vibrate">Vibrate</string>
+    <string name="txt_silent"> shiru</string>
+    <string name="txt_second"> dakika </string>
+    <string name="txt_flash_is_on_press_the_off_button_to_stop"> Flash yana kunne. Danna maballin "KASHE" don tsayawa</string>
+    <string name="txt_status">MATSAYI</string>
+    <string name="txt_speed">SPEED</string>
+    <string name="txt_test">Gwaji</string>
+    <string name="txt_request_permissions">Nemi izini</string>
+    <string name="txt_content_permission">Don walƙiya ta yi aiki kuna buƙatar ba da damar kamara da wayar. Wannan izini ba ya shafar wayar kwata-kwata don haka da fatan za a tabbata</string>
+    <string name="txt_ok">OK</string>
+    <string name="txt_stop">Tsaya</string>
+    <string name="txt_installing">Shigarwa...</string>
+    <string name="txt_flash_call_ntallation_successful">Flash call installation successful!</string>
+    <string name="txt_try_it">GWADA SHI </string>
+    <string name="txt_incoming_call">Kira mai shigowa....</string>
+    <string name="txt_accept"> Karba</string>
+    <string name="txt_delince">Karyata</string>
+    <string name="txt_install_successfully">Shiga cikin nasara</string>
+    <string name="txt_please_allow_notification_access">Da fatan za a ba da izinin shiga sanarwar.</string>
+    <string name="txt_you_need_to_grant_notification_access_to_enalble_this_feature"> Kuna buƙatar ba da damar Sanarwa don kunna wannan fasalin.</string>
+    <string name="notification_listener_service"> Dokokin Sanarwa FlashLight</string>
+    <string name="txt_status_off"> Matsayi: A kashe</string>
+    <string name="txt_advanced">CIGABA</string>
+    <string name="txt_do_not_flash_the_flash_while_the_screen_is_on">Kada a kunna walƙiya yayin da allon ke kunne </string>
+    <string name="txt_save_battery">Ajiye baturi</string>
+    <string name="txt_turn_off_flash_when_battery_is_low">Kashe walƙiya idan baturi ya yi ƙasa</string>
+    <string name="txt_policy">Manufa</string>
+    <string name="txt_share">Share</string>
+    <string name="txt_how_to_remove_this_application_from_the_restricted_list_of_power">Yadda ake cire wannan aikace-aikacen daga iyakanceccen jerin iko</string>
+    <string name="txt_why_this_app_not_flashing">Me yasa wannan app din ba ya walƙiya ko ba ya walƙiya wani lokaci</string>
+    <string name="txt_how_to_avoid_accidentally">Yadda ake gujewa rufe wannan manhaja ta bazata?</string>
+    <string name="txt_what_permissions_does_this_app_require">Wane izini wannan app ɗin ke buƙata?</string>
+    <string name="txt_quest_how_to_remove_this_application_from_the_restricted_list_of_power">Yadda ake cire wannan aikace-aikacen daga cikin ƙayyadaddun fasalulluka na adana wutar lantarki akan wayar?</string>
+    <string name="txt_quest_why_this_app_not_flashing">Me yasa wannan app din ba ya walƙiya ko ba ya walƙiya wani lokaci?</string>
+    <string name="txt_quest_what_permissions_does_this_app_require">Wane izini wannan app ɗin ke buƙata?</string>
+    <string name="txt_answer_how_to_remove_this_application_from_the_restricted_list_of_power">Jagora gabaɗaya:</string>
+
+    <string name="txt_answer_why_this_app_not_flashing"><![CDATA[ 1. Wannan aikace-aikacen ya kasance bisa kuskure <br/><br/>2. A wasu wayoyi, na\'urar inganta batirin wayar baya barin manhajar ta yi aiki a bayan fage, wanda hakan ya sa wannan manhaja ta daina aiki. <br/> <br/>3. Lokacin da wayar ta nuna ƙananan matakin baturi kuma kun kunna fasalin ceton wutar lantarki, wannan aikace-aikacen na iya daina aiki. </br>4. Lokacin da ka kashe kuma sake kunna wayarka, a wasu na\'urori wannan app ɗin bazai iya sake kunna kansa ba. <br/> <br/>5. A kowane hali, lokacin da aka rufe wannan aikace-aikacen kuma ba ya aiki, kawai kuna buƙatar sake buɗe wannan aikace-aikacen.]]></string>
+    <string name="txt_answer_how_to_avoid_accidentally">
+        Makulle wannan app akan mai sarrafa ayyuka da yawa na iya sa wannan app ɗin yayi aiki mafi kyau, kiyaye shi koyaushe, guje wa rufe wannan app ba da gangan ba (nakasassu kuma baya aiki).
+    </string>
+    <string name="txt_answer_what_permissions_does_this_app_require"><![CDATA[<b> Gudanar da kira: </b> Kunna wannan izinin, lokacin da kuke samun kira mai shigowa, zamu iya yin walƙiya don sanar da ku <br/> <br/> <b> Sanarwa:</b> Kunna wannan izinin don mu iya sanar da halin baturi Bayan fage yana gudana: Kunna wannan izinin don kiyaye walƙiyar kira mai shigowa da gano baturi yana aiki da ƙarfi <br/><br/> <b>Sabis na sanarwa:</b> b> Kunna wannan izinin don mu iya yin walƙiya lokacin da kuka karɓi saƙonni daga wasu aikace-aikacen <br/><br/><b>Izinin Nuni:</b> Kunna wannan izinin domin mu iya nuna sanarwar bayyana a saman allon. <br/><br/> <b>Harkokin kamara: </b> Kunna wannan izinin don hasken walƙiya ya yi aiki akai-akai.]]></string>
+    <string name="txt_alarm_flash_blinks_on_call_flashlight"> Ƙararrawa ta ƙyalli akan kira, walƙiya</string>
+    <string name="txt_next">NAXT</string>
+    <string name="txt_thank_you">Na gode!</string>
+    <string name="txt_content_thank">Na gode don amfani da App ɗin mu. Kuna so ku sanya bitar ku a kantuna. Wannan zai taimaka kuma ya zaburar da mu sosai. Mu hadu anjima!</string>
+    <string name="txt_turn_on_the_camera_and_flash_light"> Kunna kamara kuma kunna haske a lokaci guda</string>
+    <string name="txt_turn_on_the_flash_light_creen">Kunna walƙiya a yanayin kashe allo</string>
+
+    <string name="txt_background_restriction"><![CDATA[> Ƙuntataccen bango]]></string>
+    <string name="txt_battery"><![CDATA[> Baturi]]></string>
+    <string name="txt_go_to_phone_setting">- Je zuwa: Saitin waya</string>
+<string name="txt_select_off_or_unrestricted">-> Zaɓi KASHE ko Ba\'a iyakancewa ba</string>
+</resources>

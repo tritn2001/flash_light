@@ -37,7 +37,8 @@ class ImageIntroViewPager : PagerAdapter {
         val itemView =
             LayoutInflater.from(mContext).inflate(R.layout.layout_item_intro, container, false)
         container.addView(itemView)
-        Glide.with(mContext!!).load(mResources[position]).centerCrop().into(itemView.ivIntro)
+        Glide.with(mContext!!).load(mResources[position]).into(itemView.ivIntro)
+//        itemView.ivIntro.setImageResource(mResources[position])
         return itemView
     }
 

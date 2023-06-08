@@ -17,11 +17,13 @@ import com.lutech.flashlight.ads.AdsManager.IsShowInterAds
 import com.lutech.flashlight.ads.Constants
 import com.lutech.flashlight.ads.Utils
 import com.lutech.flashlight.buy_premium.BillingClientSetup
+import com.lutech.flashlight.screen.FirstFinishActivity
 import com.lutech.flashlight.screen.flash_alert.FlashAlertFragment
 import com.lutech.flashlight.screen.flash_light.FlashLightFragment
 import com.lutech.flashlight.screen.guide.GuideActivity
 import com.lutech.flashlight.screen.guide.GuideFragment
 import com.lutech.flashlight.screen.setting.SettingFragment
+import com.lutech.flashlight.util.ChangeLanguage
 import com.lutech.flashlight.util.MySharePreference
 import kotlinx.android.synthetic.main.activity_home.*
 import kotlinx.android.synthetic.main.content_ads_loading.*
@@ -39,6 +41,8 @@ class HomeActivity : AppCompatActivity(), AdsListener {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        ChangeLanguage.setLanguageForApp(this)
+
         setContentView(R.layout.activity_home)
 
         window.setFlags(
@@ -122,7 +126,7 @@ class HomeActivity : AppCompatActivity(), AdsListener {
         }
 
         if (doublePress) {
-            finishAffinity()
+            startActivity(Intent(this,FirstFinishActivity::class.java))
             return
         }
         doublePress = true
